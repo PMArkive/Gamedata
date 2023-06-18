@@ -174,6 +174,11 @@ def get_assorted_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID
         rival_lookup = f"ev_{areaName.lower()}_randomteam_barry_{starter}"
         rival_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, rival_lookup, 4)
         trainers.extend(rival_teams)
+
+        for support_name in constants.SUPPORT_NAMES:
+            support_lookup = f"ev_{areaName.lower()}_{support_name}_battle"
+            support_teams = get_random_team_data(file_path, areaName, zoneID, trainerID1, trainerID2, support_lookup, 4)
+            trainers.extend(support_teams)
     if rival_teams:
         return trainers
     if count_keeper == []:
@@ -317,7 +322,7 @@ def get_support_trainers_data(file_path, area_name, support_name, zoneID):
         Can probably be deleted and/or replaced after Scripting changes
         '''
         for support in [support_name]:
-            if support == constants.MALE:
+            if support == constants.LUCAS:
                 temp_support_IDs = parse_randomized_teams(file_path, constants.BAD_SUPPORT_LOOKUP1, 3, None)
                 return temp_support_IDs
             temp_support_IDs = parse_randomized_teams(file_path, constants.BAD_SUPPORT_LOOKUP2, 3, None)
@@ -328,11 +333,14 @@ def get_support_trainers_data(file_path, area_name, support_name, zoneID):
     rival_multi_lookup = f"{area_name.lower()}_rival_support"
 
     for support in [support_name]:
-        current_support_lookup = f"{area_name.lower()}_{support}_100" ### This is for Lucas and Dawn in C01 and C07. Is this the most optimal? Maybe?
+        current_support_lookup = f"ev_{area_name.lower()}_{support}_support_id" ### This is for Lucas and Dawn in C01 and C07. Is this the most optimal? Maybe?
         temp_support_IDs = parse_randomized_teams(file_path, current_support_lookup, 3, None)
     if temp_support_IDs == [] and support_name != None:
-        temp_support_IDs = get_bad_support_IDs(support_name, file_path)
+        for support in [support_name]:
+            current_support_lookup = f"ev_{area_name.lower()}_{support}_battle"
+            temp_support_IDs = parse_randomized_teams(file_path, current_support_lookup, 3, None)
     if temp_support_IDs == []:
+        print("There are still bad support ids")
         temp_support_IDs = parse_randomized_teams(file_path, rival_multi_lookup, 3, None)
     if temp_support_IDs == []:
         print("Support Trainers still needs more work", area_name, zoneID)
@@ -432,8 +440,8 @@ def get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, 
 
     def get_multi_support_trainers(file_path, areaName, zoneID):
         return [
-            *get_support_trainers_data(file_path, areaName, constants.MALE, zoneID),
-            *get_support_trainers_data(file_path, areaName, constants.FEMALE, zoneID),
+            *get_support_trainers_data(file_path, areaName, constants.LUCAS, zoneID),
+            *get_support_trainers_data(file_path, areaName, constants.DAWN, zoneID),
         ]
 
     trainers = []
@@ -450,7 +458,7 @@ def get_multi_trainer_data(file_path, areaName, zoneID, trainerID1, trainerID2, 
     elif trainerID3[0] == "@":
         # This is for the trainers that are defined previously in the function
         trainers.extend(get_multi_support_trainers(file_path, areaName, zoneID))
-        team_galactic_lookup = f"pos_{areaName.lower()}_gingakanbu"
+        team_galactic_lookup = f"common_{areaName.lower()}_support_battle"
 
         temp_enemy_IDs = parse_randomized_teams(file_path, team_galactic_lookup, 2, constants.EVIL_TYPE)
         if temp_enemy_IDs:

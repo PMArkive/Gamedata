@@ -21,7 +21,7 @@ GYM_LEADER_LOOKUP = {
     "c10r0109":"lucian",
     "c10r0107":"flint",
     "c10r0105":"bertha",
-    "c10r0103":"aaron",
+    "c10r0103":"aaron"
 }
 
 # Formats for the different battles
@@ -66,8 +66,9 @@ E4_METHOD = "Elite Four Trainers"
 DOCS_METHOD = "Docs"
 
 GENDER = {"0": "MALE", "1": "FEMALE", "2": "NEUTRAL"}
-MALE = "male"
-FEMALE = "female"
+LUCAS = "lucas"
+DAWN = "dawn"
+SUPPORT_NAMES = ["lucas", "dawn"]
 
 MASTER_TRAINER = "Master"
 BAD_SUPPORT_LOOKUP1 = "ev_r207_func_17" ### These bad lookups are for Lucas and Dawn on Route 207

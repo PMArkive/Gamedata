@@ -1,5 +1,5 @@
 ev_r210b_fighter:
-	_EASY_OBJ_MSG('dp_scenario2%77-msg_r210b_fighter_01')
+	_MACRO_EASY_OBJ_MSG('dp_scenario2', '77-msg_r210b_fighter_01', 'These mountains used to be so foggy\nthat it was difficult to see.\rPokémon would frequently miss their\nattacks in battle, too.\rI’m so thankful that the fog seems\nto have disappeared!')
 	_END()
 ev_r210b_sign1:
 	_EASY_BOARD_MSG('dp_scenario2%77-msg_r210b_sign1_01', 'BOARD_TYPE_ROAD', 0, 2)
@@ -14,48 +14,18 @@ pos_r210b_support_trigger:
 	_OBJ_ANIME_WAIT()
 	_PLAYER_NAME(0)
 	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 528, 'pos_r210b_support_func_3')
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 529, 'pos_r210b_support_func_4')
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 530, 'pos_r210b_support_func_5')
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 531, 'pos_r210b_support_func_6')
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 532, 'pos_r210b_support_func_7')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 528, 'pos_r210b_support_move_to_hero_1')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 529, 'pos_r210b_support_move_to_hero_2')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 530, 'pos_r210b_support_move_to_hero_3')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 531, 'pos_r210b_support_move_to_hero_4')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 532, 'pos_r210b_support_move_to_hero_5')
 	_OBJ_ANIME('HERO', 'anm_r210b_support_action_2')
 	_GET_MY_SEX(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'pos_r210b_support_female_01_func_8')
-	_JUMP('pos_r210b_support_male_01_func_9')
-pos_r210b_support_func_3:
-	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_3')
-	_OBJ_ANIME_WAIT()
-	_RET()
-pos_r210b_support_func_4:
-	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_4')
-	_OBJ_ANIME_WAIT()
-	_RET()
-pos_r210b_support_func_5:
-	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_5')
-	_OBJ_ANIME_WAIT()
-	_RET()
-pos_r210b_support_func_6:
-	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_6')
-	_OBJ_ANIME_WAIT()
-	_RET()
-pos_r210b_support_func_7:
-	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_7')
-	_OBJ_ANIME_WAIT()
-	_RET()
-pos_r210b_support_Female_get_party:
-	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_r210b_support_set_dawn_party_1')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_r210b_support_set_dawn_party_2')
-	_JUMP('ev_r210b_support_set_dawn_party_3')
-pos_r210b_support_male_get_party:
-	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_r210b_support_set_lucas_party_1')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_r210b_support_set_lucas_party_2')
-	_JUMP('ev_r210b_support_set_lucas_party_3')
-pos_r210b_support_female_01_func_8:
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r210b_lucas_talk')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r210b_dawn_talk')
+ev_r210b_lucas_talk:
 	_PLAYER_NAME(0)
-	_TALK_KEYWAIT('dp_scenario3%00_msg_r210b_support_f_1')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r210b_support_m_1', 'Hi, {0}.\nI’m surprised to see you here.\rI was searching for some Pokémon\nto fill up my Pokédex.\rThere’s lots of rare Pokémon here.\nEven some Dragon-types. Cool, right?\rOh, your Pokémon look a bit hurt.\nLet me heal them for you.')
 	_TALK_CLOSE()
 	_BLACK_OUT('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
@@ -65,21 +35,21 @@ pos_r210b_support_female_01_func_8:
 	_BLACK_IN('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
 	_PLAYER_NAME(0)
-	_TALK_KEYWAIT('dp_scenario3%00_msg_r210b_support_f_2')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r210b_support_m_2', 'I last saw you in Veilstone City,\nwhen we battled those Team Galactic\fgoons who stole my Pokédex.\rI was frustrated that ever happened,\nso I’ve been trying to get stronger\fto protect myself and my Pokémon.\r{0}, let me battle you with the\nskills we’ve learnt from our training!')
 	_TALK_CLOSE()
-	_CALL('pos_r210b_support_Female_get_party')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_JUMP('ev_r210b_support_battle')
+ev_r210b_lucas_battle_over:
 	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r210b_support_battle_lose')
 	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_13')
 	_OBJ_ANIME_WAIT()
 	_PLAYER_NAME(0)
-	_TALK_KEYWAIT('dp_scenario3%00_msg_r210b_support_f_3')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r210b_support_m_3', 'Thanks for the battle, {0}.\nYou’ve grown very strong, too.\rI may have lost, but I still think that\nbattle was worthwhile for pushing us\fforward.\rI need to keep investigating the rare\nPokémon around here, so I’ll see you\faround!')
 	_TALK_CLOSE()
-	_JUMP('pos_r210b_support_func_16')
-pos_r210b_support_male_01_func_9:
+	_JUMP('ev_r210b_support_move_away')
+ev_r210b_dawn_talk:
 	_PLAYER_NAME(0)
-	_TALK_KEYWAIT('dp_scenario3%00_msg_r210b_support_m_1')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r210b_support_f_1', 'Hi, {0}!\nI didn’t expect to bump into you!\rI was exploring around this area\nto get some entries in my Pokédex.\rThere’s lots of rare Pokémon here.\nThere’s even a few Dragon-types!\fIt’s pretty incredible, right?\rOh, how are your Pokémon doing?\nLet me heal them for you!')
 	_TALK_CLOSE()
 	_BLACK_OUT('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
@@ -89,68 +59,120 @@ pos_r210b_support_male_01_func_9:
 	_BLACK_IN('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
 	_PLAYER_NAME(0)
-	_TALK_KEYWAIT('dp_scenario3%00_msg_r210b_support_m_2')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r210b_support_f_2', 'When did I last see you?\nIt was when we met at Veilstone City...\rThat was when those Team Galactic\ngoons stole my Pokédex from me...\rHonestly, that ordeal was upsetting.\nSo I’ve been trying to get stronger.\fWhile still filling the Pokédex, of course!\rIn fact, {0}, why don’t I just show\nyou how much stronger I’ve gotten?\rDon’t be too surprised when I win\nour battle!')
 	_TALK_CLOSE()
-	_CALL('pos_r210b_support_male_get_party')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_JUMP('ev_r210b_support_battle')
+ev_r210b_dawn_battle_over:
 	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r210b_support_battle_lose')
 	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_13')
 	_OBJ_ANIME_WAIT()
 	_PLAYER_NAME(0)
-	_TALK_KEYWAIT('dp_scenario3%00_msg_r210b_support_m_3')
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r210b_support_f_3', 'That was a good battle, {0}.\nYou’ve gotten stronger, too!\rEven though I lost, I feel like I’ve\ngotten so much stronger than before.\rAnyway, I’m going to keep exploring\nto fill up the pages in my Pokédex.\rSee you another time!')
 	_TALK_CLOSE()
-	_JUMP('pos_r210b_support_func_16')
-ev_r210b_support_set_dawn_party_1:
-	_LDVAL(@SCWK_TEMP3, 953)
-	_RET()
-ev_r210b_support_set_dawn_party_2:
-	_LDVAL(@SCWK_TEMP3, 951)
-	_RET()
-ev_r210b_support_set_dawn_party_3:
-	_LDVAL(@SCWK_TEMP3, 952)
-	_RET()
-ev_r210b_support_set_lucas_party_1:
-	_LDVAL(@SCWK_TEMP3, 956)
-	_RET()
-ev_r210b_support_set_lucas_party_2:
-	_LDVAL(@SCWK_TEMP3, 954)
-	_RET()
-ev_r210b_support_set_lucas_party_3:
-	_LDVAL(@SCWK_TEMP3, 955)
-	_RET()
-ev_r210b_support_battle_lose:
-	_FLAG_SET(#2822)
-	_END()
-pos_r210b_support_func_16:
+	_JUMP('ev_r210b_support_move_away')
+ev_r210b_support_move_away:
 	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 528, 'pos_r210b_support_func_20')
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 529, 'pos_r210b_support_func_21')
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 530, 'pos_r210b_support_func_22')
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 531, 'pos_r210b_support_func_23')
-	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 532, 'pos_r210b_support_func_24')
-	_FLAG_SET(#2822)
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 528, 'pos_r210b_support_move_away_1')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 529, 'pos_r210b_support_move_away_2')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 530, 'pos_r210b_support_move_away_3')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 531, 'pos_r210b_support_move_away_4')
+	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 532, 'pos_r210b_support_move_away_5')
+	_FLAG_SET(#2822); Hide Support NPC
 	_OBJ_DEL('R210B_SUPPORT')
 	_LDVAL(@461, 1)
 	_TALK_OBJ_END()
 	_END()
-pos_r210b_support_func_20:
+ev_r210b_support_battle:
+	_GET_MY_SEX(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r210b_lucas_battle')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r210b_dawn_battle')
+ev_r210b_lucas_battle:
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_pos_support_r207_1', 'Hi, {0}!\nHow’s your Pokédex coming along?\rMe? I’m somewhere between fantastic\nand, uh, hopeless...\rBut never mind that--my Pokémon are\ndoing fantastic!\rIn fact, I’ll prove that to you\nright now! Get ready, {0}!')
+	_TALK_CLOSE()
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_r210b_lucas_piplup_battle')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_r210b_lucas_turtwig_battle')
+	_JUMP('ev_r210b_lucas_chimchar_battle')
+ev_r210b_lucas_piplup_battle:
+	_LDVAL(@SCWK_TEMP3, 956)
+	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+    _JUMP('ev_r210b_lucas_battle_over')
+ev_r210b_lucas_turtwig_battle:
+	_LDVAL(@SCWK_TEMP3, 954)
+	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+    _JUMP('ev_r210b_lucas_battle_over')
+ev_r210b_lucas_chimchar_battle:
+	_LDVAL(@SCWK_TEMP3, 955)
+	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+    _JUMP('ev_r210b_lucas_battle_over')
+ev_r210b_dawn_battle:
+	_PLAYER_NAME(0)
+	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_pos_support_r207_1_1', 'Hey, {0}!\nHow’s your Pokédex coming along?\rMe? I’m always doing great!\n...I wish...\rBut that’s not important.\rWhat is important is that my Pokémon\nare stronger than ever.\rI’ll prove it to you in a battle\nright now, {0}!')
+	_TALK_CLOSE()
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_r210b_dawn_piplup_battle')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_r210b_dawn_turtwig_battle')
+	_JUMP('ev_r210b_dawn_chimchar_battle')
+ev_r210b_dawn_piplup_battle:
+	_LDVAL(@SCWK_TEMP3, 953)
+	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+    _JUMP('ev_r210b_dawn_battle_over')
+ev_r210b_dawn_turtwig_battle:
+	_LDVAL(@SCWK_TEMP3, 951)
+	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+    _JUMP('ev_r210b_dawn_battle_over')
+ev_r210b_dawn_chimchar_battle:
+	_LDVAL(@SCWK_TEMP3, 952)
+	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
+	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+    _JUMP('ev_r210b_dawn_battle_over')
+pos_r210b_support_move_to_hero_1:
+	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_3')
+	_OBJ_ANIME_WAIT()
+	_RET()
+pos_r210b_support_move_to_hero_2:
+	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_4')
+	_OBJ_ANIME_WAIT()
+	_RET()
+pos_r210b_support_move_to_hero_3:
+	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_5')
+	_OBJ_ANIME_WAIT()
+	_RET()
+pos_r210b_support_move_to_hero_4:
+	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_6')
+	_OBJ_ANIME_WAIT()
+	_RET()
+pos_r210b_support_move_to_hero_5:
+	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_7')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r210b_support_battle_lose:
+	_FLAG_SET(#2822); Hide Support NPC
+	_END()
+pos_r210b_support_move_away_1:
 	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_8')
 	_OBJ_ANIME_WAIT()
 	_RET()
-pos_r210b_support_func_21:
+pos_r210b_support_move_away_2:
 	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_9')
 	_OBJ_ANIME_WAIT()
 	_RET()
-pos_r210b_support_func_22:
+pos_r210b_support_move_away_3:
 	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_10')
 	_OBJ_ANIME_WAIT()
 	_RET()
-pos_r210b_support_func_23:
+pos_r210b_support_move_away_4:
 	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_11')
 	_OBJ_ANIME_WAIT()
 	_RET()
-pos_r210b_support_func_24:
+pos_r210b_support_move_away_5:
 	_OBJ_ANIME('R210B_SUPPORT', 'anm_r210b_support_action_12')
 	_OBJ_ANIME_WAIT()
 	_RET()
@@ -239,7 +261,7 @@ anm_r210b_support_action_13:
 	_ACMD_END()
 ev_r210b_healer:
 	_TALK_OBJ_START()
-	_TALKMSG('dp_scenario3%00_msg_r210b_healer_3')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r210b_healer_3', 'Hello! Let’s get you all fixed up!\nJust leave it to me!')
 	_TALK_CLOSE()
 	_BLACK_OUT('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
@@ -248,7 +270,7 @@ ev_r210b_healer:
 	_PC_KAIFUKU()
 	_BLACK_IN('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
-	_TALKMSG('dp_scenario3%00_msg_r210b_healer_4')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r210b_healer_4', 'Now you’re ready to keep exploring!\nFeel free to come back anytime.')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_END()
@@ -258,7 +280,7 @@ ev_r210b_latias:
 	_CALL('ev_r210b_latias_movement')
 	_OBJ_DEL('R210B_LATIAS')
 	_FLAG_SET(#2846)
-	_TALKMSG('dp_scenario3%00_msg_r210b_latias_runaway')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r210b_latias_runaway', 'Latias ran away...')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_END()
@@ -298,7 +320,7 @@ ev_r210b_latias_4:
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_r210b_latias_5:
-	_TALKMSG('dp_scenario3%00_msg_r210b_latias_5')
+	_MACRO_TALKMSG('dp_scenario3', '00_msg_r210b_latias_5', 'Dir 5')
 	_RET()
 ev_r210b_latias_6:
 	_OBJ_ANIME('R210B_LATIAS', 'anm_lati_runaway_6')

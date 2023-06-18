@@ -602,14 +602,14 @@ anm_d05r0114_kanbu_stop:
 pos_rd05r0114_player_mae:
 	_OBJ_ANIME('HERO', 'anm_d05r0114_player_center')
 	_OBJ_ANIME_WAIT()
-	_JUMP('pos_d05r0114_gingakanbu')
+	_JUMP('common_d05r0114_support_battle')
 	_END()
 anm_d05r0114_player_center:
 	_AC_DIR_U(4)
 	_AC_UP_CENTER(1, 8)
 	_ACMD_END()
 	_RET()
-pos_d05r0114_gingakanbu:
+common_d05r0114_support_battle:
 	_EVENT_START()
 	_CALL('ev_another_out')
 	_SE_STOP('S_YARI_EV_03')

@@ -166,7 +166,26 @@ Defense Curl
 
 
 684
-Pokémon Trainer Lucas
+Pokémon Trainer Lucas Team 1
+Level Cap:
+Format: Single Battle
+
+Piplup
+9
+Bashful
+Torrent
+
+None
+Pound
+Growl
+Water Gun
+Bubble
+0/0/0/0/0/0
+0/0/0/0/0/0
+
+
+684
+Pokémon Trainer Lucas Team 4
 Level Cap:
 Format: Single Battle
 
@@ -185,7 +204,7 @@ Bubble
 
 
 685
-Pokémon Trainer Lucas
+Pokémon Trainer Lucas Team 2
 Level Cap:
 Format: Single Battle
 
@@ -204,7 +223,7 @@ Razor Leaf
 
 
 686
-Pokémon Trainer Lucas
+Pokémon Trainer Lucas Team 3
 Level Cap:
 Format: Single Battle
 
@@ -223,7 +242,7 @@ Taunt
 
 
 690
-Pokémon Trainer Dawn
+Pokémon Trainer Dawn Team 1
 Level Cap:
 Format: Single Battle
 
@@ -242,7 +261,7 @@ Bubble
 
 
 691
-Pokémon Trainer Dawn
+Pokémon Trainer Dawn Team 2
 Level Cap:
 Format: Single Battle
 
@@ -261,7 +280,7 @@ Razor Leaf
 
 
 692
-Pokémon Trainer Dawn
+Pokémon Trainer Dawn Team 3
 Level Cap:
 Format: Single Battle
 
@@ -7432,7 +7451,7 @@ Belly Drum
 
 
 739
-Pokémon Trainer Dawn
+Pokémon Trainer Dawn Team 2
 Level Cap:
 Format: Single Battle
 
@@ -7490,7 +7509,7 @@ Bulldoze
 
 
 740
-Pokémon Trainer Dawn
+Pokémon Trainer Dawn Team 3
 Level Cap:
 Format: Single Battle
 
@@ -7548,7 +7567,7 @@ Grass Knot
 
 
 741
-Pokémon Trainer Dawn
+Pokémon Trainer Dawn Team 1
 Level Cap:
 Format: Single Battle
 
@@ -7606,7 +7625,7 @@ Brick Break
 
 
 742
-Pokémon Trainer Lucas
+Pokémon Trainer Lucas Team 2
 Level Cap:
 Format: Single Battle
 
@@ -7664,7 +7683,7 @@ Bulldoze
 
 
 743
-Pokémon Trainer Lucas
+Pokémon Trainer Lucas Team 3
 Level Cap:
 Format: Single Battle
 
@@ -7722,7 +7741,7 @@ Grass Knot
 
 
 744
-Pokémon Trainer Lucas
+Pokémon Trainer Lucas Team 1
 Level Cap:
 Format: Single Battle
 
@@ -7777,6 +7796,122 @@ Shadow Claw
 Brick Break
 31/31/31/31/31/31
 252/0/76/0/180/0
+
+
+744
+Pokémon Trainer Lucas Team 4
+Level Cap:
+Format: Single Battle
+
+Piloswine
+29
+Naive
+Thick Fat
+
+Focus Sash
+Avalanche
+Take Down
+Rock Slide
+Ice Shard
+31/31/31/31/31/31
+252/252/0/0/4/0
+
+Granbull
+29
+Timid
+Intimidate
+
+Muscle Band
+Play Rough
+Thunder Fang
+Ice Fang
+Fire Fang
+31/31/31/31/31/31
+212/252/0/0/0/44
+
+Lickilicky
+29
+Modest
+Oblivious
+
+Leftovers
+Slam
+Bulldoze
+Knock Off
+Protect
+31/31/31/31/31/31
+248/0/8/0/252/0
+
+Prinplup
+30
+Serious
+Torrent
+
+White Herb
+Bubble Beam
+Icy Wind
+Shadow Claw
+Brick Break
+31/31/31/31/31/31
+252/0/76/0/180/0
+
+
+443
+Ace Trainer Graham Team 4
+Level Cap:
+Format: Single Battle
+
+Tyrogue
+74
+Serious
+Guts
+
+None
+Low Kick
+Mach Punch
+Rapid Spin
+Foresight
+25/25/25/25/25/25
+252/252/4/0/0/0
+
+Hitmonchan
+74
+Quirky
+Keen Eye
+
+None
+Vacuum Wave
+Sky Uppercut
+Focus Punch
+Reversal
+25/25/25/25/25/25
+252/24/0/0/104/0
+
+Hitmonlee
+74
+Bashful
+Limber
+
+None
+Mind Reader
+Blaze Kick
+Reversal
+Double-Edge
+25/25/25/25/25/25
+0/252/4/0/0/252
+
+Hitmontop
+74
+Quirky
+Intimidate
+
+None
+Drill Run
+Bullet Punch
+Endeavor
+High Jump Kick
+25/25/25/25/25/25
+252/0/252/0/4/0
 
 
 293
@@ -19602,6 +19737,38 @@ Calm Mind
 252/0/240/16/0/0
 
 
+1
+Youngster Tristan Team 1
+Level Cap:
+Format: Single Battle
+
+Hoothoot
+7
+Docile
+Insomnia
+
+None
+Tackle
+Foresight
+Echoed Voice
+Hypnosis
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+Starly
+7
+Hardy
+Keen Eye
+
+None
+Growl
+Tackle
+Quick Attack
+(No Move)
+25/25/25/25/25/25
+0/0/0/0/0/0
+
+
 57
 Ninja Boy Joel
 Level Cap:
@@ -20095,6 +20262,258 @@ Night Slash
 Screech
 25/25/25/25/25/25
 0/0/0/0/0/0
+
+
+954
+Pokémon Trainer Lucas Team 3
+Level Cap:
+Format: Single Battle
+
+Alakazam
+44
+Timid
+Magic Guard
+
+Life Orb
+Psychic
+Shadow Ball
+Energy Ball
+Dazzling Gleam
+31/31/31/31/31/31
+0/0/0/4/252/252
+
+Mamoswine
+44
+Timid
+Thick Fat
+
+Passho Berry
+Earthquake
+Avalanche
+Stone Edge
+Ice Shard
+31/31/31/31/31/31
+0/252/0/4/252/0
+
+Granbull
+44
+Modest
+Intimidate
+
+Choice Band
+Play Rough
+Close Combat
+Earthquake
+Crunch
+31/31/31/31/31/31
+212/252/0/0/44/0
+
+Lickilicky
+44
+Serious
+Oblivious
+
+Leftovers
+Strength
+Zen Headbutt
+Earthquake
+Amnesia
+31/31/31/31/31/31
+248/244/8/0/0/0
+
+Vaporeon
+44
+Naughty
+Water Absorb
+
+Wise Glasses
+Hydro Pump
+Ice Beam
+Extrasensory
+Aqua Ring
+31/31/31/31/31/31
+251/0/252/4/0/0
+
+Torterra
+45
+Jolly
+Overgrow
+
+Sitrus Berry
+Wood Hammer
+Earthquake
+Iron Head
+Rock Slide
+31/31/31/31/31/31
+247/0/252/8/0/0
+
+
+955
+Pokémon Trainer Lucas Team 4
+Level Cap:
+Format: Single Battle
+
+Alakazam
+44
+Timid
+Magic Guard
+
+Life Orb
+Psychic
+Shadow Ball
+Energy Ball
+Dazzling Gleam
+31/31/31/31/31/31
+0/0/0/4/252/252
+
+Mamoswine
+44
+Timid
+Thick Fat
+
+Passho Berry
+Earthquake
+Avalanche
+Stone Edge
+Ice Shard
+31/31/31/31/31/31
+0/252/0/4/252/0
+
+Granbull
+44
+Modest
+Intimidate
+
+Choice Band
+Play Rough
+Close Combat
+Earthquake
+Crunch
+31/31/31/31/31/31
+212/252/0/0/44/0
+
+Lickilicky
+44
+Serious
+Oblivious
+
+Leftovers
+Strength
+Zen Headbutt
+Earthquake
+Amnesia
+31/31/31/31/31/31
+248/244/8/0/0/0
+
+Jolteon
+44
+Naughty
+Volt Absorb
+
+Wise Glasses
+Thunder
+Shadow Ball
+Extrasensory
+Thunder Wave
+31/31/31/31/31/31
+0/0/0/4/252/252
+
+Infernape
+45
+Jolly
+Iron Fist
+
+Sitrus Berry
+Fire Blast
+Close Combat
+Thunder Punch
+Rock Slide
+31/31/31/31/31/31
+0/251/4/0/0/252
+
+
+956
+Pokémon Trainer Lucas Team 2
+Level Cap:
+Format: Single Battle
+
+Alakazam
+44
+Timid
+Magic Guard
+
+Life Orb
+Psychic
+Shadow Ball
+Energy Ball
+Dazzling Gleam
+31/31/31/31/31/31
+0/0/0/4/252/252
+
+Mamoswine
+44
+Timid
+Thick Fat
+
+Passho Berry
+Earthquake
+Avalanche
+Stone Edge
+Ice Shard
+31/31/31/31/31/31
+0/252/0/4/252/0
+
+Granbull
+44
+Modest
+Intimidate
+
+Choice Band
+Play Rough
+Close Combat
+Earthquake
+Crunch
+31/31/31/31/31/31
+212/252/0/0/44/0
+
+Lickilicky
+44
+Serious
+Oblivious
+
+Leftovers
+Strength
+Zen Headbutt
+Earthquake
+Amnesia
+31/31/31/31/31/31
+248/244/8/0/0/0
+
+Flareon
+44
+Naughty
+Flash Fire
+
+Muscle Band
+Flare Blitz
+Play Rough
+Close Combat
+Will-O-Wisp
+31/31/31/31/31/31
+0/252/4/0/252/0
+
+Empoleon
+45
+Jolly
+Torrent
+
+Sitrus Berry
+Surf
+Flash Cannon
+Grass Knot
+Feather Dance
+31/31/31/31/31/31
+251/0/76/180/0/0
 
 
 319
@@ -30720,6 +31139,342 @@ Hydro Pump
 Hurricane
 25/25/25/25/25/25
 0/0/0/0/0/0
+
+
+973
+Pokémon Trainer Dawn Team 4
+Level Cap:
+Format: Single Battle
+
+Alakazam
+69
+Timid
+Magic Guard
+
+Life Orb
+Psychic
+Shadow Ball
+Aura Sphere
+Dazzling Gleam
+31/31/31/31/31/31
+4/0/0/252/0/252
+
+Mamoswine
+69
+Jolly
+Thick Fat
+
+Choice Band
+Earthquake
+Icicle Crash
+Stone Edge
+Superpower
+31/31/31/31/31/31
+0/252/0/0/4/252
+
+Clefable
+69
+Modest
+Magic Guard
+
+Leftovers
+Moonblast
+Soft-Boiled
+Calm Mind
+Flamethrower
+31/31/31/31/31/31
+252/0/196/0/60/0
+
+Lopunny
+69
+Jolly
+Scrappy
+
+Focus Sash
+Mega Kick
+High Jump Kick
+Fake Out
+Iron Tail
+31/31/31/31/31/31
+0/252/0/0/0/252
+
+Flareon
+69
+Adamant
+Flash Fire
+
+Passho Berry
+Flare Blitz
+Play Rough
+Close Combat
+Wild Charge
+31/31/31/31/31/31
+4/252/0/0/0/252
+
+Empoleon
+70
+Timid
+Competitive
+
+Custap Berry
+Hydro Cannon
+Flash Cannon
+Grass Knot
+Ice Beam
+31/31/31/31/31/31
+252/0/76/180/0/0
+
+
+974
+Pokémon Trainer Lucas Team 2
+Level Cap:
+Format: Single Battle
+
+Alakazam
+69
+Timid
+Magic Guard
+
+Life Orb
+Psychic
+Shadow Ball
+Aura Sphere
+Dazzling Gleam
+31/31/31/31/31/31
+4/0/0/252/0/252
+
+Mamoswine
+69
+Jolly
+Thick Fat
+
+Choice Band
+Earthquake
+Icicle Crash
+Stone Edge
+Superpower
+31/31/31/31/31/31
+0/252/0/0/4/252
+
+Granbull
+69
+Adamant
+Intimidate
+
+Expert Belt
+Play Rough
+Close Combat
+Crunch
+Earthquake
+31/31/31/31/31/31
+252/252/0/0/0/4
+
+Lickilicky
+69
+Adamant
+Oblivious
+
+Chople Berry
+Zen Headbutt
+Explosion
+Hammer Arm
+Earthquake
+31/31/31/31/31/31
+252/252/0/0/4/0
+
+Vaporeon
+69
+Bold
+Water Absorb
+
+Petaya Berry
+Hydro Pump
+Ice Beam
+Rest
+Sleep Talk
+31/31/31/31/31/31
+252/0/228/0/28/0
+
+Torterra
+70
+Adamant
+Solid Rock
+
+Yache Berry
+Wood Hammer
+Earthquake
+Stone Edge
+Heavy Slam
+31/31/31/31/31/31
+252/0/46/0/210/0
+
+
+975
+Pokémon Trainer Lucas Team 3
+Level Cap:
+Format: Single Battle
+
+Alakazam
+69
+Timid
+Magic Guard
+
+Life Orb
+Psychic
+Shadow Ball
+Aura Sphere
+Dazzling Gleam
+31/31/31/31/31/31
+4/0/0/252/0/252
+
+Mamoswine
+69
+Jolly
+Thick Fat
+
+Choice Band
+Earthquake
+Icicle Crash
+Stone Edge
+Superpower
+31/31/31/31/31/31
+0/252/0/0/4/252
+
+Granbull
+69
+Adamant
+Intimidate
+
+Expert Belt
+Play Rough
+Close Combat
+Crunch
+Earthquake
+31/31/31/31/31/31
+252/252/0/0/0/4
+
+Lickilicky
+69
+Adamant
+Oblivious
+
+Chople Berry
+Zen Headbutt
+Explosion
+Hammer Arm
+Earthquake
+31/31/31/31/31/31
+252/252/0/0/4/0
+
+Jolteon
+69
+Adamant
+Volt Absorb
+
+Shuca Berry
+Thunderbolt
+Grass Knot
+Shadow Ball
+Thunder Wave
+31/31/31/31/31/31
+4/0/0/252/0/252
+
+Infernape
+70
+Adamant
+Unburden
+
+Lansat Berry
+Flare Blitz
+Close Combat
+Stone Edge
+Thunder Punch
+31/31/31/31/31/31
+0/252/4/0/0/252
+
+
+976
+Pokémon Trainer Lucas Team 1
+Level Cap:
+Format: Single Battle
+
+Alakazam
+69
+Timid
+Magic Guard
+
+Life Orb
+Psychic
+Shadow Ball
+Aura Sphere
+Dazzling Gleam
+31/31/31/31/31/31
+4/0/0/252/0/252
+
+Mamoswine
+69
+Jolly
+Thick Fat
+
+Choice Band
+Earthquake
+Icicle Crash
+Stone Edge
+Superpower
+31/31/31/31/31/31
+0/252/0/0/4/252
+
+Granbull
+69
+Adamant
+Intimidate
+
+Expert Belt
+Play Rough
+Close Combat
+Crunch
+Earthquake
+31/31/31/31/31/31
+252/252/0/0/0/4
+
+Lickilicky
+69
+Adamant
+Oblivious
+
+Chople Berry
+Zen Headbutt
+Explosion
+Hammer Arm
+Earthquake
+31/31/31/31/31/31
+252/252/0/0/4/0
+
+Flareon
+69
+Adamant
+Flash Fire
+
+Passho Berry
+Flare Blitz
+Play Rough
+Close Combat
+Wild Charge
+31/31/31/31/31/31
+4/252/0/0/0/252
+
+Empoleon
+70
+Timid
+Competitive
+
+Custap Berry
+Hydro Cannon
+Flash Cannon
+Grass Knot
+Ice Beam
+31/31/31/31/31/31
+252/0/76/180/0/0
 
 
 158
