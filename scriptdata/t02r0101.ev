@@ -99,6 +99,9 @@ ev_t02r0101_doctor_poke_nick_name_retry:
 	_END()
 ev_t02r0101_doctor_poke_nick_name_after:
 	_EVENT_CAMERA_INDEX(53)
+	_TALK_CLOSE()
+	_BOUKENNOOTO_TIPS_OPEN(24, @SCWK_ANSWER)
+	_BOUKENNOOTO_TIPS_WAIT()
 	_POKEMON_NAME(0, 0)
 	_RIVAL_NAME(1)
 	_TALKMSG('dp_scenario1%16-msg_t02r0101_doctor_06_1')
@@ -246,12 +249,44 @@ common_t02r0101_support_35:
 	_OBJ_ANIME('T02R0101_SUPPORT', 'anm_t02r0101_support_30')
 	_OBJ_ANIME('T02R0101_DOCTOR', 'anm_t02r0101_doctor_rot_cancel')
 	_OBJ_ANIME_WAIT()
-	_CALL('ev_block_doc_end')
 	_OBJ_DEL('T02R0101_SUPPORT')
 	_FLAG_RESET(#FV_T02_SUPPORT)
+	_CALL('ev_t02r0101_incense_burner_tutorial')
 	_LDVAL(@WK_SCENE_T02R0101, 1)
+	_CALL('ev_block_doc_end')
 	_EVENT_END()
 	_END()
+ev_t02r0101_incense_burner_tutorial:
+	_OBJ_ANIME('T02R0101_DOCTOR', 'anm_t02r0101_incense_00')
+	_OBJ_ANIME_WAIT()
+	_CHARA_LOOK_LOCK('T02R0101_DOCTOR', 'HERO')
+	_CHARA_LOOK_LOCK('HERO', 'T02R0101_DOCTOR')
+	_TALKMSG('dp_scenario1%00_msg_t02r0101_incense_00')
+	_TALK_KEYWAIT('dp_scenario1%00_msg_t02r0101_incense_01')
+	_CHARA_LOOK_RELEASE('T02R0101_DOCTOR')
+	_CHARA_LOOK_RELEASE('HERO')
+	_TALK_KEYWAIT('dp_scenario1%00_msg_t02r0101_incense_02')
+	_TALK_KEYWAIT('dp_scenario1%00_msg_t02r0101_incense_03')
+	_TALK_KEYWAIT('dp_scenario1%00_msg_t02r0101_incense_04')
+	_TALK_CLOSE()
+	_OBJ_ANIME('T02R0101_DOCTOR', 'anm_t02r0101_incense_01')
+	_OBJ_ANIME_WAIT()
+	_CHARA_LOOK_LOCK('T02R0101_DOCTOR', 'HERO')
+	_TALK_KEYWAIT('dp_scenario1%00_msg_t02r0101_incense_05')
+	_TALK_KEYWAIT('dp_scenario1%00_msg_t02r0101_incense_06')
+	_TALK_CLOSE()
+	_RET()
+anm_t02r0101_incense_00:
+	_AC_MARK_GYOE()
+	_ACMD_END()
+anm_t02r0101_incense_01:
+	_AC_DIR_L(8)
+	_AC_LEFT(2, 8)
+	_AC_DIR_R(8)
+	_AC_RIGHT(4, 8)
+	_AC_DIR_L(8)
+	_AC_LEFT(2, 8)
+	_ACMD_END()
 anm_t02r0101_face00:
 	_AC_FACE_INDEX(0)
 	_ACMD_END()
@@ -521,6 +556,7 @@ anm_t02r0101_doctor_1_1:
 ev_t02r0201_script_15:
 	_TALK_OBJ_START()
 	_FLAG_SET(#2539)
+	_FLAG_RESET(#FV_T02R0101_SUPPORT)
 	_OBJ_ADD('T02R0101_SUPPORT_2')
 	_OBJ_POS_CHANGE_WORLD('T02R0101_DOCTOR', -7, 0, 14)
 	_OBJ_ANIME('T02R0101_DOCTOR', 'anm_t02r0101_doctor_1_1')
@@ -549,17 +585,8 @@ ev_t02r0101_doctor_zukan_zenkoku:
 	_TALK_OBJ_END()
 	_END()
 	_RET()
-anm_t02r0101_doctor_100:
-	_AC_WAIT(8)
-	_AC_DIR_D(8)
-	_ACMD_END()
 anm_t02r0101_doctor_110:
 	_AC_MARK_GYOE(1)
-	_ACMD_END()
-anm_t02r0101_doctor_120:
-	_AC_DIR_L(8)
-	_AC_WAIT(8)
-	_AC_DIR_D(8)
 	_ACMD_END()
 anm_t02r0101_doctor_130:
 	_AC_DIR_L(8)
@@ -571,26 +598,10 @@ anm_t02r0101_doctor_131:
 	_AC_RIGHT(7, 8)
 	_ACMD_END()
 anm_t02r0101_doctor_132:
-	_AC_DIR_L(8)
-	_AC_LEFT(7, 8)
-	_AC_DIR_D(8)
-	_AC_DOWN(1, 8)
-	_ACMD_END()
-anm_t02r0101_player_100:
-	_AC_LEFT(1, 8)
-	_AC_DOWN(2, 8)
-	_AC_RIGHT(1, 8)
-	_AC_DIR_U(8)
-	_ACMD_END()
-anm_t02r0101_player_101:
-	_AC_DOWN(1, 8)
-	_AC_LEFT(1, 8)
-	_AC_DIR_U(8)
-	_ACMD_END()
-anm_t02r0101_player_102:
-	_AC_DOWN(1, 8)
-	_AC_RIGHT(1, 8)
-	_AC_DIR_U(8)
+	_AC_DIR_L(4)
+	_AC_LEFT(7, 4)
+	_AC_DIR_D(4)
+	_AC_DOWN(1, 4)
 	_ACMD_END()
 anm_t02r0101_player_110:
 	_AC_DIR_D(8)
@@ -598,10 +609,6 @@ anm_t02r0101_player_110:
 	_AC_DIR_L(8)
 	_AC_LEFT(2, 8)
 	_AC_DIR_R(8)
-	_ACMD_END()
-anm_t02r0101_player_120:
-	_AC_WAIT(8)
-	_AC_DIR_D(8)
 	_ACMD_END()
 anm_t02r0101_player_130:
 	_AC_DIR_R(8)
@@ -621,6 +628,7 @@ anm_t02r0101_ookido_130:
 	_AC_DOWN(9, 8)
 	_ACMD_END()
 ev_t02r0101_CASE:
+	_EVENT_START()
 	_IF_FLAGON_JUMP(#2296, 'ev_t02r0101_CASE100')
 	_IF_FLAGON_JUMP(#2292, 'ev_t02r0101_CASE101')
 	_PLAYER_NAME(1)
@@ -631,11 +639,11 @@ ev_t02r0101_CASE:
 	_OBJ_ANIME_WAIT()
 	_TALK_KEYWAIT('dp_scenario3%23-msg_t02r0101_briefcase_02')
 	_TALK_CLOSE()
-	_OBJ_ANIME('T02R0101_DOCTOR', 'anm_t02r0101_doctor_132')
 	_OBJ_ANIME('HERO', 'anm_t02r0101_player_20')
+	_OBJ_ANIME('T02R0101_DOCTOR', 'anm_t02r0101_doctor_132')
 	_OBJ_ANIME_WAIT()
-	_TALK_OBJ_END()
 	_FLAG_SET(#2292)
+	_EVENT_END()
 	_END()
 ev_t02r0101_CASE101:
 	_IF_FLAGON_JUMP(#2293, 'ev_t02r0101_CASE011')
@@ -654,7 +662,7 @@ ev_t02r0101_CASE01:
 	_ME_PLAY('M_FI013')
 	_ME_WAIT()
 	_ADD_POKEMON_UI(390, 5, 0, @SCWK_ANSWER, 3, 0)
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_FLAG_SET(#2293)
 	_END()
 ev_t02r0101_CASE011:
@@ -665,7 +673,7 @@ ev_t02r0101_CASE011:
 	_ME_PLAY('M_FI013')
 	_ME_WAIT()
 	_ADD_POKEMON_UI(393, 5, 0, @SCWK_ANSWER, 3, 0)
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_FLAG_SET(#2296)
 	_END()
 ev_t02r0101_CASE02:
@@ -676,7 +684,7 @@ ev_t02r0101_CASE02:
 	_ME_PLAY('M_FI013')
 	_ME_WAIT()
 	_ADD_POKEMON_UI(387, 5, 0, @SCWK_ANSWER, 3, 0)
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_FLAG_SET(#2294)
 	_END()
 ev_t02r0101_CASE021:
@@ -687,7 +695,7 @@ ev_t02r0101_CASE021:
 	_ME_PLAY('M_FI013')
 	_ME_WAIT()
 	_ADD_POKEMON_UI(393, 5, 0, @SCWK_ANSWER, 3, 0)
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_FLAG_SET(#2296)
 	_END()
 ev_t02r0101_CASE03:
@@ -698,7 +706,7 @@ ev_t02r0101_CASE03:
 	_ME_PLAY('M_FI013')
 	_ME_WAIT()
 	_ADD_POKEMON_UI(387, 5, 0, @SCWK_ANSWER, 3, 0)
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_FLAG_SET(#2295)
 	_END()
 ev_t02r0101_CASE031:
@@ -709,17 +717,17 @@ ev_t02r0101_CASE031:
 	_ME_PLAY('M_FI013')
 	_ME_WAIT()
 	_ADD_POKEMON_UI(390, 5, 0, @SCWK_ANSWER, 3, 0)
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_FLAG_SET(#2296)
 	_END()
 ev_t02r0101_CASE_END:
 	_TALK_CLOSE()
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_END()
 ev_t02r0101_CASE100:
 	_TALKMSG('dp_scenario3%23-msg_t02r0101_briefcase_01')
 	_TALK_CLOSE()
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_END()
 ev_t02r0101_doctor_post_distortion:
 	_IF_FLAGON_JUMP(#2003, 'ev_t02r0101_doctor_legendary_end')
@@ -756,5 +764,12 @@ ev_t02r0101_rowan_player_back:
 	_EASY_OBJ_MSG('dp_scenario3%00_msg_t02r0101_back_rowan')
 	_END()
 ev_t02r0101_support_player_back:
+	_GET_MY_SEX(@LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_t02r0101_support_player_back_dawn')
+	_JUMP('ev_t02r0101_support_player_back_lucas')
+ev_t02r0101_support_player_back_dawn:
 	_EASY_OBJ_MSG('dp_scenario3%00_msg_t02r0101_dawn_support')
+	_END()
+ev_t02r0101_support_player_back_lucas:
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_t02r0101_lucas_support')
 	_END()

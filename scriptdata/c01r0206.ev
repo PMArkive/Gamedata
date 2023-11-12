@@ -20,17 +20,20 @@ ev_c01r0206_fc_zenkoku_not:
 	_END()
 ev_guinness_global_btl:
 	_TALK_OBJ_START()
-	_RANKING_VIEW(3)
+	_TALK_KEYWAIT('dp_scenario3%00_msg_c01r0206_global_btl_00')
+	_TALK_CLOSE()
 	_TALK_END()
 	_END()
 ev_guinness_global_poke:
 	_TALK_OBJ_START()
-	_RANKING_VIEW(4)
+	_TALK_KEYWAIT('dp_scenario3%00_msg_c01r0206_global_btl_01')
+	_TALK_CLOSE()
 	_TALK_END()
 	_END()
 ev_guinness_global_contest:
 	_TALK_OBJ_START()
-	_RANKING_VIEW(5)
+	_TALK_KEYWAIT('dp_scenario3%00_msg_c01r0206_global_btl_02')
+	_TALK_CLOSE()
 	_TALK_END()
 	_END()
 ev_c01r0206_woman3_01:

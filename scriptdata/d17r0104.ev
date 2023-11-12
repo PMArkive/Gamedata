@@ -2,18 +2,17 @@ ev_d17r0104_flag_change:
 	_IF_FLAGON_JUMP(#FH_01, 'ev_d17r0104_flag_all_hide')
 	_IF_FLAGON_JUMP(#FE_D17R0104_RETRY, 'ev_d17r0104_flag_itemball_hide')
 	_IF_FLAGON_JUMP(#FE_D17R0104_LEGEND_CLEAR, 'ev_d17r0104_flag_itemball_hide')
+	_IF_FLAGON_JUMP($SYS_FLAG_GAME_CLEAR, 'ev_d17r0104_flag_giratina_show')
+	_FLAG_SET(#FV_D17R0104_LEGEND)
+	_OBJ_DEL('D17R0104_LEGEND_01')
+	_END()
+ev_d17r0104_flag_giratina_show:
 	_FLAG_RESET(#FV_D17R0104_LEGEND)
 	_OBJ_ADD('D17R0104_LEGEND_01')
 	_END()
 ev_d17r0104_flag_itemball_hide:
 	_FLAG_SET(#FV_D17R0104_LEGEND)
 	_OBJ_DEL('D17R0104_LEGEND_01')
-	_ITEM_CHK(112, 1, @SCWK_ANSWER)
-	_IFVAL_CALL(@SCWK_ANSWER, 'EQ', 0, 'ev_d17r0104_flag_itemball_show')
-	_RET()
-ev_d17r0104_flag_itemball_show:
-	_FLAG_RESET(#2910)
-	_OBJ_ADD('D17R0104_GRISEOUS_ORB')
 	_RET()
 ev_d17r0104_flag_all_hide:
 	_FLAG_SET(#FV_D17R0104_LEGEND)
@@ -32,7 +31,7 @@ ev_d17r0104_legend_01:
 	_EVENT_CAMERA_END_WAIT()
 	_LDVAL(@SCWK_ANSWER, 2)
 	_EVENT_CAMERA_INDEX(50)
-	_SP_WILD_BTL_SET(487, 70)
+	_SP_WILD_BTL_SET(487, 85)
 	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 487)
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d17r0104_legend_capture_ng')
 	_JUMP('ev_d17r0104_legend_event_clear')

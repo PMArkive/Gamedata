@@ -1,6 +1,5 @@
 ev_c04r0801_underground:
 	_TALK_OBJ_START()
-	_IFVAL_CALL(@WK_SCENE_C08R0401, 'EQ', 0, 'ev_c04r0801_underground_camera')
 	_IFVAL_JUMP(@WK_SCENE_C08R0401, 'GE', 9, 'ev_ug_mission_07_01')
 	_IF_FLAGON_JUMP(#FE_TANKENSETTO_GET, 'ev_c04r0801_mission_common_chk')
 	_TALK_KEYWAIT('dp_scenario2%18-msg_c04r0801_underground_01_1')
@@ -163,7 +162,6 @@ ev_c04r0801_mission_04_clear:
 ev_c04r0801_mission_05_chk:
 	_IF_FLAGOFF_JUMP($SYS_FLAG_WILDCARD_000, 'ev_ug_mission_09_01')
 	_IF_FLAGOFF_JUMP(#FE_UG_MISSION_TALK, 'ev_ug_mission_05_01')
-	_IF_FLAGOFF_JUMP($SYS_FLAG_UG_HIMITUKITI_INTO, 'ev_ug_mission_05_02')
 	_JUMP('ev_c04r0801_mission_05_clear')
 	_END()
 ev_ug_mission_05_01:

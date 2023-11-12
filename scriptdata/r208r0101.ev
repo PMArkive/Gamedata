@@ -92,7 +92,7 @@ ev_r208r0101_woman1back:
 	_CASE_JUMP(3, 'ev_r208r0101_woman1_tigo')
 	_CASE_JUMP(2, 'ev_r208r0101_woman1_nanasi')
 	_CASE_JUMP(1, 'ev_r208r0101_woman1_05')
-	_JUMP(1, 'ev_r208r0101_woman1_05')
+	_JUMP('ev_r208r0101_woman1_05')
 	_END()
 ev_r208r0101_woman1back2:
 	_ADD_CUSTUM_WIN_LABEL('dp_options%DP_options_854', 6)
@@ -110,7 +110,7 @@ ev_r208r0101_woman1back2:
 	_CASE_JUMP(3, 'ev_r208r0101_woman1_tigo')
 	_CASE_JUMP(2, 'ev_r208r0101_woman1_nanasi')
 	_CASE_JUMP(1, 'ev_r208r0101_woman1_05')
-	_JUMP(1, 'ev_r208r0101_woman1_05')
+	_JUMP('ev_r208r0101_woman1_05')
 	_END()
 ev_r208r0101_woman1_kura:
 	_COMP_GOLD(@SCWK_ANSWER, 80)

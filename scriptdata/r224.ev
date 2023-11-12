@@ -2,7 +2,7 @@ ev_r224_flag_change:
 	_FLAG_SET(#FV_R224_LEGEND)
 	_FLAG_SET(#FV_R224_OOKIDO)
 	_FLAG_SET(#FV_D18_LEGEND)
-	_FLAG_SET(#2854); Hide Marley
+	_FLAG_SET(#2854)
 	_OBJ_DEL('R224_MARLEY')
 	_OBJ_DEL('R224_SPPOKE_01')
 	_IF_FLAGON_JUMP(#FE_R224_EVENT_CLEAR, 'ev_r224_flag_change_end7')
@@ -195,166 +195,152 @@ ev_r224_comanm_player_move01:
 	_IFVAL_CALL(@SCWK_TEMP2, 'EQ', 3, 'ev_r224_comanm_player_move01_003')
 	_RET()
 ev_r224_comanm_player_move01_001:
-	_OBJ_ANIME('HERO', 'anm_r224_player_walk001')
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_ookido_turn001')
+	_OBJ_ANIME('HERO', 'anm_player_walk001')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_ookido_turn001')
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_r224_comanm_player_move01_002:
-	_OBJ_ANIME('HERO', 'anm_r224_player_walk002')
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_ookido_turn002')
+	_OBJ_ANIME('HERO', 'anm_player_walk002')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_ookido_turn002')
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_r224_comanm_player_move01_003:
-	_OBJ_ANIME('HERO', 'anm_r224_player_walk003')
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_ookido_turn003')
+	_OBJ_ANIME('HERO', 'anm_player_walk003')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_ookido_turn003')
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_r224_comanm_player_move01_004:
-	_OBJ_ANIME('HERO', 'anm_r224_player_walk004')
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_ookido_turn004')
+	_OBJ_ANIME('HERO', 'anm_player_walk004')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_ookido_turn004')
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_r224_comanm_player_move01_006:
-	_OBJ_ANIME('HERO', 'anm_r224_player_walk006')
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_ookido_turn006')
+	_OBJ_ANIME('HERO', 'anm_player_walk006')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_ookido_turn006')
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_r224_comanm_player_move01_009:
-	_OBJ_ANIME('HERO', 'anm_r224_player_walk009')
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_ookido_turn009')
+	_OBJ_ANIME('HERO', 'anm_player_walk009')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_ookido_turn009')
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_r224_comanm_turn_stone:
-	_OBJ_ANIME('HERO', 'anm_r224_com_turn_up')
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_com_turn_up')
+	_OBJ_ANIME('HERO', 'anm_com_turn_up')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_com_turn_up')
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_r224_comanm_legend_in:
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_com_turn_ookido')
-	_OBJ_ANIME('HERO', 'anm_r224_com_turn_player')
-	_OBJ_ANIME('R224_SPPOKE_01', 'anm_r224_legend_in01')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_com_turn_ookido')
+	_OBJ_ANIME('HERO', 'anm_com_turn_player')
+	_OBJ_ANIME('R224_SPPOKE_01', 'anm_legend_in01')
 	_EVENT_CAMERA_END_WAIT()
 	_OBJ_ANIME_WAIT()
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_com_turn_right')
-	_OBJ_ANIME('R224_SPPOKE_01', 'anm_r224_com_turn_left')
-	_OBJ_ANIME('HERO', 'anm_r224_com_turn_right2')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_com_turn_right')
+	_OBJ_ANIME('R224_SPPOKE_01', 'anm_com_turn_left')
+	_OBJ_ANIME('HERO', 'anm_com_turn_right2')
 	_OBJ_ANIME_WAIT()
 	_EVENT_CAMERA_INDEX(362)
 	_ANIME_DATA('AC_WAIT', 16)
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_com_turn_right_g')
-	_OBJ_ANIME('R224_SPPOKE_01', 'anm_r224_com_turn_left_g')
-	_OBJ_ANIME('HERO', 'anm_r224_com_turn_right2_g')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_com_turn_right_g')
+	_OBJ_ANIME('R224_SPPOKE_01', 'anm_com_turn_left_g')
+	_OBJ_ANIME('HERO', 'anm_com_turn_right2_g')
 	_OBJ_ANIME_WAIT()
-	_OBJ_ANIME('R224_SPPOKE_01', 'anm_r224_legend_out01')
+	_OBJ_ANIME('R224_SPPOKE_01', 'anm_legend_out01')
 	_OBJ_ANIME_WAIT()
 	_FLAG_SET(#FV_R224_LEGEND)
 	_OBJ_DEL('R224_SPPOKE_01')
-	_OBJ_ANIME('R224_OOKIDO_01', 'anm_r224_com_turn_left2')
+	_OBJ_ANIME('R224_OOKIDO_01', 'anm_com_turn_left2')
 	_OBJ_ANIME_WAIT()
 	_EVENT_CAMERA_END_WAIT()
 	_RET()
-anm_r224_player_walk001:
+anm_player_walk001:
 	_AC_DIR_U(4)
 	_ACMD_END()
-anm_r224_player_walk002:
+anm_player_walk002:
 	_AC_DIR_L(4)
 	_AC_LEFT(1, 8)
 	_AC_DIR_U(4)
 	_ACMD_END()
-anm_r224_player_walk003:
+anm_player_walk003:
 	_AC_DIR_L(4)
 	_AC_LEFT(2, 8)
 	_AC_DIR_U(4)
 	_ACMD_END()
-anm_r224_player_walk004:
+anm_player_walk004:
 	_AC_DIR_U(8)
 	_ACMD_END()
-anm_r224_player_walk006:
+anm_player_walk006:
 	_AC_DIR_D(4)
 	_AC_DOWN(1, 8)
 	_AC_DIR_L(4)
 	_AC_LEFT(2, 8)
 	_AC_DIR_U(4)
 	_ACMD_END()
-anm_r224_player_walk009:
+anm_player_walk009:
 	_AC_DIR_D(4)
 	_AC_DOWN(2, 8)
 	_AC_DIR_L(4)
 	_AC_LEFT(2, 8)
 	_AC_DIR_U(4)
 	_ACMD_END()
-anm_r224_ookido_turn001:
+anm_ookido_turn001:
 	_AC_WAIT(8)
 	_AC_DIR_L(8)
 	_ACMD_END()
-anm_r224_ookido_turn002:
+anm_ookido_turn002:
 	_AC_WAIT(8)
 	_AC_DIR_L(8)
 	_ACMD_END()
-anm_r224_ookido_turn003:
+anm_ookido_turn003:
 	_AC_WAIT(8)
 	_AC_DIR_L(8)
 	_ACMD_END()
-anm_r224_ookido_turn004:
+anm_ookido_turn004:
 	_AC_WAIT(4)
 	_ACMD_END()
-anm_r224_ookido_turn006:
+anm_ookido_turn006:
 	_AC_WAIT(8)
 	_AC_DIR_D(8)
 	_AC_WAIT(8)
 	_AC_DIR_L(8)
 	_ACMD_END()
-anm_r224_ookido_turn009:
+anm_ookido_turn009:
 	_AC_WAIT(16)
 	_AC_DIR_D(8)
 	_AC_WAIT(8)
 	_AC_DIR_L(8)
 	_ACMD_END()
-anm_r224_com_turn_up:
+anm_com_turn_up:
 	_AC_DIR_U(8)
 	_ACMD_END()
-anm_r224_com_turn_right:
+anm_com_turn_right:
 	_AC_DIR_R(8)
 	_ACMD_END()
-anm_r224_com_turn_right_g:
+anm_com_turn_right_g:
 	_AC_MARK_GYOE(1)
 	_AC_WAIT(16)
 	_ACMD_END()
-anm_r224_com_turn_right2:
+anm_com_turn_right2:
 	_AC_WAIT(16)
 	_AC_DIR_R(8)
 	_ACMD_END()
-anm_r224_com_turn_right2_g:
+anm_com_turn_right2_g:
 	_AC_MARK_GYOE(1)
 	_AC_WAIT(16)
 	_ACMD_END()
-anm_r224_com_turn_left:
+anm_com_turn_left:
 	_AC_DIR_L(8)
 	_ACMD_END()
-anm_r224_com_turn_left_g:
+anm_com_turn_left_g:
 	_AC_MARK_GYOE(1)
 	_AC_WAIT(16)
 	_ACMD_END()
-anm_r224_com_turn_left2:
+anm_com_turn_left2:
 	_AC_DIR_L(8)
 	_ACMD_END()
-anm_r224_com_turn_player:
+anm_com_turn_player:
 	_AC_DIR_L(8)
 	_AC_WAIT(16)
-	_AC_DIR_D(8)
-	_AC_WAIT(16)
-	_AC_DIR_R(8)
-	_AC_WAIT(16)
-	_AC_DIR_D(8)
-	_AC_WAIT(16)
-	_AC_DIR_L(8)
-	_AC_WAIT(16)
-	_AC_DIR_U(8)
-	_AC_WAIT(16)
-	_AC_DIR_D(8)
-	_AC_WAIT(16)
-	_ACMD_END()
-anm_r224_com_turn_ookido:
 	_AC_DIR_D(8)
 	_AC_WAIT(16)
 	_AC_DIR_R(8)
@@ -365,18 +351,32 @@ anm_r224_com_turn_ookido:
 	_AC_WAIT(16)
 	_AC_DIR_U(8)
 	_AC_WAIT(16)
+	_AC_DIR_D(8)
+	_AC_WAIT(16)
 	_ACMD_END()
-anm_r224_com_turn_down:
+anm_com_turn_ookido:
+	_AC_DIR_D(8)
+	_AC_WAIT(16)
+	_AC_DIR_R(8)
+	_AC_WAIT(16)
+	_AC_DIR_D(8)
+	_AC_WAIT(16)
+	_AC_DIR_L(8)
+	_AC_WAIT(16)
+	_AC_DIR_U(8)
+	_AC_WAIT(16)
+	_ACMD_END()
+anm_com_turn_down:
 	_AC_DIR_D(8)
 	_ACMD_END()
-anm_r224_player_walk800:
+anm_player_walk800:
 	_AC_DIR_L(8)
 	_ACMD_END()
-anm_r224_legend_in01:
+anm_legend_in01:
 	_AC_DIR_D(4)
 	_AC_DOWN(22, 8)
 	_ACMD_END()
-anm_r224_legend_out01:
+anm_legend_out01:
 	_AC_DIR_U(8)
 	_AC_WAIT(16)
 	_AC_UP(16, 4)
@@ -408,14 +408,14 @@ ev_r224_func_19:
 	_OBJ_ANIME_WAIT()
 	_JUMP('ev_r224_func_30')
 ev_r224_func_20:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_text_12', 'To you, too...\rThank you...')
+	_TALKMSG('dp_scenario3%00_msg_r224_text_12')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_END()
 ev_r224_func_30:
 	_OBJ_ANIME('HERO', 'anm_r224_action_22')
 	_OBJ_ANIME_WAIT()
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_text_9', 'I...\nI don’t like to talk...\rI choose my words carefully, but they\nmay still hurt someone accidentally...\rWhen I think of that, I clam up...\rThat’s why I think this certain Pokémon\nis so wonderful.\rIt’s a Pokémon that conveys the\nfeelings of gratitude in a nice way...')
+	_TALKMSG('dp_scenario3%00_msg_r224_text_9')
 	_TALK_CLOSE()
 	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
 	_IFVAL_JUMP(@SCWK_TEMP1, 'EQ', 496, 'ev_r224_func_36')
@@ -437,7 +437,7 @@ ev_r224_func_38:
 	_OBJ_ANIME_WAIT()
 	_JUMP('ev_r224_func_47')
 ev_r224_func_47:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_text_10', 'That stone tablet...\nIt has a strange feel to it...')
+	_TALKMSG('dp_scenario3%00_msg_r224_text_10')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_LDVAL(@464, 2)
@@ -523,8 +523,8 @@ anm_r224_action_31:
 	_AC_DOWN(5, 4)
 	_ACMD_END()
 ev_r224_marley_talk:
-	_TALK_OBJ_START();_IF_FLAGOFF_JUMP(#UNKNOWN, 'ev_r224_func_20')
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_marley_talk_1', 'Thank you...\rThat must have been the Pokémon that\nconveys the feelings of gratitude...\rYou made it so I could see it...\rSo, I’ll have to convey thanks in my own\nwords, too...')
+	_TALK_OBJ_START()
+	_TALKMSG('dp_scenario3%00_msg_r224_marley_talk_1')
 	_TALK_CLOSE()
 	_OBJ_ANIME('R224_MARLEY', 'anm_r224_action_1')
 	_TALK_OBJ_END()
@@ -532,102 +532,36 @@ ev_r224_marley_talk:
 ev_r224_support:
 	_TALK_OBJ_START()
 	_GET_MY_SEX(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r224_support_lucas')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r224_support_dawn')
-ev_r224_support_lucas:
-	_IF_FLAGON_JUMP(#2590, 'ev_r224_lucas_intro')
-	_PLAYER_NAME(0)
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_lucas_19', 'Hey, {0}.\nAre you ready to battle?')
-	_YES_NO_WIN(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r224_lucas_battle_later')
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_lucas_20', 'Alright, great.\nLet’s get started, then!')
-	_TALK_CLOSE()
-	_JUMP('ev_r224_lucas_battle')
-ev_r224_lucas_intro:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_lucas_15', 'This stone tablet...\rIs there really a mythical Pokémon\nthat visits this? And why?')
-	_TALK_CLOSE()
-	_OBJ_ANIME('R224_SUPPORT', 'anm_r224_action_23')
-	_OBJ_ANIME_WAIT()
-	_PLAYER_NAME(0)
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_lucas_17', 'Oh, {0}.\nI’m surprised to see you.\rI guess you’re on your way to\nthe Pokémon League, huh?\rI was just performing an errand for\nProf. Rowan.\rThis stone tablet is meant to be\nthe key to meeting a Pokémon.\rI can’t figure it out, though.\nThe writing on it is ancient...\rSo, {0}, you must be really strong\nby now—you’ve made it here, after all.\rI’ve been growing stronger, too.\rWe haven’t battled since Route 210...\nI’d like to test my skill again.\rAnd... I want to see your growth since\nwe first met in Route 201.\rPlease, let me know when you’re ready.\nI’m looking forward to our battle.')
-	_TALK_CLOSE()
-	_FLAG_SET(#2590)
-	_TALK_OBJ_END()
-	_END()
-ev_r224_lucas_battle_over:
-	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r224_support_battle_lose')
-	_PLAYER_NAME(0)
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_lucas_25', '...\nYou’re really something, {0}.\rI can’t believe you’re the same person\nI met back on Route 201.\rI think you must be ready to challenge\nthe Pokémon League now.\rBest of luck, {0}.\nI know you can do it.')
-	_TALK_CLOSE()
-	_JUMP('ev_r224_support_end')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r224_support_dawn')
+	_JUMP('ev_r224_support_lucas')
 ev_r224_support_dawn:
-	_IF_FLAGON_JUMP(#2590, 'ev_r224_dawn_intro')
-	_PLAYER_NAME(0)
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_dawn_19', 'Hi, {0}!\nAre you ready to battle?')
-	_YES_NO_WIN(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r224_dawn_battle_later')
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_dawn_20', 'Fantastic!\nLet’s get started!')
-	_TALK_CLOSE()
-	_JUMP('ev_r224_dawn_battle')
-ev_r224_dawn_intro:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_dawn_15', 'This stone tablet...\rIs there really a mythical Pokémon\nthat visits this? And why?')
+	_IF_FLAGON_JUMP(#2590, 'ev_r224_support_dawn_intro')
+	_JUMP('ev_r224_support_dawn_battle')
+ev_r224_support_lucas:
+	_IF_FLAGON_JUMP(#2590, 'ev_r224_support_lucas_intro')
+	_JUMP('ev_r224_support_lucas_battle')
+ev_r224_support_dawn_intro:
+	_TALKMSG('dp_scenario3%00_msg_r224_dawn_15')
 	_TALK_CLOSE()
 	_OBJ_ANIME('R224_SUPPORT', 'anm_r224_action_23')
 	_OBJ_ANIME_WAIT()
 	_PLAYER_NAME(0)
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_dawn_17', 'Oh, {0}!\nI didn’t expect to see you!\rI guess you’re on your way to\nthe Pokémon League, right?\rI was just performing an errand for\nProf. Rowan.\rThis stone tablet is meant to be\nthe key to meeting a Pokémon.\rI can’t figure it out, though.\nThe writing on it is ancient...\rAnyway, {0}, you must be really\nstrong to have made it this far!\rI’ve been training too, you know...\rWe haven’t battled since Route 210...\nSo, I want to battle again.\rI want to see how far you’ve come\nsince we first met in Route 201!\rPlease, let me know when you’re ready.\nI can’t wait for our battle!')
+	_TALKMSG('dp_scenario3%00_msg_r224_dawn_17')
 	_TALK_CLOSE()
 	_FLAG_SET(#2590)
 	_TALK_OBJ_END()
 	_END()
-ev_r224_dawn_battle_over:
-	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r224_support_battle_lose')
-	_PLAYER_NAME(0)
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_dawn_25', 'Wow, {0}, you’ve really\ngrown into a great Trainer!\rIt’s amazing to think you didn’t even\nown a Pokémon when I met you...\rYou’re definitely ready to challenge\nthe Pokémon League now.\rGood luck, {0}.\nI know you can do it!')
+ev_r224_support_lucas_intro:
+	_TALKMSG('dp_scenario3%00_msg_r224_lucas_15')
 	_TALK_CLOSE()
-	_JUMP('ev_r224_support_end')
-ev_r224_lucas_battle:
-	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_r224_lucas_piplup_battle')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_r224_lucas_turtwig_battle')
-	_JUMP('ev_r224_lucas_chimchar_battle')
-ev_r224_lucas_piplup_battle:
-	_LDVAL(@SCWK_TEMP3, 976)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r224_lucas_battle_over')
-ev_r224_lucas_turtwig_battle:
-	_LDVAL(@SCWK_TEMP3, 974)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r224_lucas_battle_over')
-ev_r224_lucas_chimchar_battle:
-	_LDVAL(@SCWK_TEMP3, 975)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r224_lucas_battle_over')
-ev_r224_dawn_battle:
-	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_r224_dawn_piplup_battle')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_r224_dawn_turtwig_battle')
-	_JUMP('ev_r224_dawn_chimchar_battle')
-ev_r224_dawn_piplup_battle:
-	_LDVAL(@SCWK_TEMP3, 973)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r224_dawn_battle_over')
-ev_r224_dawn_turtwig_battle:
-	_LDVAL(@SCWK_TEMP3, 971)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r224_dawn_battle_over')
-ev_r224_dawn_chimchar_battle:
-	_LDVAL(@SCWK_TEMP3, 972)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r224_dawn_battle_over')
+	_OBJ_ANIME('R224_SUPPORT', 'anm_r224_action_23')
+	_OBJ_ANIME_WAIT()
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario3%00_msg_r224_lucas_17')
+	_TALK_CLOSE()
+	_FLAG_SET(#2590)
+	_TALK_OBJ_END()
+	_END()
 ev_r224_support_dawn_battle_party:
 	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
 	_LDVAL(@SCWK_TEMP0, 973)
@@ -644,13 +578,43 @@ ev_r224_support_lucas_battle_party:
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'sub_c01_get_support_id_ret')
 	_LDVAL(@SCWK_TEMP0, 975)
 	_RET()
-ev_r224_lucas_battle_later:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_lucas_21', 'OK, no problem.\nI’ll be waiting here for you.')
+ev_r224_support_dawn_battle:
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario3%00_msg_r224_dawn_19')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r224_support_dawn_battle_no')
+	_TALKMSG('dp_scenario3%00_msg_r224_dawn_20')
+	_TALK_CLOSE()
+	_CALL('ev_r224_support_dawn_battle_party')
+	_TRAINER_BTL_SET(@SCWK_TEMP0, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r224_support_battle_lose')
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario3%00_msg_r224_dawn_25')
+	_TALK_CLOSE()
+	_JUMP('ev_r224_support_end')
+ev_r224_support_lucas_battle:
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario3%00_msg_r224_lucas_19')
+	_YES_NO_WIN(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r224_support_lucas_battle_no')
+	_TALKMSG('dp_scenario3%00_msg_r224_lucas_20')
+	_TALK_CLOSE()
+	_CALL('ev_r224_support_lucas_battle_party')
+	_TRAINER_BTL_SET(@SCWK_TEMP0, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r224_support_battle_lose')
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario3%00_msg_r224_lucas_25')
+	_TALK_CLOSE()
+	_JUMP('ev_r224_support_end')
+ev_r224_support_dawn_battle_no:
+	_TALKMSG('dp_scenario3%00_msg_r224_dawn_21')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_END()
-ev_r224_dawn_battle_later:
-	_MACRO_TALKMSG('dp_scenario3', '00_msg_r224_dawn_21', 'Go get ready, then.\nI’ll be waiting right here!')
+ev_r224_support_lucas_battle_no:
+	_TALKMSG('dp_scenario3%00_msg_r224_lucas_21')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
 	_END()

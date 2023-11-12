@@ -94,6 +94,8 @@ d27r0101_common_03:
 	_LDVAL(@SCWK_TEMP1, 1)
 	_CHG_COMMON_SCR('ev_item_event_keywait')
 	_TALK_CLOSE()
+	_BOUKENNOOTO_TIPS_OPEN(22, @SCWK_ANSWER)
+	_BOUKENNOOTO_TIPS_WAIT()
 	_CALL('ev_shaymin_flower_picker')
 	_OBJ_ANIME('D27R0101_SHAYMIN', 'anm_d27r0101_shaymin_2')
 	_OBJ_ANIME_WAIT()
@@ -549,4 +551,20 @@ common_d27r0101_support:
 ev_d27r0101_l02_after:
 	_END()
 ev_d27r0101_gkanbu:
+	_END()
+ev_d27r0101_doctor_early:
+	_PLAYER_NAME(0)
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_d27r0101_doctor_early_00')
+	_END()
+ev_d27r0101_support_early:
+	_GET_MY_SEX(@LOCALWORK0)
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_d27r0101_support_dawn')
+	_JUMP('ev_d27r0101_support_lucas')
+ev_d27r0101_support_dawn:
+	_PLAYER_NAME(0)
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_d27r0101_doctor_early_01')
+	_END()
+ev_d27r0101_support_lucas:
+	_PLAYER_NAME(0)
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_d27r0101_doctor_early_02')
 	_END()

@@ -7,7 +7,7 @@ ev_t03r0301_woman1:
 	_JUMP('ev_pokechange_t03r0301_woman1_no_01')
 ev_pokechange_t03r0301_woman1_yes_01:
 	_TALK_CLOSE()
-	_POKELIST_SET_PROC(17)
+	_POKELIST_SET_PROC(2)
 	_POKELIST_GET_RESULT(@SCWK_TEMP0, @SCWK_TEMP1)
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', -1, 'ev_pokechange_t03r0301_woman1_no_01')
 	_TEMOTI_BOX_MONSNO(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)

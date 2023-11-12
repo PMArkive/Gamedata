@@ -27,7 +27,7 @@ ev_r222_gorggeousm:
 	_IF_FLAGON_JUMP(#FE_WAZAMASIN56_GET, 'ev_r222_gorggeousm_02')
 	_TALK_KEYWAIT('dp_scenario2%185-msg_r222_gorggeousm_01')
 	_LDVAL(@SCWK_TEMP0, 383)
-	_LDVAL(@SCWK_TEMP1, 3)
+	_LDVAL(@SCWK_TEMP1, 1)
 	_ADD_ITEM_CHK(@SCWK_TEMP0, @SCWK_TEMP1, @SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r222_gorggeousm_item_event_fail')
 	_CHG_COMMON_SCR('ev_item_event_keywait')

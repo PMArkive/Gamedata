@@ -167,8 +167,15 @@ anm_r212a_not_battle_1:
 ev_r212a_not_battle:
 	_TALK_KEYWAIT('dp_scenario3%00_msg_r212_msg_not_battle_1')
 	_TALK_CLOSE()
-	_OBJ_ANIME('HERO', 'anm_r212a_not_battle_1')
-	_OBJ_ANIME_WAIT()
+	_TRAINER_BTL_SET(964, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r212a_grunt_lose')
+	_TALK_KEYWAIT('dp_scenario3%00_msg_r212_msg_not_battle_2')
+	_TALK_CLOSE()
+	_TRAINER_BTL_SET(965, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r212a_grunt_lose')
+	_JUMP('pos_r212a_grunts_win')
 	_TALK_OBJ_END()
 	_END()
 anm_r212a_trigger_look_up:
@@ -202,8 +209,9 @@ pos_r212a_trigger_grunts:
 	_TRAINER_BTL_SET(964, 965)
 	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r212a_grunt_lose')
+	_JUMP('pos_r212a_grunts_win')
+pos_r212a_grunts_win:
 	_SXY_DIR_CHANGE('HERO', 180)
-	_OBJ_DEL('R212A_GRUNT_BLOCKER_TRIGGER')
 	_OBJ_ANIME('R212A_GRUNT_BLOCKER_1', 'anm_r212a_action_3')
 	_OBJ_ANIME('R212A_GRUNT_BLOCKER_2', 'anm_r212a_action_4')
 	_OBJ_ANIME_WAIT()
@@ -222,9 +230,8 @@ pos_r212a_trigger_grunts:
 	_OBJ_DEL('R212A_GRUNT_BLOCKER_2')
 	_FLAG_SET(#2730)
 	_FLAG_SET(#2732)
-	_OBJ_ANIME('HERO', 'anm_r212a_action_custom')
-	_OBJ_ANIME_WAIT()
-	_JUMP('pos_r212a_mansion_garden_trigger')
+	_LDVAL(@486, 1)
+	_TALK_OBJ_END()
 	_END()
 anm_r212a_action_1:
 	_AC_MARK_GYOE()
@@ -257,6 +264,7 @@ anm_r212a_action_custom:
 	_AC_UP(5, 8)
 	_ACMD_END()
 pos_r212a_mansion_garden_trigger:
+	_EVENT_START()
 	_RIVAL_NAME(0)
 	_PLAYER_NAME(1)
 	_TALKMSG('dp_scenario3%00_msg_r212a_mansion_garden_1')
@@ -274,9 +282,9 @@ pos_r212a_mansion_garden_trigger:
 	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 470, 'ev_r212a_mansion_func_8')
 	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 471, 'ev_r212a_mansion_func_9')
 	_FLAG_SET(#2731)
-	_OBJ_DEL('R212A_MANSION_GARDEN_TRIGGER')
 	_OBJ_DEL('R212A_RIVAL')
-	_TALK_OBJ_END()
+	_LDVAL(@486, 2)
+	_EVENT_END()
 	_END()
 ev_r212a_mansion_func_8:
 	_OBJ_ANIME('R212A_RIVAL', 'anm_r212a_action_9')
@@ -301,7 +309,3 @@ anm_r212a_action_10:
 	_AC_DIR_U(4)
 	_AC_UP(12, 4)
 	_ACMD_END()
-ev_r212a_teleport_test:
-	_SET_TELEPORT_ID(502, 0)
-	_TELEPORT()
-	_END()

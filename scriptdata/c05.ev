@@ -511,7 +511,7 @@ anm_c05_shaymin_scene_08:
 	_AC_MARK_EMO(2)
 	_ACMD_END()
 anm_c05_shaymin_scene_09:
-	_AC_WAIT(36)
+	_AC_WAIT(24)
 	_AC_DIR_D(4)
 	_AC_WAIT(30)
 	_AC_DIR_R(8)

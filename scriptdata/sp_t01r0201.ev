@@ -6,7 +6,6 @@ SP_T01R0201_FLAG:
 	_JUMP('ev_t01r0201_flag_change')
 	_SP_EVENT_DATA_END()
 SP_T01R0201_SCENE:
-	_IF_FLAGON_JUMP(#2269, 'r201_common_momTP')
 	_JUMP('sp_t01r0201_tbl')
 	_SP_EVENT_DATA_END()
 sp_t01r0201_tbl:

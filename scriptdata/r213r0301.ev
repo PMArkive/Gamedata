@@ -32,15 +32,35 @@ ev_r213r0301_woman3:
 	_EASY_OBJ_MSG('dp_scenario2%147-msg_r213r0301_woman3_01')
 	_END()
 ev_r213r0301_looker_scene:
-	_TALK_OBJ_START_TURN_NOT()
+	_EVENT_START()
 	_IF_FLAGON_JUMP(#2754, 'ev_r213r0301_looker_scene_2')
 	_FLAG_SET(#2754)
-	_CHARA_LOOK_LOCK('R213R0301_LOOKER', 'HERO')
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_IFVAL_CALL(@SCWK_TEMP1, 'GE', 4, 'ev_r213r0301_looker_scene_1_look_down')
+	_IFVAL_CALL(@SCWK_TEMP1, 'LT', 4, 'ev_r213r0301_looker_scene_1_look_up')
 	_TALK_KEYWAIT('dp_scenario3%00_msg_r213r0301_looker_3')
 	_TALK_CLOSE()
-	_CHARA_LOOK_RELEASE('R213R0301_LOOKER')
+	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213r0301_looker_look_right')
+	_OBJ_ANIME_WAIT()
 	_TALK_OBJ_END()
 	_END()
+ev_r213r0301_looker_scene_1_look_up:
+	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213r0301_looker_look_up')
+	_OBJ_ANIME_WAIT()
+	_RET()
+ev_r213r0301_looker_scene_1_look_down:
+	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213r0301_looker_look_down')
+	_OBJ_ANIME_WAIT()
+	_RET()
+anm_r213r0301_looker_look_up:
+	_AC_DIR_U(8)
+	_ACMD_END()
+anm_r213r0301_looker_look_down:
+	_AC_DIR_D(8)
+	_ACMD_END()
+anm_r213r0301_looker_look_right:
+	_AC_DIR_R(8)
+	_ACMD_END()
 ev_r213r0301_looker_scene_2:
 	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213_action_1')
 	_OBJ_ANIME_WAIT()
@@ -51,7 +71,7 @@ ev_r213r0301_looker_scene_2:
 	_CHARA_LOOK_RELEASE('R213R0301_LOOKER')
 	_OBJ_ANIME('R213R0301_LOOKER', 'anm_r213r0301_looker_1')
 	_OBJ_ANIME_WAIT()
-	_TALK_OBJ_END()
+	_EVENT_END()
 	_FLAG_SET(#2753)
 	_END()
 ev_r213r0301_looker_talk:
@@ -102,4 +122,7 @@ ev_r213r0301_hiker_done:
 	_END()
 anm_r213r0301_looker_1:
 	_AC_DIR_R(4)
+	_ACMD_END()
+anm_r213_action_1:
+	_AC_DIR_R(8)
 	_ACMD_END()

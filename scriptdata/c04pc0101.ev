@@ -1,4 +1,5 @@
 ev_c04pc0101_flag_change:
+	_CALL('ev_c04gym0102_disable_all_sprinkler_animations')
 	_IF_FLAGON_JUMP($SYS_FLAG_WILDCARD_000, 'ev_c04pc0101_flag_change_end')
 	_FLAG_RESET(#FV_STOPPER_FRIENDBOOK)
 	_SXY_EXIT_POS_CHANGE(2, 80, 80)

@@ -166,8 +166,7 @@ common_vm_end:
 	_TALK_END()
 	_END()
 ev_c07r0205_bertha:
-	_EVENT_START()
-	_TALK_OBJ_START()
+	_TALK_OBJ_START_TURN_NOT()
 	_TALK_KEYWAIT('dp_scenario3%00_msg_c07r0205_bertha')
 	_YES_NO_WIN(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_c07r0205_bertha_no')
@@ -188,15 +187,12 @@ ev_c07r0205_bertha:
 	_BLACK_IN('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
 	_TALK_OBJ_END()
-	_EVENT_END()
 	_END()
 ev_c07r0205_bertha_no:
 	_TALK_KEYWAIT('dp_scenario3%00_msg_c07r0205_bertha_no')
 	_TALK_CLOSE()
 	_TALK_OBJ_END()
-	_EVENT_END()
 	_END()
 ev_c07r0205_bertha_lose:
 	_TALK_OBJ_END()
-	_EVENT_END()
 	_END()

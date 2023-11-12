@@ -5,7 +5,7 @@ ev_d20r0101_flag_change:
 ev_d20r0101:
 	_END()
 ev_d20r0101_spawn_regis:
-	_IF_FLAGOFF_JUMP(#2576, 'ev_c10r0113_spawn_regi_trio')
+	_IF_FLAGOFF_JUMP(#2576, 'ev_d20r0101_spawn_regi_trio')
 	_RET()
 ev_d20r0101_spawn_regi_trio:
 	_FLAG_RESET(#2887)
@@ -25,7 +25,7 @@ ev_d20_pokemon_lose:
 ev_d20_registeel_fight:
 	_VOICE_PLAY(379, 0, 0)
 	_VOICE_WAIT()
-	_SP_WILD_BTL_SET(379, 70)
+	_SP_WILD_BTL_SET(379, 75)
 	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 379)
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d20_pokemon_lose')
 	_OBJ_DEL('D20R0103_REGISTEEL')
@@ -35,7 +35,7 @@ ev_d20_registeel_fight:
 ev_d20_regice_fight:
 	_VOICE_PLAY(378, 0, 0)
 	_VOICE_WAIT()
-	_SP_WILD_BTL_SET(378, 70)
+	_SP_WILD_BTL_SET(378, 75)
 	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 378)
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d20_pokemon_lose')
 	_OBJ_DEL('D20R0104_REGICE')
@@ -45,7 +45,7 @@ ev_d20_regice_fight:
 ev_d20_regirock_fight:
 	_VOICE_PLAY(377, 0, 0)
 	_VOICE_WAIT()
-	_SP_WILD_BTL_SET(377, 70)
+	_SP_WILD_BTL_SET(377, 75)
 	_SEACRET_POKE_RETRY_CHECK(@SCWK_TEMP0, 377)
 	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 0, 'ev_d20_pokemon_lose')
 	_OBJ_DEL('D20R0105_REGIROCK')

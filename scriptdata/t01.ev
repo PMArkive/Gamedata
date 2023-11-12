@@ -526,7 +526,7 @@ anm_t01_oak_4:
 	_AC_UP(10, 8)
 	_ACMD_END()
 pos_ev_t01_oak_letter_event:
-	_TALK_OBJ_START()
+	_EVENT_START()
 	_CALL('ev_another_out')
 	_FLAG_RESET(#2872)
 	_OBJ_ADD('T01_OAK')
@@ -559,5 +559,6 @@ pos_ev_t01_oak_letter_event:
 	_OBJ_DEL('T01_OAK')
 	_FLAG_SET(#2872)
 	_CALL('ev_another_out_end')
-	_TALK_OBJ_END()
+	_CALL('ev_block_doc_end')
+	_EVENT_END()
 	_END()

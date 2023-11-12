@@ -31,16 +31,22 @@ ev_c05r0501_randomteam_barry_chimchar:
 ev_C05R0601_RIVAL_fight_func_8:
 	_CALL('ev_c05r0501_randomteam_barry_piplup')
 	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_C05R0601_RIVAL_fight_func_10')
 	_JUMP('ev_C05R0601_RIVAL_fight_func_9')
 	_END()
 ev_C05R0601_RIVAL_fight_func_6:
 	_CALL('ev_c05r0501_randomteam_barry_turtwig')
 	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_C05R0601_RIVAL_fight_func_10')
 	_JUMP('ev_C05R0601_RIVAL_fight_func_9')
 	_END()
 ev_C05R0601_RIVAL_fight_func_7:
 	_CALL('ev_c05r0501_randomteam_barry_chimchar')
 	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_C05R0601_RIVAL_fight_func_10')
 	_JUMP('ev_C05R0601_RIVAL_fight_func_9')
 	_END()
 ev_C05R0601_RIVAL_fight:
@@ -89,8 +95,8 @@ ev_C05R0601_RIVAL_fight_func_5:
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_C05R0601_RIVAL_fight_func_9:
-	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_C05R0601_RIVAL_fight_func_10')
+	_FLAG_SET(#FV_C05R0701_STOPPER)
+	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 6250)
 	_RIVAL_NAME(0)
 	_PLAYER_NAME(1)
 	_TALK_KEYWAIT('dp_scenario3%00_msg_C05R0601_RIVAL_2')
@@ -133,9 +139,7 @@ ev_C05R0601_RIVAL_fight_func_11:
 	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 8, 'ev_C05R0601_RIVAL_fight_func_15')
 	_IFVAL_CALL(@SCWK_TEMP1, 'EQ', 9, 'ev_C05R0601_RIVAL_fight_func_16')
 	_OBJ_DEL('C05R0601_RIVAL')
-	_FLAG_SET(#FV_C05R0701_STOPPER)
 	_FLAG_SET(#2772)
-	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 6250)
 	_TALK_OBJ_END()
 	_END()
 ev_C05R0601_RIVAL_fight_func_12:
@@ -246,12 +250,12 @@ anm_c05r0501_aaron_better:
 	_AC_RIGHT(3, 8)
 	_ACMD_END()
 anm_c05r0501_aaron_better_up:
-	_AC_DIR_U(4)
+	_AC_DIR_D(4)
 	_AC_HERO_MATCH_Z(8)
 	_AC_DIR_R(4)
 	_ACMD_END()
 anm_c05r0501_aaron_better_down:
-	_AC_DIR_D(4)
+	_AC_DIR_U(4)
 	_AC_HERO_MATCH_Z(8)
 	_AC_DIR_R(4)
 	_ACMD_END()
@@ -321,7 +325,11 @@ ev_c05_aaron_yes_battle:
 ev_c05_aaron_battle_lose:
 	_CALL('ev_disable_whiteout_protection')
 	_SUB_WK(@SCWK_TEMP1, 1)
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_SUB_WK(@SCWK_TEMP0, 2)
 	_SXY_DIR_CHANGE('HERO', 90)
+	_SXY_DIR_CHANGE('C05R0501_AARON', 270)
+	_SXY_POS_CHANGE('C05R0501_AARON', @SCWK_TEMP0, @SCWK_TEMP1)
 	_TIME_WAIT(5, @SCWK_ANSWER)
 	_BLACK_IN('SCR_WIPE_DIV', 6)
 	_FADE_WAIT()

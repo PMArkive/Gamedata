@@ -3,6 +3,16 @@ ev_poruto_scr:
 	_TALK_KEYWAIT('dp_poffin_main%DP_poffin_main_092')
 	_JUMP('ev_nmixer_start_menu_01')
 	_END()
+ev_poruto_amity_square:
+	_IF_FLAGOFF_JUMP(#3122, 'ev_poruto_tinkatuff_event_active_one')
+	_IF_FLAGOFF_JUMP(#3121, 'ev_poruto_tinkatuff_event_active_two')
+	_JUMP('ev_poruto_scr')
+ev_poruto_tinkatuff_event_active_one:
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_poruto_tinkatuff_one')
+	_END()
+ev_poruto_tinkatuff_event_active_two:
+	_EASY_OBJ_MSG('dp_scenario3%00_msg_poruto_tinkatuff_two')
+	_END()
 ev_nmixer_start_menu_01:
 	_ADD_CUSTUM_WIN_LABEL('dp_poffin_main%DP_poffin_main_101', 3)
 	_ADD_CUSTUM_WIN_LABEL('dp_poffin_main%DP_poffin_main_103', 1)

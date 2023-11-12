@@ -144,7 +144,7 @@ ev_c09_gymleader:
 	_EASY_OBJ_MSG('dp_scenario2%192-msg_c09_gymleader_02_2')
 	_END()
 ev_c09_woman4:
-	_IF_FLAGOFF_JUMP(#2628, 'ev_c09_woman4_02')
+	_IF_FLAGOFF_JUMP(#2628, 'ev_c09_woman4_tremors')
 	_EASY_OBJ_MSG('dp_scenario3%00_msg_c09_woman1')
 	_END()
 ev_c09_woman4_tremors:
@@ -473,8 +473,22 @@ ev_c09_temple_blocker:
 	_TALK_OBJ_END()
 	_END()
 ev_c09_temple_blocker_not_battle:
-	_TALKMSG('dp_scenario3%00_msg_c09_temple_blocker_not_battle_1')
+	_TRAINER_BTL_SET(735, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c09_temple_blocker_lose')
+	_TRAINER_BTL_SET(736, 0)
+	_TRAINER_LOSE_CHECK(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_c09_temple_blocker_lose')
+	_TALK_KEYWAIT('dp_scenario3%00_msg_c09_temple_blocker_win')
 	_TALK_CLOSE()
+	_BLACK_OUT('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
+	_FLAG_SET(#2626)
+	_OBJ_DEL('C09_TEMPLE_BLOCKER')
+	_OBJ_DEL('C09_TEMPLE_BLOCKER_2')
+	_LDVAL(@470, 5)
+	_BLACK_IN('SCR_WIPE_DIV', 3)
+	_FADE_WAIT()
 	_TALK_OBJ_END()
 	_END()
 ev_c09_temple_blocker_yes:
@@ -495,6 +509,7 @@ ev_c09_temple_blocker_yes:
 	_LDVAL(@470, 5)
 	_BLACK_IN('SCR_WIPE_DIV', 3)
 	_FADE_WAIT()
+	_TALK_OBJ_END()
 	_END()
 ev_c09_temple_blocker_lose:
 	_TRAINER_LOSE()

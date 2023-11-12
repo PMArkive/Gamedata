@@ -90,32 +90,28 @@ ev_c02r0101_lucian_05:
 ev_c02r0101_lucian_06:
 	_TALK_KEYWAIT('dp_scenario3%00_msg_c02r0101_lucian_07')
 	_TALK_CLOSE()
-	_PLAYER_DIR_GET(@SCWK_TEMP0)
-	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 0, 'ev_c02r0101_lucian_09')
-	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 2, 'ev_c02r0101_lucian_10')
-	_IFVAL_CALL(@SCWK_TEMP0, 'EQ', 3, 'ev_c02r0101_lucian_11')
+	_PLAYER_POS_GET(@SCWK_TEMP0, @SCWK_TEMP1)
+	_CALL('ev_c02r0101_lucian_handle_animations')
 	_OBJ_DEL('C02R0101_LUCIAN')
 	_FLAG_SET(#2723)
 	_END()
+ev_c02r0101_lucian_handle_animations:
+	_IFVAL_JUMP(@SCWK_TEMP0, 'EQ', 16, 'ev_c02r0101_lucian_09')
+	_JUMP('ev_c02r0101_lucian_10')
 ev_c02r0101_lucian_09:
 	_OBJ_ANIME('C02R0101_LUCIAN', 'anm_c02r0101_lucian_action_2')
 	_OBJ_ANIME('HERO', 'anm_hero_action_3')
 	_OBJ_ANIME_WAIT()
 	_RET()
 ev_c02r0101_lucian_10:
-	_OBJ_ANIME('C02R0101_LUCIAN', 'anm_c02r0101_lucian_action_2')
-	_OBJ_ANIME_WAIT()
-	_RET()
-ev_c02r0101_lucian_11:
 	_OBJ_ANIME('C02R0101_LUCIAN', 'anm_c02r0101_lucian_action_4')
-	_OBJ_ANIME('HERO', 'anm_hero_action_5')
 	_OBJ_ANIME_WAIT()
 	_RET()
 anm_c02r0101_lucian_action_2:
 	_AC_DIR_L(4)
 	_AC_LEFT(5, 4)
 	_AC_DIR_D(4)
-	_AC_LEFT(6, 4)
+	_AC_DOWN(6, 4)
 	_AC_WAIT(4)
 	_ACMD_END()
 anm_hero_action_3:

@@ -1,9 +1,9 @@
 ev_r206r0101_flag_change:
 	_IFVAL_CALL(@WK_SCENE_C04R0101, 'GT', 1, 'ev_r206r0101_stoppers_flag')
+	_IF_FLAGON_CALL(#FE_C04R0204_WIN, 'ev_r206r0101_stoppers_flag')
 	_ITEM_CHK(450, 1, @WK_SCENE_BICYCLE)
 	_END()
 ev_r206r0101_stoppers_flag:
-	_IF_FLAGON_JUMP(#2618, 'ev_healthcheck_return')
 	_FLAG_SET(#2618)
 	_OBJ_DEL('R206R0101_STOPPER1')
 	_OBJ_DEL('R206R0101_STOPPER2')

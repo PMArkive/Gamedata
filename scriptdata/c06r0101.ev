@@ -195,7 +195,6 @@ ev_c06r0101_protect:
 	_JUMP('ev_c06r0101_protect_hotfix')
 	_TALK_OBJ_START()
 	_IF_FLAGON_JUMP(#2680, 'ev_c06r0101_protect_done')
-	_IF_FLAGON_JUMP(#2679, 'ev_c06r0101_protect_01')
 	_TALKMSG('dp_scenario3%00_msg_ev_c06r0101_protect')
 	_LAST_KEYWAIT()
 	_TALK_CLOSE()

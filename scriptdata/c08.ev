@@ -368,25 +368,35 @@ pos_c08_mikan_05:
 pos_c08_mikan_01_1:
 	_OBJ_ANIME('C08_MIKAN', 'anm_c08_mikan_01_1')
 	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_c08_move_hero_back_2')
+	_OBJ_ANIME_WAIT()
 	_JUMP('pos_c08_mikan_end')
 	_JUMP('pos_c08_mikan_end')
 pos_c08_mikan_02_1:
 	_OBJ_ANIME('C08_MIKAN', 'anm_c08_mikan_02_1')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_c08_move_hero_back_1')
 	_OBJ_ANIME_WAIT()
 	_JUMP('pos_c08_mikan_end')
 	_JUMP('pos_c08_mikan_end')
 pos_c08_mikan_03_1:
 	_OBJ_ANIME('C08_MIKAN', 'anm_c08_mikan_03_1')
 	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_c08_move_hero_back_1')
+	_OBJ_ANIME_WAIT()
 	_JUMP('pos_c08_mikan_end')
 	_JUMP('pos_c08_mikan_end')
 pos_c08_mikan_04_1:
 	_OBJ_ANIME('C08_MIKAN', 'anm_c08_mikan_04_1')
 	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_c08_move_hero_back_1')
+	_OBJ_ANIME_WAIT()
 	_JUMP('pos_c08_mikan_end')
 	_JUMP('pos_c08_mikan_end')
 pos_c08_mikan_05_1:
 	_OBJ_ANIME('C08_MIKAN', 'anm_c08_mikan_05_1')
+	_OBJ_ANIME_WAIT()
+	_OBJ_ANIME('HERO', 'anm_c08_move_hero_back_1')
 	_OBJ_ANIME_WAIT()
 	_JUMP('pos_c08_mikan_end')
 	_JUMP('pos_c08_mikan_end')
@@ -415,6 +425,16 @@ pos_c08_mikan_common:
 pos_c08_mikan_end:
 	_CALL('ev_another_out_end')
 	_END()
+anm_c08_move_hero_back_1:
+	_AC_DIR_D(4)
+	_AC_DOWN(2, 8)
+	_ACMD_END()
+anm_c08_move_hero_back_2:
+	_AC_DIR_R(4)
+	_AC_RIGHT(1, 8)
+	_AC_DIR_D(4)
+	_AC_DOWN(2, 8)
+	_ACMD_END()
 c08_mikan_hiden_get:
 	_TALK_KEYWAIT('dp_scenario3%12-msg_c08_mikan_03')
 	_LDVAL(@SCWK_TEMP0, 233)

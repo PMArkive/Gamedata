@@ -423,7 +423,7 @@ pos_d05r0115_gingakanbu:
 	_TALKMSG('dp_scenario2%29-msg_d05r0114_rival_04')
 	_AB_KEYWAIT()
 	_TALK_CLOSE()
-	_OBJ_ANIME('HERO', 'sub_bd05r0114_player_gingakanbusheen')
+	_OBJ_ANIME('HERO', 'anm_d05r0114_player_gingakanbusheen')
 	_OBJ_ANIME('D05R0114_RIVAL', 'anm_d05r0114_rival_go_out')
 	_OBJ_ANIME_WAIT()
 	_OBJ_DEL('D05R0114_RIVAL')
@@ -1166,7 +1166,7 @@ ev_bd05r0114_ia_battle_after:
 	_OBJ_ANIME_WAIT()
 	_CALL('sub_ad05r0114_support_msg_af')
 	_TALK_CLOSE()
-	_JUMP('bd_ad05r0114_ia_win')
+	_JUMP('ev_bd05r0114_ia_win')
 	_END()
 ev_bd05r0114_ia_win:
 	_FLAG_SET(#FV_C11_STOP)

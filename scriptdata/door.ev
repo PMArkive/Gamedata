@@ -693,7 +693,6 @@ door_warp_panel_end:
 ev_healthcheck:
 	_CALL('ev_healthcheck_palmer')
 	_CALL('ev_healthcheck_doorrowan')
-	_CALL('ev_healthcheck_celebi')
 	_CALL('ev_healthcheck_slowpoke_stopper')
 	_CALL('ev_healthcheck_biker_stopper')
 	_CALL('ev_healthcheck_hasbike')
@@ -742,16 +741,17 @@ ev_healthcheck:
 	_CALL('ev_healthcheck_c05_blockers')
 	_CALL('ev_healthcheck_fix_barry_fight_flag')
 	_CALL('ev_healthcheck_check_c10_shaymin_event')
-	_CALL('ev_healthcheck_remove_infinite_repel')
 	_CALL('ev_healthcheck_form_shuffle_flag_reset')
 	_CALL('ev_healthcheck_add_missing_boss_items')
+	_CALL('ev_healthcheck_infinite_repel_check')
+	_CALL('ev_healthcheck_update_hotfix_stopdatas')
 	_RET()
 ev_healthcheck_return:
 	_RET()
-ev_healthcheck_remove_infinite_repel:
-	_ITEM_CHK(1835, 1, @SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_healthcheck_return')
-	_SUB_ITEM(1835, 1, @SCWK_ANSWER)
+ev_healthcheck_update_hotfix_stopdatas:
+	_IFVAL_JUMP(@486, 'EQ', 2, 'ev_healthcheck_return')
+	_IF_FLAGOFF_JUMP(#2729, 'ev_healthcheck_return')
+	_LDVAL(@486, 2)
 	_RET()
 ev_healthcheck_check_c10_shaymin_event:
 	_IFVAL_JUMP(@WK_SCENE_C10R0101, 'EQ', 0, 'ev_healthcheck_return')
@@ -874,7 +874,7 @@ ev_healthcheck_sunnyshore_fix:
 	_RET()
 ev_healthcheck_fix_mansion_event:
 	_IF_FLAGOFF_JUMP($FLAG_ARRIVE_T04, 'ev_healthcheck_return')
-	_IF_FLAGON_JUMP(#2729, 'ev_healthcheck_return')
+	_IF_FLAGON_JUMP(#2580, 'ev_healthcheck_return')
 	_FLAG_SET(#2733)
 	_FLAG_SET(#2734)
 	_FLAG_SET(#2735)
@@ -892,6 +892,8 @@ ev_healthcheck_fix_mansion_event:
 	_FLAG_SET(#2729)
 	_FLAG_SET(#2730)
 	_FLAG_SET(#2732)
+	_LDVAL(@486, 2)
+	_FLAG_SET(#2580)
 	_RET()
 ev_disable_incense_burner:
 	_LDVAL(@495, 0)
@@ -1004,22 +1006,6 @@ ev_healthcheck_doorrowan:
 ev_healthcheck_slowpoke_stopper:
 	_IF_FLAGOFF_JUMP(#FE_HIDEN_03_GET, 'ev_healthcheck_return')
 	_FLAG_SET(#2200)
-	_RET()
-ev_healthcheck_celebi:
-	_FLAG_SET(#2605)
-	_ITEM_CHK(1823, 1, @SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_healthcheck_return')
-	_IF_FLAGON_JUMP(#2616, 'ev_healthcheck_return')
-	_FLAG_SET(#2606)
-	_FLAG_SET(#2607)
-	_FLAG_SET(#2608)
-	_FLAG_SET(#2609)
-	_FLAG_SET(#2610)
-	_FLAG_SET(#2611)
-	_FLAG_SET(#2612)
-	_FLAG_SET(#2613)
-	_FLAG_SET(#2614)
-	_FLAG_SET(#2615)
 	_RET()
 ev_healthcheck_expshare:
 	_IFVAL_JUMP(@WK_SCENE_T01R0201, 'LT', 6, 'ev_healthcheck_return')
@@ -1286,7 +1272,7 @@ ev_healthcheck_has_shoes:
 	_SYS_FLAG_SHOES_SET()
 	_RET()
 ev_healthcheck_r206r0101_stoppers:
-	_IF_FLAGOFF_JUMP(#2619, 'ev_healthcheck_return')
+	_IF_FLAGOFF_JUMP(#FE_C04R0204_WIN, 'ev_healthcheck_return')
 	_FLAG_SET(#2618)
 	_RET()
 ev_healthcheck_r204b_grunt_stoppers:
@@ -1445,4 +1431,11 @@ ev_healthcheck_check_magma_stone:
 	_IFVAL_CALL(@SCWK_ANSWER, 'GT', 0, 'ev_healthcheck_return')
 	_ADD_ITEM(458, 1, @SCWK_ANSWER)
 	_FLAG_SET(#2589)
+	_RET()
+ev_healthcheck_infinite_repel_check:
+	_ITEM_CHK(1835, 1, @SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_healthcheck_add_infinite_repel')
+	_RET()
+ev_healthcheck_add_infinite_repel:
+	_ADD_ITEM(1835, 1, @SCWK_ANSWER)
 	_RET()

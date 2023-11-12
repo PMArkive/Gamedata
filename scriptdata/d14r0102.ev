@@ -16,6 +16,7 @@ ev_d14r0102_mewtwo_yes:
 	_TALK_KEYWAIT('dp_scenario3%00_msg_d14r0102_nurse_2_1')
 	_TALK_CLOSE()
 	_CALL('ev_disable_incense_burner')
+	_IF_FLAGOFF_CALL(#2595, 'ev_d14r0102_mewtwo_reset_flags')
 	_MAP_CHANGE('D10R0601', 1)
 	_TALK_OBJ_END()
 	_END()
@@ -27,3 +28,11 @@ ev_d14r0102_mewtwo_no:
 anm_d14r0102_nurse_1:
 	_AC_MARK_EMO(9)
 	_ACMD_END()
+ev_d14r0102_mewtwo_reset_flags:
+	_FLAG_RESET(#3002)
+	_FLAG_RESET(#2914)
+	_FLAG_RESET(#2915)
+	_FLAG_RESET(#2916)
+	_FLAG_RESET(#2917)
+	_FLAG_SET(#2595)
+	_RET()

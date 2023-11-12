@@ -11,10 +11,19 @@ ev_d24_ship:
 	_TALK_OBJ_START()
 	_PLAYER_DIR_GET(@SCWK_TEMP0)
 	_TURN_HERO_SITE()
+	_IF_FLAGON_CALL(#FE_SEVEN3_CLEAR, 'ev_d24_ship_flag_checks')
 	_TALK_KEYWAIT('dp_scenario3%80-msg_d24_seaman_01')
 	_YES_NO_WIN(@SCWK_ANSWER)
 	_TALK_CLOSE()
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_d24_ship_in')
+	_JUMP('ev_d24_ship_end')
+	_END()
+ev_d24_ship_flag_checks:
+	_IF_FLAGOFF_JUMP(#FV_D24R0201_LEADER, 'ev_d24_ship_meet_byron_first')
+	_RET()
+ev_d24_ship_meet_byron_first:
+	_TALK_KEYWAIT('dp_scenario3%00_msg_d24_shipman_00')
+	_TALK_CLOSE()
 	_JUMP('ev_d24_ship_end')
 	_END()
 ev_d24_ship_in:
@@ -115,6 +124,9 @@ ev_d24_riley:
 	_FLAG_SET(#2724)
 	_TALK_OBJ_END()
 	_END()
+anm_d24_action_1:
+	_AC_DIR_U(8)
+	_ACMD_END()
 ev_d24_riley_lose:
 	_TRAINER_LOSE()
 	_TALK_OBJ_END()

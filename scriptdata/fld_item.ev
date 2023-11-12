@@ -860,7 +860,7 @@ ev_fld_item_215:
 	_FLD_ITEM_EVENT(40, 1)
 	_END()
 ev_fld_item_216:
-	_FLD_ITEM_EVENT(50, 1)
+	_FLD_ITEM_EVENT(347, 1)
 	_END()
 ev_fld_item_217:
 	_FLD_ITEM_EVENT(40, 1)
@@ -935,7 +935,7 @@ ev_fld_item_240:
 	_FLD_ITEM_EVENT(296, 1)
 	_END()
 ev_fld_item_241:
-	_FLD_ITEM_EVENT(10, 1)
+	_FLD_ITEM_EVENT(284, 1)
 	_END()
 ev_fld_item_242:
 	_FLD_ITEM_EVENT(327, 1)
@@ -1025,7 +1025,7 @@ ev_fld_item_270:
 	_FLD_ITEM_EVENT(252, 1)
 	_END()
 ev_fld_item_271:
-	_FLD_ITEM_EVENT(9, 1)
+	_FLD_ITEM_EVENT(383, 1)
 	_END()
 ev_fld_item_272:
 	_FLD_ITEM_EVENT(280, 1)
@@ -1115,7 +1115,7 @@ ev_fld_item_300_1:
 	_FLD_ITEM_EVENT(233, 1)
 	_END()
 ev_fld_item_301_1:
-	_FLD_ITEM_EVENT(284, 1)
+	_FLD_ITEM_EVENT(50, 1)
 	_END()
 ev_fld_item_302_1:
 	_FLD_ITEM_EVENT(50, 1)
@@ -1195,8 +1195,14 @@ ev_fld_item_326:
 ev_fld_item_327:
 	_FLD_ITEM_EVENT(82, 1)
 	_END()
+ev_fld_item_reaper_cloth:
+	_FLD_ITEM_EVENT(325, 1)
+	_END()
 ev_fld_item_griseous_orb:
 	_FLD_ITEM_EVENT(112, 1)
+	_END()
+ev_fld_item_ironball:
+	_FLD_ITEM_EVENT(278, 1)
 	_END()
 ev_fld_item_mewtwo_armour:
 	_TALK_OBJ_START()

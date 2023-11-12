@@ -1,5 +1,6 @@
 ev_d25r0106_sppoke_01:
 	_TALK_OBJ_START()
+	_IF_FLAGON_JUMP(#FE_D25R0106_SPPOKE_CLEAR, 'ev_d25r0106_sppoke_nobtl')
 	_TALKMSG('dp_scenario1%108-msg_d25r0106_tv_02')
 	_YES_NO_WIN(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_d25r0106_sppoke_talkend')

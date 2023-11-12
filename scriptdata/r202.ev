@@ -1,12 +1,12 @@
 ev_r202_flag_change:
 	_GET_MY_SEX(@LOCALWORK0)
-	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'ev_r202_male_flag_change_01')
-	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 1, 'ev_r202_female_flag_change_01')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 0, 'r202_male_flag_change_01')
+	_IFVAL_JUMP(@LOCALWORK0, 'EQ', 1, 'r202_female_flag_change_01')
 	_END()
-ev_r202_male_flag_change_01:
+r202_male_flag_change_01:
 	_LDVAL(@OBJCHRWORK0, 'HEROINE')
 	_END()
-ev_r202_female_flag_change_01:
+r202_female_flag_change_01:
 	_LDVAL(@OBJCHRWORK0, 'HERO')
 	_END()
 ev_r202_boy2:
@@ -66,12 +66,29 @@ pos_r202_support_02_common:
 	_EVENT_CAMERA_INDEX(922)
 	_EVENT_CAMERA_END_WAIT()
 	_CALL('ev_block_doc')
-    _JUMP('ev_r202_support_requests_fight')
-ev_r202_support_requests_fight:
+	_JUMP('r202_01_support_common_01')
+	_END()
+r202_support_male_01:
+	_CHG_COMMON_SCR('ev_the_boy_girl_play')
 	_SUPPORT_NAME(0)
-    _PLAYER_NAME(1)
-    _TALK_KEYWAIT('dp_scenario3%84-msg_catching_tutorial_01', 1)
-    _TALK_CLOSE()
+	_PLAYER_NAME(1)
+	_TALKMSG('dp_scenario1%10-msg_r202_heroine_05_1')
+	_TALKMSG('dp_scenario1%10-msg_r202_heroine_05_2', 1)
+	_JUMP('r202_01_support_common_01')
+	_END()
+r202_support_female_01:
+	_CHG_COMMON_SCR('ev_the_boy_girl_play')
+	_SUPPORT_NAME(0)
+	_PLAYER_NAME(1)
+	_TALKMSG('dp_scenario1%10-msg_r202_hero_05_1')
+	_TALKMSG('dp_scenario1%10-msg_r202_hero_05_2', 1)
+	_JUMP('r202_01_support_common_01')
+	_END()
+r202_01_support_common_01:
+	_SUPPORT_NAME(0)
+	_PLAYER_NAME(1)
+	_TALK_KEYWAIT('dp_scenario3%84-msg_catching_tutorial_01', 1)
+	_TALK_CLOSE()
 	_PC_KAIFUKU()
 	_TALK_KEYWAIT('dp_scenario3%84-msg_catching_tutorial_02', 1)
 	_TALK_CLOSE()
@@ -79,71 +96,92 @@ ev_r202_support_requests_fight:
 	_EVENT_CAMERA_END_WAIT()
 	_CHARA_LOOK_RELEASE('R202_SUPPORT')
 	_CHARA_LOOK_RELEASE('HERO')
-    _JUMP('ev_r202_support_battle')
-ev_r202_01_support_battle_over:
+	_CALL('r202_01_support_battle')
 	_EVENT_START()
 	_CHG_COMMON_SCR('ev_the_boy_girl_stop')
-    _TALK_KEYWAIT('dp_scenario3%84-msg_catching_tutorial_03', 1)
+	_JUMP('r202_01_support_common_02')
+	_END()
+r202_01_support_battle:
+	_GET_MY_SEX(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'r202_01_support_battle_male')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'r202_01_support_battle_female')
+	_RET()
+r202_01_support_battle_male:
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'r202_01_support_battle_male_390')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 393, 'r202_01_support_battle_male_393')
+	_JUMP('r202_01_support_battle_male_387')
+r202_01_support_battle_male_387:
+	_TRAINER_BTL_SET(690, 0)
+	_RET()
+r202_01_support_battle_male_390:
+	_TRAINER_BTL_SET(691, 0)
+	_RET()
+r202_01_support_battle_male_393:
+	_TRAINER_BTL_SET(692, 0)
+	_RET()
+r202_01_support_battle_female:
+	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'r202_01_support_battle_female_390')
+	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 393, 'r202_01_support_battle_female_393')
+	_JUMP('r202_01_support_battle_female_387')
+r202_01_support_battle_female_387:
+	_TRAINER_BTL_SET(684, 0)
+	_RET()
+r202_01_support_battle_female_390:
+	_TRAINER_BTL_SET(685, 0)
+	_RET()
+r202_01_support_battle_female_393:
+	_TRAINER_BTL_SET(686, 0)
+	_RET()
+r202_support_male_02:
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario1%10-msg_r202_heroine_02_1')
+	_TALKMSG('dp_scenario1%10-msg_r202_heroine_02_2', 1)
+	_TALKMSG('dp_scenario1%10-msg_r202_heroine_02_3', 1)
+	_TALK_KEYWAIT('dp_scenario1%10-msg_r202_heroine_02_4', 1)
+	_JUMP('r202_01_support_common_02')
+	_END()
+r202_support_female_02:
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario1%10-msg_r202_hero_02_1')
+	_TALKMSG('dp_scenario1%10-msg_r202_hero_02_2', 1)
+	_TALKMSG('dp_scenario1%10-msg_r202_hero_02_3', 1)
+	_TALK_KEYWAIT('dp_scenario1%10-msg_r202_hero_02_4', 1)
+	_JUMP('r202_01_support_common_02')
+	_END()
+r202_01_support_common_02:
+	_TALK_KEYWAIT('dp_scenario3%84-msg_catching_tutorial_03', 1)
 	_LDVAL(@SCWK_TEMP0, 4)
 	_LDVAL(@SCWK_TEMP1, 30)
 	_CHG_COMMON_SCR('ev_item_event_keywait')
+	_JUMP('r202_01_support_common_03')
+	_END()
+r202_support_male_03:
+	_PLAYER_NAME(0)
+	_TALKMSG('dp_scenario1%10-msg_r202_heroine_03_1')
+	_TALK_KEYWAIT('dp_scenario1%10-msg_r202_heroine_03_2', 1)
+	_TALK_CLOSE()
+	_JUMP('r202_01_support_common_03')
+	_END()
+r202_support_female_03:
+	_PLAYER_NAME(0)
+	_JUMP('r202_01_support_common_03')
+	_END()
+r202_01_support_common_03:
 	_TALK_KEYWAIT('dp_scenario3%84-msg_catching_tutorial_04', 1)
-	_MACRO_TALK_KEYWAIT('dp_scenario3', '00_msg_r202_incense_tutorial_00', 'Oh, and if you burn special flowers\nin that Incense Burner,\ryou might find some rare Pokémon\nanywhere you go!')
+	_TALK_KEYWAIT('dp_scenario3%00_msg_r202_incense_tutorial_00')
 	_TALK_CLOSE()
 	_OBJ_ANIME('R202_SUPPORT', 'anm_03_r202_support_01')
 	_OBJ_ANIME_WAIT()
 	_OBJ_DEL('R202_SUPPORT')
-	_BOUKENNOOTO_TIPS_OPEN(24, @SCWK_ANSWER)
+	_BOUKENNOOTO_TIPS_OPEN(23, @SCWK_ANSWER)
 	_BOUKENNOOTO_TIPS_WAIT()
 	_LDVAL(@WK_SCENE_R202, 1)
 	_LDVAL(@TOWNMAP_GUIDE_SEQUENCE, 1900)
 	_CALL('ev_block_doc_end')
 	_EVENT_END()
 	_END()
-ev_r202_support_battle:
-	_GET_MY_SEX(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'ev_r202_lucas_battle')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 1, 'ev_r202_dawn_battle')
-ev_r202_lucas_battle:
-	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_r202_lucas_piplup_battle')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_r202_lucas_turtwig_battle')
-	_JUMP('ev_r202_lucas_chimchar_battle')
-ev_r202_lucas_piplup_battle:
-	_LDVAL(@SCWK_TEMP3, 690)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r202_01_support_battle_over')
-ev_r202_lucas_turtwig_battle:
-	_LDVAL(@SCWK_TEMP3, 691)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r202_01_support_battle_over')
-ev_r202_lucas_chimchar_battle:
-	_LDVAL(@SCWK_TEMP3, 692)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r202_01_support_battle_over')
-ev_r202_dawn_battle:
-	_FIRST_POKE_NO_GET(@SCWK_ANSWER)
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 387, 'ev_r202_dawn_piplup_battle')
-	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 390, 'ev_r202_dawn_turtwig_battle')
-	_JUMP('ev_r202_dawn_chimchar_battle')
-ev_r202_dawn_piplup_battle:
-	_LDVAL(@SCWK_TEMP3, 684)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r202_01_support_battle_over')
-ev_r202_dawn_turtwig_battle:
-	_LDVAL(@SCWK_TEMP3, 685)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r202_01_support_battle_over')
-ev_r202_dawn_chimchar_battle:
-	_LDVAL(@SCWK_TEMP3, 686)
-	_CALL('ev_set_trainer_id_for_current_gamemode_scripted_battle')
-	_TRAINER_BTL_SET(@SCWK_TEMP3, 0)
-    _JUMP('ev_r202_01_support_battle_over')
 pos_r202_support_stop:
 	_GET_MY_SEX(@SCWK_ANSWER)
 	_IFVAL_JUMP(@SCWK_ANSWER, 'EQ', 0, 'r202_support_male_50')
@@ -327,4 +365,4 @@ anm_r202_player_01:
 anm_r202_player_58:
 	_AC_WAIT(8)
 	_AC_LEFT(2, 8)
-	_ACMD_END();2591 is the flag to disallow running from a battle
+	_ACMD_END()

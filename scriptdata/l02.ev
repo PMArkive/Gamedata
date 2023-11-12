@@ -135,7 +135,6 @@ common_l02_gingam_dir_02:
 ev_l02_common_battle_lose:
 	_TRAINER_LOSE()
 	_EVENT_END()
-	_EVENT_END()
 	_END()
 anm_l02_player_02:
 	_AC_DIR_R(8)

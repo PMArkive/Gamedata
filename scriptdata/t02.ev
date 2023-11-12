@@ -389,19 +389,20 @@ anm_t02_rival_03:
 	_AC_MARK_GYOE(1)
 	_ACMD_END()
 anm_t02_HERO_100:
-	_AC_MARK_GYOE(1)
+	_AC_MARK_GYOE()
 	_ACMD_END()
 anm_T02_DOCTOR_100:
 	_AC_DIR_U(4)
 	_ACMD_END()
 anm_t02_HERO_101:
+	_AC_MARK_GYOE()
 	_AC_DIR_U(4)
 	_ACMD_END()
 anm_t02_HERO_102:
 	_AC_DIR_D(4)
 	_ACMD_END()
 anm_t02_support_100:
-	_AC_MARK_GYOE(1)
+	_AC_MARK_GYOE()
 	_ACMD_END()
 anm_t02_rival_04:
 	_AC_DIR_R(4)
@@ -422,10 +423,9 @@ ev_t02_support:
 	_OBJ_ADD('T02_DOCTOR')
 	_PLAYER_NAME(1)
 	_TALKMSG('dp_scenario3%84-msg_pokeradar_professor_01')
-	_OBJ_ANIME('T02_SUPPORT', 'anm_t02_support_100')
-	_OBJ_ANIME('HERO', 'anm_t02_HERO_100')
-	_OBJ_ANIME_WAIT()
 	_OBJ_ANIME('HERO', 'anm_t02_HERO_101')
+	_OBJ_ANIME('T02_SUPPORT', 'anm_t02_HERO_101')
+	_OBJ_ANIME_WAIT()
 	_LDVAL(@SCWK_TEMP0, 431)
 	_LDVAL(@SCWK_TEMP1, 1)
 	_CHG_COMMON_SCR('ev_item_event_keywait')
