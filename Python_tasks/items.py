@@ -2,7 +2,7 @@ import os
 import re
 import json
 
-from trainerUtils import process_files, get_zoneID
+from trainerUtils import process_files
 import constants
 
 repo_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -20,17 +20,16 @@ def parse_ev_script_file(file_path):
     for line in f:
       substrings = line.split('\n')
       for substring in substrings:
-        areaName = file_path.split("/")[-1].split(".")[0].upper()
-        zoneId = get_zoneID(areaName)
-        if areaName == constants.EVE_AREA_NAME:
-          zoneId = 446
+        zone_code = file_path.split("/")[-1].split(".")[0]
+        if zone_code.upper() == constants.EVE_AREA_NAME:
+          zone_code = "t04"
 
         if constants.FIXED_SHOP in substring:
           match = re.search(constants.FIXED_SHOP_PATTERN, substring)
-          if match and zoneId not in shop_items.keys():
-            shop_items[zoneId] = [match[1]]
-          elif match and zoneId in shop_items.keys():
-            shop_items[zoneId].append(match[1])
+          if match and zone_code not in shop_items.keys():
+            shop_items[zone_code] = [match[1]]
+          elif match and zone_code in shop_items.keys():
+            shop_items[zone_code].append(match[1])
     with open(os.path.join(debug_file_path, 'fixed_shop.json'), 'w', encoding='utf-8') as f:
         json.dump(shop_items, f, indent=2)
     return shop_items
