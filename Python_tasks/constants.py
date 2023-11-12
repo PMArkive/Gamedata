@@ -31,6 +31,9 @@ MULTI_FORMAT = "Multi Battle Enemy"
 MULTI_PARTNER_FORMAT = "Multi Battle Partner"
 EVIL_TYPE = "Evil"
 
+# Format for getting Fixed Shop items
+FIXED_SHOP = "_SHOP_OPEN_FIXED"
+
 # Needed to hard code Wurmple's and Goomy's target evos
 WURMPLE = 265
 SILCOON = 266
@@ -94,6 +97,8 @@ TRAINER_PATTERN = r"_TRAINER_BTL_SET\s*\(\s*('?[^']+'?|@\w+|\d+)\s*,\s*('?[^']+'
 MULTI_TRAINER_PATTERN = r"_TRAINER_MULTI_BTL_SET\s*\(\s*((?:'[^']*'|@\w+|\d+)\s*(?:,\s*(?:'[^']*'|@\w+|\d+)\s*)*)\)"
 HONEY_TREE_MATCH_REGEX = r"\[(.*?)\]\s*=\s*\{(.*?)\}"
 HONEY_TREE_CONST_REGEX = r"const\s+int32_t\s+HONEY_TREES\[\s*NUM_ZONE_ID\s*\]\[\s*10\s*\]\s*=\s*\{\s*([\s\S]*?)\};"
+FIXED_SHOP_PATTERN = r"_SHOP_OPEN_FIXED\((\d{1,2})\)"
+
 HONEY_TREE = "Honey Tree"
 TROPHY_GARDEN = "Daily Trophy Garden"
 TROPHY_GARDEN_RATE = "5%"
