@@ -2425,7 +2425,7 @@ Stealth Rock
 Rock Tomb
 Sandstorm
 25/25/25/25/25/25
-4/252/252/0/0/0
+0/20/20/0/0/0
 
 Lunatone
 15
@@ -2438,7 +2438,7 @@ Hypnosis
 Confusion
 Sandstorm
 25/25/25/25/25/25
-0/4/252/0/252/0
+0/0/20/0/20/0
 
 Kabuto
 15
@@ -2451,7 +2451,7 @@ Knock Off
 Rapid Spin
 Confuse Ray
 25/25/25/25/25/25
-4/252/0/0/0/252
+0/20/0/0/0/20
 
 Larvitar
 15
@@ -2464,7 +2464,7 @@ Rock Tomb
 Taunt
 Brick Break
 25/25/25/25/25/25
-252/0/252/0/4/0
+20/0/20/0/0/0
 
 Lileep
 15
@@ -2477,7 +2477,7 @@ Acid
 Confuse Ray
 Ancient Power
 25/0/25/25/25/25
-252/0/252/0/4/0
+20/0/20/0/0/0
 
 Cranidos
 16
@@ -2490,7 +2490,7 @@ Scary Face
 Focus Energy
 Rock Tomb
 25/25/25/25/25/25
-0/252/4/0/0/252
+0/20/0/0/0/20
 
 
 824
@@ -2509,7 +2509,7 @@ Rock Throw
 Wrap
 Rollout
 25/25/25/25/25/25
-4/252/0/0/252/0
+0/40/0/0/0/0
 
 Anorith
 15
@@ -2522,7 +2522,7 @@ Smack Down
 Aqua Jet
 Scratch
 25/25/25/25/25/25
-0/252/0/0/252/4
+0/36/0/0/4/0
 
 Lunatone
 15
@@ -2535,7 +2535,7 @@ Hypnosis
 Confusion
 Sandstorm
 25/25/25/25/25/25
-0/4/252/0/252/0
+0/4/36/0/0/0
 
 Lileep
 15
@@ -2548,7 +2548,7 @@ Acid
 Confuse Ray
 Ancient Power
 25/0/25/25/25/25
-252/0/0/252/4/0
+20/0/0/20/0/0
 
 Bonsly
 15
@@ -2561,7 +2561,7 @@ Brick Break
 Rollout
 Defense Curl
 25/25/25/25/25/25
-0/252/0/0/244/12
+0/20/0/0/16/4
 
 Cranidos
 16
@@ -2574,7 +2574,7 @@ Scary Face
 Focus Energy
 Rock Tomb
 25/25/25/25/25/25
-0/252/4/0/0/252
+0/20/0/0/0/20
 
 
 825
@@ -2593,7 +2593,7 @@ Taunt
 Stealth Rock
 Rock Tomb
 25/25/25/25/25/25
-12/20/0/236/240/0
+0/0/0/20/20/0
 
 Anorith
 15
@@ -2606,7 +2606,7 @@ Smack Down
 Aqua Jet
 Scratch
 25/25/25/25/25/25
-0/252/0/0/4/252
+0/20/0/0/0/20
 
 Nosepass
 15
@@ -2619,7 +2619,7 @@ Shock Wave
 Rock Throw
 Sandstorm
 25/25/25/25/25/25
-0/0/252/0/252/4
+0/0/36/0/0/4
 
 Rhyhorn
 15
@@ -2632,7 +2632,7 @@ Stomp
 Smack Down
 Stealth Rock
 25/25/25/25/25/25
-252/252/4/0/0/0
+4/36/0/0/0/0
 
 Omanyte
 15
@@ -2645,7 +2645,7 @@ Aurora Beam
 Knock Off
 Bite
 25/25/25/25/25/25
-0/0/4/252/0/252
+0/0/0/40/0/0
 
 Cranidos
 16
@@ -2658,7 +2658,7 @@ Scary Face
 Focus Energy
 Rock Tomb
 25/25/25/25/25/25
-0/252/4/0/0/252
+0/20/0/0/0/20
 
 
 826
@@ -2677,7 +2677,7 @@ Scary Face
 Stealth Rock
 Rock Tomb
 25/25/25/25/25/25
-0/252/4/0/0/252
+0/20/0/0/0/20
 
 Solrock
 15
@@ -2690,7 +2690,7 @@ Fire Spin
 Confusion
 Reflect
 25/25/25/25/25/25
-0/252/252/4/0/0
+0/20/20/0/0/0
 
 Rhyhorn
 15
@@ -2703,7 +2703,7 @@ Stomp
 Smack Down
 Stealth Rock
 25/25/25/25/25/25
-4/252/0/0/252/0
+0/20/0/0/20/0
 
 Larvitar
 15
@@ -2716,7 +2716,7 @@ Rock Tomb
 Taunt
 Brick Break
 25/25/25/25/25/25
-0/0/252/0/252/4
+0/0/20/0/20/0
 
 Geodude
 15
@@ -2729,7 +2729,7 @@ Fire Punch
 Rock Tomb
 Thunder Punch
 25/25/25/25/25/25
-4/252/0/0/252/0
+0/20/0/0/20/0
 
 Relicanth
 15
@@ -2742,7 +2742,7 @@ Dive
 Ancient Power
 Tackle
 25/25/25/25/25/25
-4/252/0/0/252/0
+0/20/0/0/20/0
 
 
 891
@@ -3398,7 +3398,7 @@ Poison Fang
 Confuse Ray
 Bite
 25/25/25/25/25/25
-68/184/20/0/0/236
+12/28/4/0/0/32
 
 Bronzor
 18
@@ -3411,7 +3411,7 @@ Gyro Ball
 Hypnosis
 Confuse Ray
 25/25/25/25/25/0
-244/0/12/240/12/0
+36/0/4/32/4/0
 
 Yanma
 18
@@ -3424,7 +3424,7 @@ Wing Attack
 Quick Attack
 Detect
 25/25/25/25/25/25
-0/248/8/0/0/252
+0/36/0/0/0/40
 
 Purugly
 19
@@ -3437,7 +3437,7 @@ Hypnosis
 Facade
 Aerial Ace
 25/25/25/25/25/25
-12/252/0/0/244/0
+0/40/0/0/36/0
 
 
 12
@@ -4046,7 +4046,7 @@ Air Cutter
 Shock Wave
 Swift
 25/25/25/25/25/25
-4/0/0/252/0/252
+4/0/0/56/0/52
 
 Makuhita
 19
@@ -4059,7 +4059,7 @@ Knock Off
 Fake Out
 Bullet Punch
 25/25/25/25/25/25
-20/196/36/0/0/0
+8/88/16/0/0/0
 
 Wailmer
 19
@@ -4072,7 +4072,7 @@ Rock Tomb
 Mist
 Rollout
 25/25/25/25/25/25
-36/0/0/200/0/200
+8/0/0/52/0/52
 
 Chansey
 19
@@ -4085,7 +4085,7 @@ Soft-Boiled
 Ice Beam
 Thunderbolt
 25/25/25/25/25/25
-248/0/252/0/8/0
+52/0/52/0/8/0
 
 
 727
@@ -5954,7 +5954,7 @@ Electro Ball
 Grass Knot
 Reflect
 25/25/25/25/25/25
-0/0/0/252/12/244
+0/0/0/74/4/70
 
 Parasect
 25
@@ -5967,7 +5967,7 @@ X-Scissor
 Aerial Ace
 Brick Break
 25/25/25/25/25/25
-228/28/4/0/244/4
+62/12/4/0/66/4
 
 Skiploom
 25
@@ -5980,7 +5980,7 @@ Bounce
 Strength Sap
 Cotton Guard
 25/25/25/25/25/25
-0/252/0/0/12/244
+0/74/0/0/4/70
 
 Bellossom
 25
@@ -5993,7 +5993,7 @@ Synthesis
 Ingrain
 Grassy Terrain
 25/25/25/25/25/25
-236/0/0/20/244/0
+70/0/0/4/74/0
 
 Vileplume
 25
@@ -6006,7 +6006,7 @@ Hidden Power
 Toxic
 Sunny Day
 25/24/25/24/24/25
-248/0/0/248/0/12
+70/0/0/70/0/8
 
 Roserade
 26
@@ -6019,7 +6019,7 @@ Weather Ball
 Poison Jab
 Sleep Powder
 25/25/25/25/25/25
-0/8/0/248/0/252
+0/4/0/70/0/74
 
 
 828
@@ -6038,7 +6038,7 @@ Synthesis
 Leech Seed
 Sleep Powder
 25/25/25/25/25/25
-244/0/244/20/0/0
+70/0/70/8/0/0
 
 Tropius
 25
@@ -6051,7 +6051,7 @@ Dragon Pulse
 Fly
 Roost
 25/25/25/25/25/25
-252/204/0/52/0/0
+74/66/0/12/0/0
 
 Grotle
 25
@@ -6064,7 +6064,7 @@ Earth Power
 Body Slam
 Synthesis
 25/25/25/25/25/25
-252/204/0/0/48/4
+70/62/0/0/12/4
 
 Cherrim
 25
@@ -6077,7 +6077,7 @@ Weather Ball
 Morning Sun
 Sunny Day
 25/25/25/25/25/25
-244/4/0/0/0/252
+70/4/0/0/0/74
 
 Leafeon
 25
@@ -6090,7 +6090,7 @@ Aerial Ace
 Double-Edge
 Quick Attack
 25/25/25/25/25/25
-0/244/0/0/12/252
+0/70/0/0/4/74
 
 Roserade
 26
@@ -6103,7 +6103,7 @@ Weather Ball
 Poison Jab
 Sleep Powder
 25/25/25/25/25/25
-0/4/0/248/4/252
+0/4/0/70/4/70
 
 
 829
@@ -6122,7 +6122,7 @@ Rock Slide
 Recover
 Stealth Rock
 25/25/25/25/25/25
-244/12/0/0/252/0
+70/4/0/0/74/0
 
 Breloom
 25
@@ -6135,7 +6135,7 @@ Mach Punch
 Force Palm
 Stun Spore
 25/25/25/25/25/25
-228/20/0/0/16/244
+66/8/0/0/4/70
 
 Tangela
 25
@@ -6148,7 +6148,7 @@ Knock Off
 Ancient Power
 Leech Seed
 25/25/25/25/25/25
-252/12/244/0/0/0
+74/4/70/0/0/0
 
 Carnivine
 25
@@ -6161,7 +6161,7 @@ Crunch
 Metal Claw
 Sleep Powder
 25/25/25/25/25/25
-244/244/0/0/20/0
+70/70/0/0/8/0
 
 Ludicolo
 25
@@ -6174,7 +6174,7 @@ Fake Out
 Giga Drain
 Water Pulse
 25/25/25/25/25/25
-4/4/0/244/0/244
+4/4/0/70/0/70
 
 Roserade
 26
@@ -6187,7 +6187,7 @@ Weather Ball
 Extrasensory
 Sleep Powder
 25/25/25/25/25/25
-0/0/0/248/0/252
+0/0/0/74/0/74
 
 
 830
@@ -6206,7 +6206,7 @@ Sleep Powder
 Spikes
 Toxic Spikes
 25/25/25/25/25/25
-244/0/12/0/0/252
+70/0/4/0/0/74
 
 Bayleef
 25
@@ -6219,7 +6219,7 @@ Synthesis
 Reflect
 Light Screen
 25/25/25/25/25/25
-228/0/0/28/244/4
+62/0/0/12/70/4
 
 Grovyle
 25
@@ -6232,7 +6232,7 @@ Dragon Breath
 Rock Tomb
 Quick Attack
 25/25/25/25/25/25
-0/252/0/12/0/240
+0/74/0/4/0/70
 
 Wormadam
 25
@@ -6245,7 +6245,7 @@ Hidden Power
 Psybeam
 Quiver Dance
 25/25/24/25/24/24
-4/0/0/252/0/244
+4/0/0/74/0/70
 
 Shiftry
 25
@@ -6258,7 +6258,7 @@ Air Cutter
 Sunny Day
 Synthesis
 25/25/25/25/25/25
-244/244/0/20/0/0
+70/70/0/8/0/0
 
 Alolan Exeggutor
 25
@@ -6271,7 +6271,7 @@ Bulldoze
 Ingrain
 Synthesis
 25/25/25/25/25/25
-252/4/252/0/0/0
+74/4/70/0/0/0
 
 
 268
@@ -6889,7 +6889,7 @@ Leech Life
 Wing Attack
 Poison Fang
 25/25/25/25/25/25
-4/252/0/0/0/252
+4/92/0/0/0/88
 
 Sableye
 26
@@ -6902,7 +6902,7 @@ Fake Out
 Shadow Ball
 Metal Burst
 25/25/25/25/25/25
-248/248/0/4/4/0
+88/88/0/4/4/0
 
 Tangela
 26
@@ -6915,7 +6915,7 @@ Mega Drain
 Sleep Powder
 Growth
 25/25/25/25/25/25
-252/8/0/248/0/0
+88/8/0/88/0/0
 
 Skuntank
 27
@@ -6928,7 +6928,7 @@ Flamethrower
 Poison Jab
 Defog
 25/25/25/25/25/25
-0/244/0/20/0/244
+0/86/0/12/0/86
 
 
 21
@@ -7439,8 +7439,8 @@ Avalanche
 Take Down
 Rock Slide
 Ice Shard
-31/31/31/31/31/31
-252/252/0/0/4/0
+25/25/25/25/25/25
+128/124/4/0/0/0
 
 Clefable
 29
@@ -7452,8 +7452,8 @@ Moonblast
 Moonlight
 Encore
 Thunder Wave
-31/31/31/31/31/31
-252/0/252/0/4/0
+25/0/25/25/25/25
+128/0/124/4/0/0
 
 Lopunny
 29
@@ -7465,8 +7465,8 @@ Drain Punch
 Fake Out
 Jump Kick
 Quick Attack
-31/31/31/31/31/31
-0/252/0/0/4/252
+25/25/25/25/25/25
+4/128/0/0/0/252
 
 Grotle
 30
@@ -7478,8 +7478,8 @@ Seed Bomb
 Body Slam
 Leech Seed
 Bulldoze
-31/31/31/31/31/31
-248/0/252/0/8/0
+25/25/25/25/25/25
+124/0/124/0/8/0
 
 
 740
@@ -7497,8 +7497,8 @@ Avalanche
 Take Down
 Rock Slide
 Ice Shard
-31/31/31/31/31/31
-252/252/0/0/4/0
+25/25/25/25/25/25
+128/124/0/0/4/0
 
 Clefable
 29
@@ -7510,8 +7510,8 @@ Moonblast
 Moonlight
 Encore
 Thunder Wave
-31/31/31/31/31/31
-252/0/252/0/4/0
+25/0/25/25/25/25
+128/0/124/0/4/0
 
 Lopunny
 29
@@ -7523,8 +7523,8 @@ Drain Punch
 Fake Out
 Jump Kick
 Quick Attack
-31/31/31/31/31/31
-0/252/0/0/4/252
+25/25/25/25/25/25
+0/128/0/0/4/124
 
 Monferno
 30
@@ -7536,8 +7536,8 @@ Flamethrower
 Mach Punch
 Fake Out
 Grass Knot
-31/31/31/31/31/31
-0/252/4/0/0/252
+25/25/25/25/25/25
+0/128/4/0/0/124
 
 
 741
@@ -7555,8 +7555,8 @@ Avalanche
 Take Down
 Rock Slide
 Ice Shard
-31/31/31/31/31/31
-252/252/0/0/4/0
+25/25/25/25/25/25
+128/124/0/0/4/0
 
 Clefable
 29
@@ -7568,8 +7568,8 @@ Moonblast
 Moonlight
 Encore
 Thunder Wave
-31/31/31/31/31/31
-252/0/252/0/4/0
+25/0/25/25/25/25
+128/0/124/0/4/0
 
 Lopunny
 29
@@ -7581,8 +7581,8 @@ Drain Punch
 Fake Out
 Jump Kick
 Quick Attack
-31/31/31/31/31/31
-0/252/0/0/4/252
+25/25/25/25/25/25
+4/128/0/0/0/124
 
 Prinplup
 30
@@ -7594,8 +7594,8 @@ Bubble Beam
 Icy Wind
 Shadow Claw
 Brick Break
-31/31/31/31/31/31
-252/0/76/0/180/0
+25/25/25/25/25/25
+124/0/4/0/124/0
 
 
 742
@@ -7613,8 +7613,8 @@ Avalanche
 Take Down
 Rock Slide
 Ice Shard
-31/31/31/31/31/31
-252/252/0/0/4/0
+25/25/25/25/25/25
+128/124/0/0/4/0
 
 Granbull
 29
@@ -7626,8 +7626,8 @@ Play Rough
 Thunder Fang
 Ice Fang
 Fire Fang
-31/31/31/31/31/31
-212/252/0/0/0/44
+25/25/25/25/25/25
+100/128/0/0/0/28
 
 Lickilicky
 29
@@ -7639,8 +7639,8 @@ Slam
 Bulldoze
 Knock Off
 Protect
-31/31/31/31/31/31
-248/0/8/0/252/0
+25/25/25/25/25/25
+124/0/8/0/128/0
 
 Grotle
 30
@@ -7652,8 +7652,8 @@ Seed Bomb
 Body Slam
 Leech Seed
 Bulldoze
-31/31/31/31/31/31
-248/0/252/0/8/0
+25/25/25/25/25/25
+124/0/128/0/4/0
 
 
 743
@@ -7671,8 +7671,8 @@ Avalanche
 Take Down
 Rock Slide
 Ice Shard
-31/31/31/31/31/31
-252/252/0/0/4/0
+25/25/25/25/25/25
+128/124/0/0/4/0
 
 Granbull
 29
@@ -7684,8 +7684,8 @@ Play Rough
 Thunder Fang
 Ice Fang
 Fire Fang
-31/31/31/31/31/31
-212/252/0/0/0/44
+25/25/25/25/25/25
+100/128/0/0/0/28
 
 Lickilicky
 29
@@ -7697,8 +7697,8 @@ Slam
 Bulldoze
 Knock Off
 Protect
-31/31/31/31/31/31
-248/0/8/0/252/0
+25/25/25/25/25/25
+124/0/4/0/128/0
 
 Monferno
 30
@@ -7710,8 +7710,8 @@ Flamethrower
 Mach Punch
 Fake Out
 Grass Knot
-31/31/31/31/31/31
-0/252/4/0/0/252
+25/25/25/25/25/25
+0/128/4/0/0/124
 
 
 744
@@ -7729,8 +7729,8 @@ Avalanche
 Take Down
 Rock Slide
 Ice Shard
-31/31/31/31/31/31
-252/252/0/0/4/0
+25/25/25/25/25/25
+128/124/0/0/4/0
 
 Granbull
 29
@@ -7742,8 +7742,8 @@ Play Rough
 Thunder Fang
 Ice Fang
 Fire Fang
-31/31/31/31/31/31
-212/252/0/0/0/44
+25/25/25/25/25/25
+100/128/0/0/0/28
 
 Lickilicky
 29
@@ -7755,8 +7755,8 @@ Slam
 Bulldoze
 Knock Off
 Protect
-31/31/31/31/31/31
-248/0/8/0/252/0
+25/25/25/25/25/25
+124/0/4/0/128/0
 
 Prinplup
 30
@@ -7768,8 +7768,8 @@ Bubble Beam
 Icy Wind
 Shadow Claw
 Brick Break
-31/31/31/31/31/31
-252/0/76/0/180/0
+25/25/25/25/25/25
+128/0/4/0/124/0
 
 
 293
@@ -8121,7 +8121,7 @@ Air Cutter
 Soft-Boiled
 Sweet Kiss
 31/31/31/31/31/31
-252/0/0/4/0/252
+108/0/0/4/0/108
 
 Haunter
 27
@@ -8134,7 +8134,7 @@ Double Team
 Hypnosis
 Curse
 31/31/31/31/31/31
-0/0/4/252/0/252
+0/0/4/108/0/108
 
 Porygon2
 27
@@ -8147,7 +8147,7 @@ Charge Beam
 Signal Beam
 Recover
 31/31/31/31/31/31
-0/0/4/252/0/252
+0/0/4/108/0/108
 
 Kadabra
 28
@@ -8160,7 +8160,7 @@ Grass Knot
 Dazzling Gleam
 Recover
 31/31/31/31/31/31
-0/0/4/252/0/252
+0/0/4/108/0/108
 
 
 37
@@ -8371,7 +8371,7 @@ Shadow Sneak
 Night Slash
 Leech Life
 25/25/25/25/25/25
-248/252/0/0/8/0
+144/144/0/0/4/0
 
 Pinsir
 31
@@ -8384,7 +8384,7 @@ Brick Break
 Quick Attack
 Knock Off
 25/25/25/25/25/25
-252/252/0/0/4/0
+144/144/0/0/4/0
 
 Mothim
 31
@@ -8397,7 +8397,7 @@ Giga Drain
 Bug Buzz
 Quiver Dance
 25/0/25/25/25/25
-252/0/0/252/0/0
+144/0/0/148/0/0
 
 Dustox
 31
@@ -8410,7 +8410,7 @@ Toxic
 Moonlight
 Protect
 25/0/25/25/25/25
-248/0/0/8/252/0
+128/0/0/8/156/0
 
 Scizor
 31
@@ -8423,7 +8423,7 @@ Bullet Punch
 Aerial Ace
 Defog
 25/25/25/25/25/25
-248/252/0/0/8/0
+144/144/0/0/4/0
 
 Drapion
 32
@@ -8436,7 +8436,7 @@ Night Slash
 X-Scissor
 Knock Off
 25/25/25/25/25/25
-0/252/0/0/4/252
+0/144/0/0/4/144
 
 
 757
@@ -8455,7 +8455,7 @@ Ancient Power
 Aurora Beam
 Stealth Rock
 25/0/25/25/25/25
-252/0/126/4/126/0
+176/0/92/4/92/0
 
 Ambipom
 32
@@ -8468,7 +8468,7 @@ Dual Chop
 Double Hit
 Rock Smash
 25/25/25/25/25/25
-0/126/126/0/4/252
+0/92/92/0/4/176
 
 Croagunk
 32
@@ -8481,7 +8481,7 @@ Poison Jab
 Feint Attack
 Taunt
 25/25/25/25/25/25
-92/252/0/0/56/108
+72/176/0/0/24/92
 
 Magneton
 32
@@ -8494,7 +8494,7 @@ Tri Attack
 Discharge
 Thunder Wave
 25/0/25/25/25/25
-252/0/0/60/80/116
+176/0/0/48/60/80
 
 Victreebel
 32
@@ -8507,7 +8507,7 @@ Leaf Tornado
 Clear Smog
 Sucker Punch
 25/25/25/25/25/25
-0/72/0/252/80/104
+0/48/0/176/60/80
 
 Monferno
 33
@@ -8520,7 +8520,7 @@ Flame Wheel
 Aerial Ace
 Fake Out
 25/25/25/25/25/25
-28/252/52/0/50/126
+8/176/40/0/40/100
 
 
 758
@@ -8539,7 +8539,7 @@ Drill Run
 Stomp
 Stealth Rock
 25/25/25/25/25/25
-124/112/20/0/252/0
+96/80/12/0/176/0
 
 Seviper
 32
@@ -8552,7 +8552,7 @@ Poison Fang
 Night Slash
 Glare
 25/25/25/25/25/25
-126/64/64/0/252/0
+100/44/44/0/176/0
 
 Grovyle
 32
@@ -8565,7 +8565,7 @@ Dragon Breath
 Quick Attack
 Fury Cutter
 25/25/25/25/25/25
-0/252/0/126/0/130
+0/176/0/88/0/100
 
 Ambipom
 32
@@ -8578,7 +8578,7 @@ Dual Chop
 Double Hit
 Rock Smash
 25/25/25/25/25/25
-126/126/0/0/4/252
+92/92/0/0/4/176
 
 Electabuzz
 32
@@ -8591,7 +8591,7 @@ Mach Punch
 Thunder Wave
 Brick Break
 25/25/25/25/25/25
-0/252/8/0/124/124
+0/176/8/0/92/88
 
 Monferno
 33
@@ -8604,7 +8604,7 @@ Flame Wheel
 Aerial Ace
 Fake Out
 25/25/25/25/25/25
-28/252/52/0/50/126
+20/176/40/0/36/92
 
 
 759
@@ -8623,7 +8623,7 @@ Play Rough
 Stomping Tantrum
 Slash
 25/25/25/25/25/25
-72/252/80/0/104/0
+56/176/40/0/92/0
 
 Croconaw
 32
@@ -8636,7 +8636,7 @@ Crunch
 Aqua Jet
 Aqua Tail
 25/25/25/25/25/25
-48/252/72/0/136/0
+40/176/60/0/88/0
 
 Seviper
 32
@@ -8649,7 +8649,7 @@ Poison Fang
 Night Slash
 Glare
 25/25/25/25/25/25
-126/64/64/0/252/0
+100/44/44/0/176/0
 
 Hariyama
 32
@@ -8662,7 +8662,7 @@ Knock Off
 Force Palm
 Arm Thrust
 25/25/25/25/25/25
-252/136/60/0/60/0
+176/100/44/0/44/0
 
 Magneton
 32
@@ -8675,7 +8675,7 @@ Tri Attack
 Discharge
 Thunder Wave
 25/0/25/25/25/25
-252/0/0/60/80/116
+176/0/0/40/52/96
 
 Monferno
 33
@@ -8688,7 +8688,7 @@ Flame Wheel
 Aerial Ace
 Fake Out
 25/25/25/25/25/25
-28/252/52/0/50/126
+20/176/44/0/36/88
 
 
 760
@@ -8707,7 +8707,7 @@ Grass Knot
 Flash Cannon
 Zen Headbutt
 25/25/25/25/25/25
-0/176/4/176/0/152
+0/124/4/124/0/112
 
 Honchkrow
 32
@@ -8720,7 +8720,7 @@ Sucker Punch
 Shadow Ball
 Swagger
 25/25/25/25/25/25
-16/244/0/124/0/124
+4/168/0/96/0/96
 
 Vibrava
 32
@@ -8733,7 +8733,7 @@ Dragon Breath
 Supersonic
 Dragon Tail
 25/25/25/25/25/25
-152/0/0/252/0/104
+100/0/0/176/0/88
 
 Croconaw
 32
@@ -8746,7 +8746,7 @@ Crunch
 Aqua Jet
 Aqua Tail
 25/25/25/25/25/25
-48/252/72/0/136/0
+28/176/60/0/100/0
 
 Marowak
 32
@@ -8759,7 +8759,7 @@ Knock Off
 Retaliate
 Headbutt
 25/25/25/25/25/25
-96/124/0/0/36/252
+68/92/0/0/28/176
 
 Monferno
 33
@@ -8772,7 +8772,7 @@ Flame Wheel
 Aerial Ace
 Fake Out
 25/25/25/25/25/25
-28/252/52/0/50/126
+8/176/44/0/36/100
 
 
 761
@@ -8791,7 +8791,7 @@ X-Scissor
 Stealth Rock
 Aqua Jet
 25/25/25/25/25/25
-4/152/108/0/0/244
+4/100/88/0/0/172
 
 Loudred
 32
@@ -8804,7 +8804,7 @@ Extrasensory
 Stomp
 Bite
 25/25/25/25/25/25
-4/124/0/252/0/130
+4/88/0/176/0/96
 
 Jumpluff
 32
@@ -8817,7 +8817,7 @@ Giga Drain
 Leech Seed
 Sleep Powder
 25/0/25/25/25/25
-128/0/25/25/25/25
+128/0/44/44/44/104
 
 Pupitar
 32
@@ -8830,7 +8830,7 @@ Rock Slide
 Stomping Tantrum
 Crunch
 25/25/25/25/25/25
-0/104/244/0/156/0
+0/88/172/0/104/0
 
 Pidgeotto
 32
@@ -8843,7 +8843,7 @@ Uproar
 Quick Attack
 Aerial Ace
 25/25/25/25/25/25
-104/168/0/136/0/100
+84/104/0/92/0/84
 
 Prinplup
 33
@@ -8856,7 +8856,7 @@ Icy Wind
 Grass Knot
 Rest
 25/0/25/25/25/25
-252/0/0/252/0/4
+180/0/0/180/0/4
 
 
 762
@@ -8875,7 +8875,7 @@ Icy Wind
 Grass Knot
 Rest
 25/0/25/25/25/25
-252/0/0/252/0/4
+180/0/0/180/0/4
 
 Bayleef
 32
@@ -8888,7 +8888,7 @@ Draining Kiss
 Grass Knot
 Nature Power
 25/0/25/25/25/25
-148/0/100/124/100/0
+116/0/72/100/72/0
 
 Armaldo
 32
@@ -8901,7 +8901,7 @@ X-Scissor
 Metal Claw
 Aqua Jet
 25/25/25/25/25/25
-4/152/108/0/0/244
+4/104/84/0/0/172
 
 Lopunny
 32
@@ -8914,7 +8914,7 @@ Jump Kick
 Fake Out
 Frustration
 25/25/25/25/25/25
-44/244/80/0/0/136
+36/172/60/0/0/96
 
 Volbeat
 32
@@ -8927,7 +8927,7 @@ Charge Beam
 Signal Beam
 Encore
 25/0/25/25/25/25
-8/0/0/252/124/124
+8/0/0/176/88/92
 
 Gardevoir
 32
@@ -8940,7 +8940,7 @@ Dazzling Gleam
 Aura Sphere
 Calm Mind
 25/0/25/25/25/25
-0/0/72/128/84/224
+0/0/40/100/56/168
 
 
 763
@@ -8959,7 +8959,7 @@ Spikes
 Rapid Spin
 Bug Bite
 25/25/25/25/25/25
-132/244/132/0/0/0
+96/172/96/0/0/0
 
 Lopunny
 32
@@ -8972,7 +8972,7 @@ Rock Smash
 Fake Out
 Headbutt
 25/25/25/25/25/25
-44/244/80/0/0/136
+40/140/72/0/0/112
 
 Heracross
 32
@@ -8985,7 +8985,7 @@ Rock Blast
 Aerial Ace
 Pin Missile
 25/25/25/25/25/25
-64/252/40/0/80/72
+40/176/24/0/64/60
 
 Swablu
 32
@@ -8998,7 +8998,7 @@ Sing
 Pluck
 Round
 25/25/25/25/25/25
-4/156/0/156/0/192
+4/100/0/100/0/160
 
 Shelgon
 32
@@ -9011,7 +9011,7 @@ Crunch
 Zen Headbutt
 Protect
 25/25/25/25/25/25
-8/244/64/0/192/0
+8/180/52/0/124/0
 
 Prinplup
 33
@@ -9024,7 +9024,7 @@ Icy Wind
 Grass Knot
 Rest
 25/0/25/25/25/25
-252/0/0/252/0/4
+180/0/0/180/0/4
 
 
 764
@@ -9043,7 +9043,7 @@ Seismic Toss
 False Swipe
 U-turn
 25/25/25/25/25/25
-252/0/128/0/128/0
+180/0/92/0/92/0
 
 Combusken
 32
@@ -9056,7 +9056,7 @@ Detect
 Bulk Up
 Sky Uppercut
 25/25/25/25/25/25
-12/248/64/0/96/89
+12/172/60/0/56/68
 
 Shelgon
 32
@@ -9069,7 +9069,7 @@ Crunch
 Zen Headbutt
 Protect
 25/25/25/25/25/25
-248/252/0/0/0/8
+172/184/0/0/0/8
 
 Pidgeotto
 32
@@ -9082,7 +9082,7 @@ Uproar
 Quick Attack
 Aerial Ace
 25/25/25/25/25/25
-104/168/0/136/0/101
+72/108/0/108/0/76
 
 Sandslash
 32
@@ -9095,7 +9095,7 @@ Slash
 Bulldoze
 Sand Tomb
 25/25/25/25/25/25
-52/116/0/4/252/85
+40/96/0/4/164/60
 
 Prinplup
 33
@@ -9108,7 +9108,7 @@ Icy Wind
 Grass Knot
 Rest
 25/0/25/25/25/25
-252/0/0/252/0/4
+180/0/0/180/0/4
 
 
 765
@@ -9127,7 +9127,7 @@ Power Gem
 Stealth Rock
 Shock Wave
 25/0/25/25/25/25
-84/0/84/252/88/0
+60/0/60/180/64/0
 
 Marshtomp
 32
@@ -9140,7 +9140,7 @@ Rock Slide
 Bulldoze
 Rock Smash
 25/25/25/25/25/25
-244/124/0/0/0/140
+172/92/0/0/0/100
 
 Vespiquen
 32
@@ -9153,7 +9153,7 @@ Defend Order
 Heal Order
 Fell Stinger
 25/25/25/25/25/25
-36/236/124/0/112/0
+16/172/92/0/84/0
 
 Machoke
 32
@@ -9166,7 +9166,7 @@ Strength
 Brick Break
 Low Sweep
 25/25/25/25/25/25
-112/252/80/0/60/4
+92/172/60/0/36/4
 
 Arcanine
 32
@@ -9179,7 +9179,7 @@ Extreme Speed
 Crunch
 Thunder Fang
 25/25/25/25/25/25
-244/84/112/0/64/4
+168/68/72/0/52/4
 
 Grotle
 33
@@ -9192,7 +9192,7 @@ Leech Seed
 Crunch
 Bulldoze
 25/25/25/25/25/25
-116/252/52/0/88/0
+92/176/36/0/60/0
 
 
 766
@@ -9211,7 +9211,7 @@ Extreme Speed
 Crunch
 Thunder Fang
 25/25/25/25/25/25
-244/84/112/0/64/4
+176/64/72/0/48/4
 
 Azumarill
 32
@@ -9224,7 +9224,7 @@ Play Rough
 Superpower
 Aqua Jet
 25/25/25/25/25/25
-164/4/88/0/252/0
+124/4/68/0/168/0
 
 Kadabra
 32
@@ -9237,7 +9237,7 @@ Hidden Power
 Reflect
 Shadow Ball
 25/0/24/25/24/25
-20/0/112/248/4/124
+12/0/88/168/4/92
 
 Lucario
 32
@@ -9250,7 +9250,7 @@ Aura Sphere
 Crunch
 Life Dew
 25/25/25/25/25/25
-144/160/0/156/4/44
+100/112/0/124/4/24
 
 Swellow
 32
@@ -9263,7 +9263,7 @@ Aerial Ace
 U-turn
 Reversal
 25/25/25/25/25/25
-4/248/148/0/4/104
+4/172/100/0/4/88
 
 Grotle
 33
@@ -9276,7 +9276,7 @@ Leech Seed
 Crunch
 Bulldoze
 25/25/25/25/25/25
-116/252/52/0/88/0
+92/180/36/0/56/0
 
 
 767
@@ -9295,7 +9295,7 @@ Spikes
 Body Slam
 Drill Run
 25/25/25/25/25/25
-92/0/164/0/252/0
+80/0/100/0/184/0
 
 Lucario
 32
@@ -9308,7 +9308,7 @@ Aura Sphere
 Crunch
 Life Dew
 25/25/25/25/25/25
-144/160/0/156/4/44
+100/116/0/116/4/28
 
 Quilava
 32
@@ -9321,7 +9321,7 @@ Lava Plume
 Quick Attack
 Hidden Power
 25/25/25/25/25/25
-0/0/0/252/132/124
+0/0/0/180/104/80
 
 Zangoose
 32
@@ -9334,7 +9334,7 @@ Night Slash
 Swords Dance
 Knock Off
 25/25/25/25/25/25
-0/144/112/0/0/244
+0/112/80/0/0/172
 
 Floatzel
 32
@@ -9347,7 +9347,7 @@ Aqua Jet
 Bite
 Aqua Tail
 25/25/25/25/25/25
-8/252/136/0/16/96
+8/180/96/0/12/68
 
 Grotle
 33
@@ -9360,7 +9360,7 @@ Leech Seed
 Crunch
 Bulldoze
 25/25/25/25/25/25
-116/252/52/0/88/0
+100/180/48/0/72/0
 
 
 768
@@ -9378,8 +9378,8 @@ Air Slash
 Psychic
 Shadow Ball
 Hidden Power
-25/0/25/24/26/25
-0/0/132/0/132/244
+25/0/25/25/25/25
+0/0/100/0/100/164
 
 Clefable
 32
@@ -9392,7 +9392,7 @@ Teleport
 Disarming Voice
 Meteor Mash
 25/25/25/25/25/25
-244/104/0/80/8/72
+168/76/0/60/8/52
 
 Vespiquen
 32
@@ -9405,7 +9405,7 @@ Defend Order
 Aromatherapy
 Fell Stinger
 25/25/25/25/25/25
-36/236/124/0/112/0
+20/164/96/0/84/0
 
 Zangoose
 32
@@ -9418,7 +9418,7 @@ Night Slash
 Swords Dance
 Knock Off
 25/25/25/25/25/25
-0/144/122/0/0/244
+0/104/88/0/0/172
 
 Masquerain
 32
@@ -9431,7 +9431,7 @@ Air Cutter
 Psybeam
 Aqua Jet
 25/25/25/25/25/25
-104/4/244/0/104/52
+80/4/176/0/80/24
 
 Grotle
 33
@@ -9444,7 +9444,7 @@ Leech Seed
 Crunch
 Bulldoze
 25/25/25/25/25/25
-116/252/52/0/88/0
+88/176/32/0/68/0
 
 
 190
@@ -9784,7 +9784,7 @@ Shadow Claw
 Fake Out
 Shadow Sneak
 25/25/25/25/25/25
-252/0/252/0/4/0
+164/0/160/0/4/0
 
 Gengar
 32
@@ -9797,7 +9797,7 @@ Dazzling Gleam
 Psychic
 Energy Ball
 25/0/25/25/25/25
-0/0/0/252/4/248
+0/0/0/164/4/160
 
 Banette
 32
@@ -9810,7 +9810,7 @@ Shadow Claw
 Thunder Wave
 Shadow Sneak
 25/25/25/25/25/25
-252/244/0/0/12/0
+164/156/0/0/8/0
 
 Rotom
 32
@@ -9823,7 +9823,7 @@ Shadow Ball
 Volt Switch
 Will-O-Wisp
 25/0/25/25/25/25
-4/0/0/244/12/248
+4/0/0/156/8/160
 
 Drifblim
 33
@@ -9836,7 +9836,7 @@ Air Slash
 Stockpile
 Strength Sap
 25/0/25/25/25/25
-12/0/0/248/4/244
+8/0/0/160/4/156
 
 Mismagius
 33
@@ -9849,7 +9849,7 @@ Mystical Fire
 Hyper Beam
 Dazzling Gleam
 25/0/25/25/25/25
-4/0/0/252/0/252
+4/0/0/164/0/160
 
 
 832
@@ -9868,7 +9868,7 @@ Pain Split
 Parting Shot
 Shadow Punch
 25/25/25/25/25/25
-252/4/0/0/252/0
+164/4/0/0/160/0
 
 Sableye
 32
@@ -9881,7 +9881,7 @@ Will-O-Wisp
 Fake Out
 Shadow Sneak
 25/25/25/25/25/25
-252/0/252/0/4/0
+164/0/160/0/4/0
 
 Gengar
 32
@@ -9894,7 +9894,7 @@ Dazzling Gleam
 Psychic
 Energy Ball
 25/0/25/25/25/25
-0/0/0/252/4/248
+0/0/0/164/4/160
 
 Spiritomb
 32
@@ -9907,7 +9907,7 @@ Pain Split
 Protect
 Foul Play
 25/25/25/25/25/25
-248/8/0/0/252/0
+156/8/0/0/164/0
 
 Drifblim
 33
@@ -9920,7 +9920,7 @@ Air Slash
 Stockpile
 Strength Sap
 25/0/25/25/25/25
-12/0/0/248/4/244
+8/0/0/160/4/156
 
 Mismagius
 33
@@ -9933,7 +9933,7 @@ Mystical Fire
 Hyper Beam
 Dazzling Gleam
 25/0/25/25/25/25
-4/0/0/252/0/252
+4/0/0/164/0/160
 
 
 833
@@ -9952,7 +9952,7 @@ Shadow Claw
 Fake Out
 Shadow Sneak
 25/25/25/25/25/25
-252/0/252/0/4/0
+164/0/160/0/4/0
 
 Gengar
 32
@@ -9965,7 +9965,7 @@ Dazzling Gleam
 Psychic
 Energy Ball
 25/0/25/25/25/25
-0/0/0/252/4/248
+0/0/0/164/4/160
 
 Shedinja
 32
@@ -9978,7 +9978,7 @@ Shadow Claw
 X-Scissor
 Shadow Sneak
 25/25/25/25/25/25
-0/252/4/0/0/252
+0/164/4/0/0/160
 
 Dusclops
 32
@@ -9991,7 +9991,7 @@ Pain Split
 Sucker Punch
 Shadow Punch
 25/25/25/25/25/25
-252/4/0/0/252/0
+164/4/0/0/160/0
 
 Drifblim
 33
@@ -10004,7 +10004,7 @@ Air Slash
 Stockpile
 Strength Sap
 25/0/25/25/25/25
-12/0/0/248/4/244
+8/0/0/160/4/156
 
 Mismagius
 33
@@ -10017,7 +10017,7 @@ Mystical Fire
 Hyper Beam
 Dazzling Gleam
 25/0/25/25/25/25
-4/0/0/252/0/252
+4/0/0/164/0/160
 
 
 834
@@ -10036,7 +10036,7 @@ Mean Look
 Destiny Bond
 Dazzling Gleam
 25/0/25/25/25/25
-248/0/0/8/0/252
+160/0/0/4/0/164
 
 Sableye
 32
@@ -10049,7 +10049,7 @@ Will-O-Wisp
 Fake Out
 Shadow Sneak
 25/25/25/25/25/25
-252/0/252/0/4/0
+160/0/164/0/4/0
 
 Gengar
 32
@@ -10062,7 +10062,7 @@ Dazzling Gleam
 Psychic
 Energy Ball
 25/0/25/25/25/25
-0/0/0/252/4/248
+0/0/0/164/4/160
 
 Spiritomb
 32
@@ -10075,7 +10075,7 @@ Pain Split
 Protect
 Foul Play
 25/25/25/25/25/25
-248/8/0/0/252/0
+160/4/0/0/164/0
 
 Banette
 32
@@ -10088,7 +10088,7 @@ Shadow Claw
 Gunk Shot
 Shadow Sneak
 25/25/25/25/25/25
-252/244/0/0/12/0
+164/156/0/0/8/0
 
 Drifblim
 33
@@ -10101,7 +10101,7 @@ Air Slash
 Stockpile
 Strength Sap
 25/0/25/25/25/25
-12/0/0/248/0/248
+8/0/0/160/0/160
 
 
 899
@@ -10991,8 +10991,8 @@ Cross Chop
 Play Rough
 Stomping Tantrum
 Slash
-25/31/25/25/25/25
-72/252/80/0/0/104
+25/25/25/25/25/25
+56/176/40/0/92/0
 
 Croconaw
 32
@@ -11004,8 +11004,8 @@ Ice Fang
 Crunch
 Aqua Jet
 Aqua Tail
-25/31/25/25/25/25
-48/252/72/0/0/136
+25/25/25/25/25/25
+40/176/60/0/88/0
 
 Seviper
 32
@@ -11017,8 +11017,8 @@ Poison Jab
 Poison Fang
 Night Slash
 Glare
-25/31/25/25/25/25
-126/64/64/0/0/252
+25/25/25/25/25/25
+100/44/44/0/176/0
 
 Hariyama
 32
@@ -11030,8 +11030,8 @@ Belly Drum
 Knock Off
 Force Palm
 Arm Thrust
-25/31/25/25/25/25
-252/136/60/0/0/60
+25/25/25/25/25/25
+176/100/44/0/44/0
 
 Magneton
 32
@@ -11044,7 +11044,7 @@ Tri Attack
 Thunderbolt
 Thunder Wave
 25/0/25/25/25/25
-252/0/60/0/80/116
+176/0/40/0/52/96
 
 Monferno
 33
@@ -11056,8 +11056,8 @@ Mach Punch
 Flame Wheel
 Aerial Ace
 Fake Out
-25/31/25/25/25/25
-28/252/52/126/0/50
+25/25/25/25/25/25
+20/176/44/88/0/36
 Paired with Support
 
 770
@@ -11075,8 +11075,8 @@ Stealth Rock
 Seismic Toss
 Spore
 U-turn
-25/31/25/25/25/25
-252/0/128/0/0/128
+25/25/25/25/25/25
+180/0/92/0/92/0
 
 Combusken
 32
@@ -11088,8 +11088,8 @@ Fire Punch
 Detect
 Bulk Up
 Sky Uppercut
-25/31/25/25/25/25
-12/248/64/88/0/96
+25/25/25/25/25/25
+12/172/60/56/0/68
 
 Shelgon
 32
@@ -11101,8 +11101,8 @@ Dragon Claw
 Crunch
 Zen Headbutt
 Protect
-25/31/25/25/25/25
-8/244/64/0/0/192
+25/25/25/25/25/25
+0/184/8/0/0/172
 
 Pidgeotto
 32
@@ -11114,8 +11114,8 @@ Air Slash
 Uproar
 Quick Attack
 Aerial Ace
-25/31/25/25/25/25
-104/168/0/100/136/0
+25/25/25/25/25/25
+72/108/0/76/108/0
 
 Sandslash
 32
@@ -11127,8 +11127,8 @@ Dig
 Slash
 Knock Off
 Sand Tomb
-25/31/25/25/25/25
-52/116/0/84/4/252
+25/25/25/25/25/25
+40/96/0/60/4/164
 
 Prinplup
 33
@@ -11141,7 +11141,7 @@ Icy Wind
 Grass Knot
 Rest
 25/0/25/25/25/25
-0/0/124/252/132/0
+0/0/0/180/180/4
 Paired with Support
 
 771
@@ -11160,7 +11160,7 @@ Power Gem
 Stealth Rock
 Shock Wave
 25/0/25/25/25/25
-84/0/84/252/88/0
+60/0/60/180/64/0
 
 Marshtomp
 32
@@ -11172,8 +11172,8 @@ Aqua Tail
 Rock Slide
 Yawn
 Rock Smash
-25/31/25/25/25/25
-244/124/0/0/0/140
+25/25/25/25/25/25
+172/92/0/0/0/100
 
 Vespiquen
 32
@@ -11185,8 +11185,8 @@ Attack Order
 Defend Order
 Heal Order
 Fell Stinger
-25/31/25/25/25/25
-36/236/124/0/0/112
+25/25/25/25/25/25
+16/172/92/0/0/84
 
 Machoke
 32
@@ -11198,8 +11198,8 @@ Knock Off
 Strength
 Brick Break
 Low Sweep
-25/31/25/25/25/25
-112/252/80/4/0/60
+25/25/25/25/25/25
+92/172/60/4/0/36
 
 Arcanine
 32
@@ -11211,8 +11211,8 @@ Morning Sun
 Extreme Speed
 Crunch
 Thunder Fang
-25/31/25/25/25/25
-244/84/112/4/0/64
+25/25/25/25/25/25
+168/68/72/4/0/52
 
 Grotle
 33
@@ -11224,8 +11224,8 @@ Seed Bomb
 Leech Seed
 Crunch
 Curse
-25/31/25/25/25/25
-116/52/252/0/0/88
+25/25/25/25/25/25
+92/36/176/0/0/60
 Paired with Support
 
 878
@@ -11244,7 +11244,7 @@ Hyper Voice
 Sing
 Thunderbolt
 25/0/25/25/25/25
-0/0/252/0/252/4
+0/0/200/0/196/4
 
 Raichu
 33
@@ -11257,7 +11257,7 @@ Thunderbolt
 Grass Knot
 Teeter Dance
 25/0/25/25/25/25
-4/0/0/252/0/252
+4/0/0/200/0/196
 
 Espeon
 33
@@ -11270,7 +11270,7 @@ Power Gem
 Dazzling Gleam
 Protect
 25/0/25/25/25/25
-0/0/0/252/4/252
+0/0/0/200/4/196
 Paired with 877
 
 877
@@ -11289,7 +11289,7 @@ Light Screen
 Gyro Ball
 Zen Headbutt
 25/25/25/25/25/0
-252/252/0/0/4/0
+196/200/0/0/4/0
 
 Octillery
 33
@@ -11302,7 +11302,7 @@ Signal Beam
 Ice Beam
 Flamethrower
 25/0/25/25/25/25
-0/0/0/252/4/252
+0/0/0/200/4/196
 
 Toxicroak
 34
@@ -11315,7 +11315,7 @@ Poison Jab
 Fake Out
 Vacuum Wave
 25/25/25/25/25/25
-0/252/0/4/0/252
+0/200/0/4/0/196
 Paired with 878
 
 42
@@ -16977,7 +16977,7 @@ None
 Wing Attack
 Quick Attack
 Growl
-(No Move)
+———
 25/25/25/25/25/25
 36/236/0/36/0/0
 
@@ -17003,7 +17003,7 @@ Oran Berry
 Razor Leaf
 Curse
 Tackle
-(No Move)
+———
 25/25/25/25/25/25
 76/52/244/0/0/0
 
@@ -20248,7 +20248,7 @@ Earthquake
 Iron Head
 Rock Slide
 31/31/31/31/31/31
-247/0/252/0/0/8
+248/0/252/0/0/8
 Paired with Support
 
 955
@@ -20416,7 +20416,7 @@ Flash Cannon
 Grass Knot
 Feather Dance
 31/31/31/31/31/31
-251/0/76/0/180/0
+252/0/76/0/180/0
 Paired with Support
 
 221
@@ -24982,7 +24982,7 @@ Assurance
 Hypnosis
 25/25/25/25/25/25
 0/0/0/0/0/0
-Paired with 41
+Paired with 96
 
 268
 Beauty Cyndy
@@ -25014,7 +25014,7 @@ Assurance
 Hypnosis
 25/25/25/25/25/25
 0/0/0/0/0/0
-Paired with 96
+Paired with 41
 
 410
 Aroma Lady Alison
