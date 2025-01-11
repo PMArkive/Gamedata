@@ -1010,7 +1010,7 @@ Payback
 Shuppet
 26
 Bashful
-Insomnia
+Cursed Body
 
 None
 Pain Split
@@ -1042,7 +1042,7 @@ Format: Single Battle
 Shuppet
 26
 Docile
-Insomnia
+Cursed Body
 
 None
 Pain Split
@@ -1068,7 +1068,7 @@ Payback
 Shuppet
 26
 Serious
-Insomnia
+Cursed Body
 
 None
 Pain Split
@@ -3262,7 +3262,7 @@ Confuse Ray
 Spinarak
 15
 Bashful
-Swarm
+Merciless
 
 None
 Bug Bite
@@ -3294,7 +3294,7 @@ Confuse Ray
 Spinarak
 15
 Bashful
-Swarm
+Merciless
 
 None
 Bug Bite
@@ -3519,7 +3519,7 @@ Iron Defense
 Numel
 15
 Serious
-Oblivious
+Simple
 
 None
 Ember
@@ -4191,7 +4191,7 @@ Format: Single Battle
 Steelix
 45
 Naive
-Rock Head
+Sturdy
 
 None
 Iron Tail
@@ -4752,7 +4752,7 @@ Format: Single Battle
 Magcargo
 95
 Modest
-Magma Armor
+Flame Body
 
 White Herb
 Power Gem
@@ -5959,7 +5959,7 @@ Reflect
 Parasect
 25
 Careful
-Oblivious
+Effect Spore
 
 Coba Berry
 Spore
@@ -6006,7 +6006,7 @@ Hidden Power
 Toxic
 Sunny Day
 25/24/25/24/24/25
-70/0/0/70/0/8
+8/0/0/70/0/70
 
 Roserade
 26
@@ -6077,7 +6077,7 @@ Weather Ball
 Morning Sun
 Sunny Day
 25/25/25/25/25/25
-70/4/0/0/0/74
+4/0/0/70/0/74
 
 Leafeon
 25
@@ -6258,7 +6258,7 @@ Air Cutter
 Sunny Day
 Synthesis
 25/25/25/25/25/25
-70/70/0/8/0/0
+0/70/0/8/0/70
 
 Alolan Exeggutor
 25
@@ -6437,7 +6437,7 @@ Knock Off
 Parasect
 100
 Adamant
-Oblivious
+Effect Spore
 
 Leftovers
 Spore
@@ -7431,7 +7431,7 @@ Format: Single Battle
 
 Piloswine
 29
-Naive
+Adamant
 Thick Fat
 
 Focus Sash
@@ -7444,7 +7444,7 @@ Ice Shard
 
 Clefable
 29
-Timid
+Bold
 Cute Charm
 
 Leftovers
@@ -7453,11 +7453,11 @@ Moonlight
 Encore
 Thunder Wave
 25/0/25/25/25/25
-128/0/124/4/0/0
+128/0/124/0/4/0
 
 Lopunny
 29
-Modest
+Jolly
 Scrappy
 
 Muscle Band
@@ -7466,7 +7466,7 @@ Fake Out
 Jump Kick
 Quick Attack
 25/25/25/25/25/25
-4/128/0/0/0/252
+0/128/0/0/0/128
 
 Grotle
 30
@@ -7489,7 +7489,7 @@ Format: Single Battle
 
 Piloswine
 29
-Naive
+Adamant
 Thick Fat
 
 Focus Sash
@@ -7502,7 +7502,7 @@ Ice Shard
 
 Clefable
 29
-Timid
+Bold
 Cute Charm
 
 Leftovers
@@ -7515,7 +7515,7 @@ Thunder Wave
 
 Lopunny
 29
-Modest
+Jolly
 Scrappy
 
 Muscle Band
@@ -7524,7 +7524,7 @@ Fake Out
 Jump Kick
 Quick Attack
 25/25/25/25/25/25
-0/128/0/0/4/124
+0/128/0/0/0/128
 
 Monferno
 30
@@ -7547,7 +7547,7 @@ Format: Single Battle
 
 Piloswine
 29
-Naive
+Adamant
 Thick Fat
 
 Focus Sash
@@ -7560,7 +7560,7 @@ Ice Shard
 
 Clefable
 29
-Timid
+Bold
 Cute Charm
 
 Leftovers
@@ -7573,7 +7573,7 @@ Thunder Wave
 
 Lopunny
 29
-Modest
+Jolly
 Scrappy
 
 Muscle Band
@@ -7582,7 +7582,7 @@ Fake Out
 Jump Kick
 Quick Attack
 25/25/25/25/25/25
-4/128/0/0/0/124
+0/128/0/0/0/128
 
 Prinplup
 30
@@ -7605,7 +7605,7 @@ Format: Single Battle
 
 Piloswine
 29
-Naive
+Adamant
 Thick Fat
 
 Focus Sash
@@ -7618,7 +7618,7 @@ Ice Shard
 
 Granbull
 29
-Timid
+Jolly
 Intimidate
 
 Muscle Band
@@ -7631,7 +7631,7 @@ Fire Fang
 
 Lickilicky
 29
-Modest
+Adamant
 Oblivious
 
 Leftovers
@@ -7640,7 +7640,7 @@ Bulldoze
 Knock Off
 Protect
 25/25/25/25/25/25
-124/0/8/0/128/0
+124/0/4/0/128/0
 
 Grotle
 30
@@ -7663,7 +7663,7 @@ Format: Single Battle
 
 Piloswine
 29
-Naive
+Adamant
 Thick Fat
 
 Focus Sash
@@ -7676,7 +7676,7 @@ Ice Shard
 
 Granbull
 29
-Timid
+Jolly
 Intimidate
 
 Muscle Band
@@ -7689,7 +7689,7 @@ Fire Fang
 
 Lickilicky
 29
-Modest
+Adamant
 Oblivious
 
 Leftovers
@@ -7721,7 +7721,7 @@ Format: Single Battle
 
 Piloswine
 29
-Naive
+Adamant
 Thick Fat
 
 Focus Sash
@@ -7734,7 +7734,7 @@ Ice Shard
 
 Granbull
 29
-Timid
+Jolly
 Intimidate
 
 Muscle Band
@@ -7747,7 +7747,7 @@ Fire Fang
 
 Lickilicky
 29
-Modest
+Adamant
 Oblivious
 
 Leftovers
@@ -7902,7 +7902,7 @@ Format: Single Battle
 Volbeat
 25
 Serious
-Illuminate
+Swarm
 
 None
 Struggle Bug
@@ -8075,7 +8075,7 @@ Extrasensory
 Raticate
 25
 Quirky
-Run Away
+Hustle
 
 None
 Take Down
@@ -8151,7 +8151,7 @@ Recover
 
 Kadabra
 28
-Serious
+Timid
 Magic Guard
 
 Life Orb
@@ -8628,7 +8628,7 @@ Slash
 Croconaw
 32
 Hasty
-Torrent
+Strong Jaw
 
 Mystic Water
 Ice Fang
@@ -8738,7 +8738,7 @@ Dragon Tail
 Croconaw
 32
 Hasty
-Torrent
+Strong Jaw
 
 Mystic Water
 Ice Fang
@@ -9170,7 +9170,7 @@ Low Sweep
 
 Arcanine
 32
-Quiet
+Adamant
 Intimidate
 
 Sitrus Berry
@@ -9202,7 +9202,7 @@ Format: Single Battle
 
 Arcanine
 32
-Quiet
+Adamant
 Intimidate
 
 Sitrus Berry
@@ -9609,7 +9609,7 @@ Payback
 Shuppet
 26
 Bashful
-Insomnia
+Cursed Body
 
 None
 Pain Split
@@ -9641,7 +9641,7 @@ Format: Single Battle
 Shuppet
 26
 Docile
-Insomnia
+Cursed Body
 
 None
 Pain Split
@@ -9667,7 +9667,7 @@ Payback
 Shuppet
 26
 Serious
-Insomnia
+Cursed Body
 
 None
 Pain Split
@@ -9712,7 +9712,7 @@ Confuse Ray
 Sableye
 29
 Docile
-Magic Guard
+Magic Bounce
 
 None
 Shadow Claw
@@ -9788,7 +9788,7 @@ Shadow Sneak
 
 Gengar
 32
-Hasty
+Timid
 Levitate
 
 Adrenaline Orb
@@ -9885,7 +9885,7 @@ Shadow Sneak
 
 Gengar
 32
-Hasty
+Timid
 Levitate
 
 Wise Glasses
@@ -9956,7 +9956,7 @@ Shadow Sneak
 
 Gengar
 32
-Hasty
+Timid
 Levitate
 
 Wise Glasses
@@ -10053,7 +10053,7 @@ Shadow Sneak
 
 Gengar
 32
-Hasty
+Timid
 Levitate
 
 Wise Glasses
@@ -10506,7 +10506,7 @@ Sludge Bomb
 Dustox
 28
 Modest
-Levitate
+Shield Dust
 
 None
 Venoshock
@@ -10997,7 +10997,7 @@ Slash
 Croconaw
 32
 Hasty
-Torrent
+Strong Jaw
 
 Mystic Water
 Ice Fang
@@ -11203,7 +11203,7 @@ Low Sweep
 
 Arcanine
 32
-Quiet
+Adamant
 Intimidate
 
 Sitrus Berry
@@ -11236,7 +11236,7 @@ Format: Multi Battle Enemy
 Wigglytuff
 33
 Naughty
-Cute Charm
+Magic Guard
 
 Zoom Lens
 Moonblast
@@ -11248,7 +11248,7 @@ Thunderbolt
 
 Raichu
 33
-Calm
+Timid
 Static
 
 Wise Glasses
@@ -11261,7 +11261,7 @@ Teeter Dance
 
 Espeon
 33
-Gentle
+Timid
 Synchronize
 
 Sitrus Berry
@@ -11711,7 +11711,7 @@ Format: Single Battle
 Volbeat
 31
 Hardy
-Illuminate
+Swarm
 
 None
 Encore
@@ -11871,7 +11871,7 @@ Moonblast
 Wailmer
 30
 Hardy
-Water Veil
+Oblivious
 
 Sitrus Berry
 Mist
@@ -14828,7 +14828,7 @@ Format: Single Battle
 Lickitung
 35
 Docile
-Own Tempo
+Oblivious
 
 None
 Body Slam
@@ -15809,7 +15809,7 @@ Air Slash
 Venomoth
 35
 Docile
-Shield Dust
+Wonder Skin
 
 None
 Signal Beam
@@ -16580,7 +16580,7 @@ Confuse Ray
 Spinarak
 15
 Bashful
-Swarm
+Merciless
 
 None
 Bug Bite
@@ -16612,7 +16612,7 @@ Poison Fang
 Remoraid
 36
 Docile
-Hustle
+Sniper
 
 None
 Ice Beam
@@ -16759,7 +16759,7 @@ Format: Single Battle
 Golduck
 43
 Serious
-Damp
+Hydration
 
 None
 Power Gem
@@ -16939,7 +16939,7 @@ Dazzling Gleam
 Starmie
 88
 Hardy
-Illuminate
+Natural Cure
 
 Life Orb
 Surf
@@ -18268,7 +18268,7 @@ Laser Focus
 Golduck
 38
 Serious
-Damp
+Hydration
 
 None
 Aqua Tail
@@ -18499,7 +18499,7 @@ Aqua Ring
 Tentacruel
 39
 Docile
-Clear Body
+Liquid Ooze
 
 None
 Acid Armor
@@ -18544,7 +18544,7 @@ Tailwind
 Croconaw
 39
 Serious
-Intimidate
+Strong Jaw
 
 None
 Slash
@@ -18557,7 +18557,7 @@ Screech
 Golduck
 39
 Quirky
-Damp
+Hydration
 
 None
 Aqua Tail
@@ -18950,7 +18950,7 @@ Sucker Punch
 Gastrodon
 43
 Modest
-Swift Swim
+Storm Drain
 
 Leftovers
 Earth Power
@@ -19531,7 +19531,7 @@ Psychic
 Pinsir
 41
 Docile
-Hyper Cutter
+Guts
 
 None
 Megahorn
@@ -19666,7 +19666,7 @@ U-turn
 Starmie
 42
 Quirky
-Illuminate
+Natural Cure
 
 None
 Scald
@@ -19756,7 +19756,7 @@ Swords Dance
 Pidgeot
 42
 Bashful
-Keen Eye
+No Guard
 
 None
 Razor Wind
@@ -19904,7 +19904,7 @@ Bounce
 Feraligatr
 43
 Quirky
-Intimidate
+Strong Jaw
 
 None
 Agility
@@ -20440,7 +20440,7 @@ Confuse Ray
 Spinarak
 15
 Bashful
-Swarm
+Merciless
 
 None
 Bug Bite
@@ -20620,7 +20620,7 @@ Format: Single Battle
 Octillery
 43
 Bashful
-Suction Cups
+Sniper
 
 None
 Ice Beam
@@ -20633,7 +20633,7 @@ Flamethrower
 Tentacruel
 43
 Docile
-Clear Body
+Liquid Ooze
 
 None
 Sludge Bomb
@@ -20819,7 +20819,7 @@ Format: Single Battle
 Starmie
 44
 Hardy
-Illuminate
+Natural Cure
 
 None
 Psybeam
@@ -20851,7 +20851,7 @@ Format: Single Battle
 Wailord
 45
 Hardy
-Water Veil
+Oblivious
 
 None
 Water Spout
@@ -20954,7 +20954,7 @@ Stun Spore
 Absol
 45
 Hardy
-Pressure
+Magic Bounce
 
 None
 Sucker Punch
@@ -21836,7 +21836,7 @@ Lock-On
 Steelix
 45
 Serious
-Rock Head
+Sturdy
 
 None
 Crunch
@@ -22094,7 +22094,7 @@ Roost
 Seviper
 48
 Adamant
-Merciless
+Infiltrator
 
 Leftovers
 Swords Dance
@@ -23095,7 +23095,7 @@ Confuse Ray
 Spinarak
 15
 Bashful
-Swarm
+Merciless
 
 None
 Bug Bite
@@ -23140,7 +23140,7 @@ Head Smash
 Steelix
 46
 Bashful
-Rock Head
+Sturdy
 
 None
 Crunch
@@ -23454,7 +23454,7 @@ Format: Single Battle
 Camerupt
 48
 Serious
-Magma Armor
+Solid Rock
 
 None
 Flamethrower
@@ -23730,7 +23730,7 @@ Format: Single Battle
 Steelix
 51
 Quirky
-Rock Head
+Sturdy
 
 None
 Iron Tail
@@ -24040,7 +24040,7 @@ Rock Polish
 Magnezone
 52
 Hardy
-Sturdy
+Levitate
 
 Choice Specs
 Thunderbolt
@@ -24704,7 +24704,7 @@ Payback
 Shuppet
 26
 Bashful
-Insomnia
+Cursed Body
 
 None
 Pain Split
@@ -24813,7 +24813,7 @@ Moonblast
 Wailmer
 30
 Hardy
-Water Veil
+Oblivious
 
 Sitrus Berry
 Mist
@@ -24982,7 +24982,7 @@ Assurance
 Hypnosis
 25/25/25/25/25/25
 0/0/0/0/0/0
-Paired with 96
+Paired with 41
 
 268
 Beauty Cyndy
@@ -25014,7 +25014,7 @@ Assurance
 Hypnosis
 25/25/25/25/25/25
 0/0/0/0/0/0
-Paired with 41
+Paired with 96
 
 410
 Aroma Lady Alison
@@ -25328,7 +25328,7 @@ Format: Single Battle
 Golduck
 37
 Hardy
-Damp
+Hydration
 
 None
 Soak
@@ -25424,7 +25424,7 @@ Bounce
 Feraligatr
 43
 Quirky
-Intimidate
+Strong Jaw
 
 None
 Agility
@@ -26085,7 +26085,7 @@ Focus Blast
 Venusaur
 52
 Bashful
-Overgrow
+Chlorophyll
 
 None
 Petal Dance
@@ -26220,7 +26220,7 @@ Dazzling Gleam
 Meganium
 54
 Calm
-Leaf Guard
+Serene Grace
 
 None
 Petal Dance
@@ -27284,7 +27284,7 @@ Brave Bird
 Venomoth
 53
 Hardy
-Shield Dust
+Wonder Skin
 
 None
 Baton Pass
@@ -27342,7 +27342,7 @@ Sucker Punch
 Ariados
 53
 Hardy
-Swarm
+Merciless
 
 None
 Pin Missile
@@ -27444,7 +27444,7 @@ Format: Single Battle
 Pinsir
 54
 Docile
-Hyper Cutter
+Guts
 
 None
 Megahorn
@@ -27965,7 +27965,7 @@ Format: Single Battle
 Ariados
 55
 Bashful
-Swarm
+Merciless
 
 None
 Cross Poison
@@ -28094,7 +28094,7 @@ Gunk Shot
 Pinsir
 55
 Docile
-Hyper Cutter
+Guts
 
 None
 Megahorn
@@ -28126,7 +28126,7 @@ Gunk Shot
 Venomoth
 56
 Docile
-Shield Dust
+Wonder Skin
 
 None
 Baton Pass
@@ -28861,7 +28861,7 @@ Format: Single Battle
 Remoraid
 57
 Docile
-Hustle
+Sniper
 
 None
 Soak
@@ -28874,7 +28874,7 @@ Water Spout
 Remoraid
 57
 Docile
-Hustle
+Sniper
 
 None
 Soak
@@ -28938,7 +28938,7 @@ Format: Single Battle
 Octillery
 58
 Bashful
-Suction Cups
+Sniper
 
 None
 Gunk Shot
@@ -30407,7 +30407,7 @@ Hurricane
 Octillery
 59
 Docile
-Suction Cups
+Sniper
 
 None
 Gunk Shot
@@ -30420,7 +30420,7 @@ Water Spout
 Feraligatr
 59
 Serious
-Intimidate
+Strong Jaw
 
 None
 Thrash
@@ -30529,7 +30529,7 @@ Format: Single Battle
 Wailord
 59
 Quirky
-Water Veil
+Oblivious
 
 None
 Bounce
@@ -30574,7 +30574,7 @@ Format: Single Battle
 Golduck
 59
 Bashful
-Damp
+Hydration
 
 None
 Wonder Room
@@ -30600,7 +30600,7 @@ Sheer Cold
 Starmie
 59
 Hardy
-Illuminate
+Natural Cure
 
 None
 Brine
@@ -30683,7 +30683,7 @@ Format: Single Battle
 Tentacruel
 61
 Serious
-Clear Body
+Liquid Ooze
 
 None
 Giga Drain
@@ -30850,7 +30850,7 @@ Leaf Blade
 Pidgeot
 63
 Bashful
-Keen Eye
+No Guard
 
 None
 Hyper Beam
@@ -31211,7 +31211,7 @@ Iron Head
 Starmie
 63
 Bashful
-Illuminate
+Natural Cure
 
 None
 Hydro Pump
@@ -31256,7 +31256,7 @@ Format: Single Battle
 Lickilicky
 64
 Hardy
-Own Tempo
+Oblivious
 
 None
 Body Slam
@@ -31295,7 +31295,7 @@ U-turn
 Pinsir
 64
 Docile
-Hyper Cutter
+Guts
 
 None
 Megahorn
@@ -31340,7 +31340,7 @@ Fissure
 Venusaur
 64
 Quirky
-Overgrow
+Chlorophyll
 
 None
 Double-Edge
@@ -31488,7 +31488,7 @@ Payback
 Absol
 63
 Quirky
-Pressure
+Magic Bounce
 
 None
 Sucker Punch
@@ -31777,7 +31777,7 @@ Format: Single Battle
 Banette
 64
 Hardy
-Insomnia
+Cursed Body
 
 None
 Shadow Claw
@@ -31835,7 +31835,7 @@ Destiny Bond
 Sableye
 64
 Bashful
-Magic Guard
+Magic Bounce
 
 None
 Mean Look
@@ -33487,7 +33487,7 @@ Thunder Punch
 Beedrill
 71
 Jolly
-Merciless
+Adaptability
 
 Focus Sash
 Drill Run
@@ -34314,7 +34314,7 @@ Moonblast
 Flareon
 73
 Adamant
-Quick Draw
+Quick Feet
 
 Toxic Orb
 Flare Blitz
@@ -34973,7 +34973,7 @@ Hex
 Milotic
 77
 Bold
-Cute Charm
+Wonder Skin
 
 Leftovers
 Moonblast
@@ -35212,7 +35212,7 @@ Format: Single Battle
 Ariados
 100
 Jolly
-Swarm
+Merciless
 
 Focus Sash
 Sticky Web
@@ -35296,7 +35296,7 @@ Format: Single Battle
 Parasect
 100
 Adamant
-Oblivious
+Effect Spore
 
 Focus Sash
 Spore
@@ -36776,7 +36776,7 @@ Protect
 Lickilicky
 100
 Adamant
-Own Tempo
+Oblivious
 
 Leftovers
 Thrash
@@ -37717,7 +37717,7 @@ Sucker Punch
 Lickilicky
 68
 Serious
-Own Tempo
+Oblivious
 
 None
 Hammer Arm
@@ -38279,7 +38279,7 @@ Hurricane
 Pidgeot
 73
 Hardy
-Keen Eye
+No Guard
 
 None
 Tailwind
@@ -38298,7 +38298,7 @@ Format: Single Battle
 Starmie
 73
 Bashful
-Illuminate
+Natural Cure
 
 None
 Hydro Pump
@@ -38356,7 +38356,7 @@ Format: Single Battle
 Pinsir
 73
 Quirky
-Hyper Cutter
+Guts
 
 None
 Megahorn
@@ -38485,7 +38485,7 @@ Body Press
 Golduck
 73
 Quirky
-Damp
+Hydration
 
 None
 Wonder Room
@@ -38639,7 +38639,7 @@ Sheer Cold
 Wailord
 73
 Serious
-Water Veil
+Oblivious
 
 None
 Bounce
@@ -38883,7 +38883,7 @@ Fake Out
 Absol
 76
 Quirky
-Pressure
+Magic Bounce
 
 None
 Night Slash
@@ -39660,7 +39660,7 @@ Format: Single Battle
 Octillery
 73
 Serious
-Suction Cups
+Sniper
 
 None
 Gunk Shot
@@ -40091,7 +40091,7 @@ Close Combat
 Banette
 78
 Hardy
-Insomnia
+Cursed Body
 
 None
 Double-Edge
@@ -40271,7 +40271,7 @@ Hurricane
 Steelix
 78
 Quirky
-Rock Head
+Sturdy
 
 None
 Stone Edge
@@ -40348,7 +40348,7 @@ Format: Single Battle
 Wigglytuff
 78
 Bashful
-Cute Charm
+Magic Guard
 
 None
 Play Rough
@@ -40618,7 +40618,7 @@ Format: Single Battle
 Raticate
 78
 Hardy
-Run Away
+Hustle
 
 None
 Endeavor
