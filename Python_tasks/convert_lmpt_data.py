@@ -614,6 +614,57 @@ def get_trophy_garden_encounter_rates(trophy_garden_encounters, rates_list, mons
             elif method != "Incense" or method != "Surfing Incense":
                 print("Something missing here?", monsNo, encounter_list_order)
 
+def get_great_marsh_encounter_rates(safari_encounters, rates_list, mons_no_or_zoneId = "mons_no"):
+    '''
+    Adds Great Marsh random daily encounters (chosen at random for each of the 6 areas, one mon per area)
+    Each chosen Pokémon replaces two slots (6 and 7, each 5%, total of 10%)
+    '''
+    method = constants.GREAT_MARSH
+    rate = constants.GREAT_MARSH_RATE
+    minlevel = constants.GREAT_MARSH_LEVEL
+    maxlevel = constants.GREAT_MARSH_LEVEL
+    marsh_zones = constants.GREAT_MARSH_ZONES_IDs # one entry pear area, 219-224
+
+    for mon in safari_encounters:
+        monsNo = mon['MonsNo']
+        monsName = get_pokemon_name(monsNo)
+
+        for zoneId in marsh_zones:
+            zoneName = get_zone_name(zoneId)
+
+            base_encounter = {
+                "routeName": zoneName,
+                "pokemonName": monsName,
+                "encounterType": method,
+                "encounterRate": rate,
+                "minLevel": minlevel,
+                "maxLevel": maxlevel,
+                "zoneId": zoneId,
+            }
+
+            encounter_1 = base_encounter.copy()
+            encounter_1["encounterTypeIndex"] = constants.GREAT_MARSH_INDEX_1
+
+            encounter_2 = base_encounter.copy()
+            encounter_2["encounterTypeIndex"] = constants.GREAT_MARSH_INDEX_2
+
+            if mons_no_or_zoneId == "mons_no":
+                if monsNo not in rates_list:
+                    rates_list[monsNo] = [encounter_1, encounter_2]
+                else:
+                    if encounter_1 not in rates_list[monsNo]:
+                        rates_list[monsNo].append(encounter_1)
+                    if encounter_2 not in rates_list[monsNo]:
+                        rates_list[monsNo].append(encounter_2)
+            elif mons_no_or_zoneId == "zoneId":
+                if str(zoneId) not in rates_list:
+                    rates_list[str(zoneId)] = [encounter_1, encounter_2]
+                else:
+                    if encounter_1 not in rates_list[str(zoneId)]:
+                        rates_list[str(zoneId)].append(encounter_1)
+                    if encounter_2 not in rates_list[str(zoneId)]:
+                        rates_list[str(zoneId)].append(encounter_2)
+
 def getEncounterData(mons_no_or_zoneId = "mons_no"):
     '''
     This is the main function to get all encounter data
@@ -649,6 +700,7 @@ def getEncounterData(mons_no_or_zoneId = "mons_no"):
         get_trophy_garden_encounter_rates(encounter_data[constants.TROPHY_GARDEN_NAME], rates_list, mons_no_or_zoneId)
 
         ## Add Marsh Random Encounters percent chance is 10%
+        get_great_marsh_encounter_rates(encounter_data[constants.GREAT_MARSH_NAME], rates_list, mons_no_or_zoneId)
 
         ##This is for adding all of the Honey Tree encounters to the list
         get_honey_tree_mons(encounter_list)
