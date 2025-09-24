@@ -177,6 +177,19 @@ jobs:
         user_name: 'github-actions-bot'
         commit_message: 'Updating 3.0 gamedata files'
 
+    - name: Update 3.0 TM Learnset files
+      uses: TeamLumi/Gamedata@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.DENMARK_LUMIBOT_TOKEN }}
+      with:
+        source_file: 'TMLearnset/.'
+        destination_branch: 'main'
+        destination_repo: 'TeamLumi/luminescent-team'
+        destination_folder: './__gamedata/gamedata3.0/TMLearnset'
+        user_email: '<support+actions@github.com>'
+        user_name: 'github-actions-bot'
+        commit_message: 'Updating 3.0 TM Learnset files'
+
   update-dev-website:
     runs-on: ubuntu-latest
     steps:
@@ -287,3 +300,16 @@ jobs:
         user_email: '<support+actions@github.com>'
         user_name: 'github-actions-bot'
         commit_message: 'Updating 3.0 Trainer files'
+
+    - name: Update 3.0 TM Learnset files
+      uses: TeamLumi/Gamedata@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.DENMARK_LUMIBOT_TOKEN }}
+      with:
+        source_file: 'TMLearnset/.'
+        destination_branch: 'main'
+        destination_repo: 'TeamLumi/luminescent-team'
+        destination_folder: './__gamedata/gamedata3.0/TMLearnset'
+        user_email: '<support+actions@github.com>'
+        user_name: 'github-actions-bot'
+        commit_message: 'Updating 3.0 TM Learnset files'
