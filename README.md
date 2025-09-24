@@ -37,7 +37,7 @@ python3 Python_tasks/trainerDocsUtils.py 3.0
 
 1. Run the pokedex_generator script with 3.0
 ```python
-python3 Python_tasks/pokedex_generator.py
+python3 Python_tasks/pokedex_generator.py 3.0
 ```
 2. File > Import the pokedex.csv in Python_tasks/3.0Debug
     - Make sure to do "Insert new Sheet"

@@ -22,15 +22,15 @@
   ],
   "Charizard1": [
     1029,
-    "Mega Charizard X",
-    "mega-charizard-x",
+    "Mega X Charizard",
+    "mega-x-charizard",
     "6",
     1
   ],
   "Charizard2": [
     1030,
-    "Mega Charizard Y",
-    "mega-charizard-y",
+    "Mega Y Charizard",
+    "mega-y-charizard",
     "6",
     2
   ],
@@ -104,3445 +104,2794 @@
     "20",
     1
   ],
-  "Raticate2": [
-    1041,
-    "Totem Alolan Raticate",
-    "totem-alolan-raticate",
-    "20",
-    2
-  ],
   "Pikachu1": [
-    1042,
+    1041,
     "Cosplay Pikachu",
     "cosplay-pikachu",
     "25",
     1
   ],
   "Pikachu2": [
-    1043,
+    1042,
     "Cosplay Rock Star Pikachu",
     "cosplay-rock-star-pikachu",
     "25",
     2
   ],
   "Pikachu3": [
-    1044,
+    1043,
     "Cosplay Belle Pikachu",
     "cosplay-belle-pikachu",
     "25",
     3
   ],
   "Pikachu4": [
-    1045,
+    1044,
     "Cosplay Pop Star Pikachu",
     "cosplay-pop-star-pikachu",
     "25",
     4
   ],
   "Pikachu5": [
-    1046,
+    1045,
     "Cosplay Ph.D Pikachu",
     "cosplay-phd-pikachu",
     "25",
     5
   ],
   "Pikachu6": [
-    1047,
+    1046,
     "Cosplay Libre Pikachu",
     "cosplay-libre-pikachu",
     "25",
     6
   ],
   "Pikachu7": [
-    1048,
-    "Original Cap Pikachu",
-    "original-cap-pikachu",
+    1047,
+    "Ash Pikachu",
+    "ash-pikachu",
     "25",
     7
   ],
   "Pikachu8": [
-    1049,
-    "Hoenn Cap Pikachu",
-    "hoenn-cap-pikachu",
+    1048,
+    "Partner Pikachu",
+    "partner-pikachu",
     "25",
     8
   ],
   "Pikachu9": [
-    1050,
-    "Sinnoh Cap Pikachu",
-    "sinnoh-cap-pikachu",
+    1049,
+    "Gigantamax Pikachu",
+    "gigantamax-pikachu",
     "25",
     9
   ],
   "Pikachu10": [
-    1051,
-    "Unova Cap Pikachu",
-    "unova-cap-pikachu",
-    "25",
-    10
-  ],
-  "Pikachu11": [
-    1052,
-    "Kalos Cap Pikachu",
-    "kalos-cap-pikachu",
-    "25",
-    11
-  ],
-  "Pikachu12": [
-    1053,
-    "Alola Cap Pikachu",
-    "alola-cap-pikachu",
-    "25",
-    12
-  ],
-  "Pikachu13": [
-    1054,
-    "Partner Cap Pikachu",
-    "partner-cap-pikachu",
-    "25",
-    13
-  ],
-  "Pikachu14": [
-    1055,
-    "World Cap Pikachu",
-    "world-cap-pikachu",
-    "25",
-    14
-  ],
-  "Pikachu15": [
-    1056,
-    "Partner Pikachu",
-    "partner-pikachu",
-    "25",
-    15
-  ],
-  "Pikachu16": [
-    1057,
-    "Gigantamax Pikachu",
-    "gigantamax-pikachu",
-    "25",
-    16
-  ],
-  "Pikachu17": [
-    1058,
+    1050,
     "Clone Pikachu",
     "clone-pikachu",
     "25",
-    17
+    10
   ],
   "Raichu1": [
-    1059,
+    1051,
     "Alolan Raichu",
     "alolan-raichu",
     "26",
     1
   ],
   "Sandshrew1": [
-    1060,
+    1052,
     "Alolan Sandshrew",
     "alolan-sandshrew",
     "27",
     1
   ],
   "Sandslash1": [
-    1061,
+    1053,
     "Alolan Sandslash",
     "alolan-sandslash",
     "28",
     1
   ],
   "Vulpix1": [
-    1062,
+    1054,
     "Alolan Vulpix",
     "alolan-vulpix",
     "37",
     1
   ],
   "Ninetales1": [
-    1063,
+    1055,
     "Alolan Ninetales",
     "alolan-ninetales",
     "38",
     1
   ],
   "Diglett1": [
-    1064,
+    1056,
     "Alolan Diglett",
     "alolan-diglett",
     "50",
     1
   ],
   "Dugtrio1": [
-    1065,
+    1057,
     "Alolan Dugtrio",
     "alolan-dugtrio",
     "51",
     1
   ],
   "Meowth1": [
-    1066,
+    1058,
     "Alolan Meowth",
     "alolan-meowth",
     "52",
     1
   ],
   "Meowth2": [
-    1067,
+    1059,
     "Galarian Meowth",
     "galarian-meowth",
     "52",
     2
   ],
   "Meowth3": [
-    1068,
+    1060,
     "Gigantamax Meowth",
     "gigantamax-meowth",
     "52",
     3
   ],
   "Persian1": [
-    1069,
+    1061,
     "Alolan Persian",
     "alolan-persian",
     "53",
     1
   ],
   "Growlithe1": [
-    1070,
+    1062,
     "Hisuian Growlithe",
     "hisuian-growlithe",
     "58",
     1
   ],
   "Arcanine1": [
-    1071,
+    1063,
     "Hisuian Arcanine",
     "hisuian-arcanine",
     "59",
     1
   ],
-  "Arcanine2": [
-    1072,
-    "Frenzied Lord of the Isles Hisuian Arcanine",
-    "frenzied-lord-of-the-isles-hisuian-arcanine",
-    "59",
-    2
-  ],
   "Alakazam1": [
-    1073,
+    1064,
     "Mega Alakazam",
     "mega-alakazam",
     "65",
     1
   ],
   "Machamp1": [
-    1074,
+    1065,
     "Gigantamax Machamp",
     "gigantamax-machamp",
     "68",
     1
   ],
   "Geodude1": [
-    1075,
+    1066,
     "Alolan Geodude",
     "alolan-geodude",
     "74",
     1
   ],
   "Graveler1": [
-    1076,
+    1067,
     "Alolan Graveler",
     "alolan-graveler",
     "75",
     1
   ],
   "Golem1": [
-    1077,
+    1068,
     "Alolan Golem",
     "alolan-golem",
     "76",
     1
   ],
   "Ponyta1": [
-    1078,
+    1069,
     "Galarian Ponyta",
     "galarian-ponyta",
     "77",
     1
   ],
   "Rapidash1": [
-    1079,
+    1070,
     "Galarian Rapidash",
     "galarian-rapidash",
     "78",
     1
   ],
   "Slowpoke1": [
-    1080,
+    1071,
     "Galarian Slowpoke",
     "galarian-slowpoke",
     "79",
     1
   ],
   "Slowbro1": [
-    1081,
+    1072,
     "Mega Slowbro",
     "mega-slowbro",
     "80",
     1
   ],
   "Slowbro2": [
-    1082,
+    1073,
     "Galarian Slowbro",
     "galarian-slowbro",
     "80",
     2
   ],
   "Farfetch’d1": [
-    1083,
-    "Galarian Farfetch'd",
+    1074,
+    "Galarian Farfetch’d",
     "galarian-farfetchd",
     "83",
     1
   ],
-  "Dewgong1": [
-    1084,
-    "Dewgong SPOOKYDEVTHING",
-    "dewgong-spookydevthing",
-    "87",
-    1
-  ],
   "Grimer1": [
-    1085,
+    1075,
     "Alolan Grimer",
     "alolan-grimer",
     "88",
     1
   ],
   "Muk1": [
-    1086,
+    1076,
     "Alolan Muk",
     "alolan-muk",
     "89",
     1
   ],
-  "Haunter1": [
-    1087,
-    "Haunter GHOST",
-    "haunter-ghost",
-    "93",
-    1
-  ],
   "Gengar1": [
-    1088,
+    1077,
     "Mega Gengar",
     "mega-gengar",
     "94",
     1
   ],
   "Gengar2": [
-    1089,
+    1078,
     "Gigantamax Gengar",
     "gigantamax-gengar",
     "94",
     2
   ],
   "Gengar3": [
-    1090,
+    1079,
     "Stitched Gengar",
     "stitched-gengar",
     "94",
     3
   ],
   "Onix1": [
-    1091,
+    1080,
     "Crystal Onix",
     "crystal-onix",
     "95",
     1
   ],
   "Kingler1": [
-    1092,
+    1081,
     "Gigantamax Kingler",
     "gigantamax-kingler",
     "99",
     1
   ],
   "Voltorb1": [
-    1093,
+    1082,
     "Hisuian Voltorb",
     "hisuian-voltorb",
     "100",
     1
   ],
   "Electrode1": [
-    1094,
-    "Hisuian Electrode",
-    "hisuian-electrode",
+    1083,
+    "Galarian Farfetch'd",
+    "galarian-farfetchd",
     "101",
     1
   ],
-  "Electrode2": [
-    1095,
-    "Frenzied Lord of the Hollow Hisuian Electrode",
-    "frenzied-lord-of-the-hollow-hisuian-electrode",
-    "101",
-    2
-  ],
   "Exeggutor1": [
-    1096,
+    1084,
     "Alolan Exeggutor",
     "alolan-exeggutor",
     "103",
     1
   ],
   "Marowak1": [
-    1097,
+    1085,
     "Alolan Marowak",
     "alolan-marowak",
     "105",
     1
   ],
   "Marowak2": [
-    1098,
-    "Totem Alolan Marowak",
-    "totem-alolan-marowak",
+    1086,
+    "Marowak GHOST",
+    "marowak-ghost",
     "105",
     2
   ],
   "Weezing1": [
-    1099,
+    1087,
     "Galarian Weezing",
     "galarian-weezing",
     "110",
     1
   ],
   "Kangaskhan1": [
-    1100,
+    1088,
     "Mega Kangaskhan",
     "mega-kangaskhan",
     "115",
     1
   ],
   "Mr. Mime1": [
-    1101,
+    1089,
     "Galarian Mr. Mime",
     "galarian-mr-mime",
     "122",
     1
   ],
   "Pinsir1": [
-    1102,
+    1090,
     "Mega Pinsir",
     "mega-pinsir",
     "127",
     1
   ],
   "Tauros1": [
-    1103,
-    "Combat Breed Tauros",
-    "combat-breed-tauros",
+    1091,
+    "Combat Breed Paldean Tauros",
+    "combat-breed-paldean-tauros",
     "128",
     1
   ],
   "Tauros2": [
-    1104,
-    "Blaze Breed Tauros",
-    "blaze-breed-tauros",
+    1092,
+    "Blaze Breed Paldean Tauros",
+    "blaze-breed-paldean-tauros",
     "128",
     2
   ],
   "Tauros3": [
-    1105,
-    "Aqua Breed Tauros",
-    "aqua-breed-tauros",
+    1093,
+    "Aqua Breed Paldean Tauros",
+    "aqua-breed-paldean-tauros",
     "128",
     3
   ],
   "Gyarados1": [
-    1106,
+    1094,
     "Mega Gyarados",
     "mega-gyarados",
     "130",
     1
   ],
   "Lapras1": [
-    1107,
+    1095,
     "Gigantamax Lapras",
     "gigantamax-lapras",
     "131",
     1
   ],
   "Eevee1": [
-    1108,
+    1096,
     "Partner Eevee",
     "partner-eevee",
     "133",
     1
   ],
   "Eevee2": [
-    1109,
+    1097,
     "Gigantamax Eevee",
     "gigantamax-eevee",
     "133",
     2
   ],
   "Eevee3": [
-    1110,
+    1098,
     "Bandana Partner Eevee",
     "bandana-partner-eevee",
     "133",
     3
   ],
   "Kabutops1": [
-    1111,
+    1099,
     "Kabutops MISSINGNO.",
     "kabutops-missingno",
     "141",
     1
   ],
   "Aerodactyl1": [
-    1112,
+    1100,
     "Mega Aerodactyl",
     "mega-aerodactyl",
     "142",
     1
   ],
   "Aerodactyl2": [
-    1113,
+    1101,
     "Aerodactyl ??????????",
     "aerodactyl",
     "142",
     2
   ],
   "Snorlax1": [
-    1114,
+    1102,
     "Gigantamax Snorlax",
     "gigantamax-snorlax",
     "143",
     1
   ],
   "Articuno1": [
-    1115,
+    1103,
     "Galarian Articuno",
     "galarian-articuno",
     "144",
     1
   ],
   "Zapdos1": [
-    1116,
+    1104,
     "Galarian Zapdos",
     "galarian-zapdos",
     "145",
     1
   ],
   "Moltres1": [
-    1117,
+    1105,
     "Galarian Moltres",
     "galarian-moltres",
     "146",
     1
   ],
   "Mewtwo1": [
-    1118,
-    "Mega Mewtwo X",
-    "mega-mewtwo-x",
+    1106,
+    "Mega X Mewtwo",
+    "mega-x-mewtwo",
     "150",
     1
   ],
   "Mewtwo2": [
-    1119,
-    "Mega Mewtwo Y",
-    "mega-mewtwo-y",
+    1107,
+    "Mega Y Mewtwo",
+    "mega-y-mewtwo",
     "150",
     2
   ],
   "Mewtwo3": [
-    1120,
+    1108,
     "Mk II Armored Mewtwo",
     "mk-ii-armored-mewtwo",
     "150",
     3
   ],
   "Mewtwo4": [
-    1121,
+    1109,
     "Mk I Armored Mewtwo",
     "mk-i-armored-mewtwo",
     "150",
     4
   ],
   "Mewtwo5": [
-    1122,
+    1110,
     "Shadow Mewtwo",
     "shadow-mewtwo",
     "150",
     5
   ],
+  "Mewtwo6": [
+    1111,
+    "Shadow Mega Mewtwo",
+    "shadow-mega-mewtwo",
+    "150",
+    6
+  ],
   "Typhlosion1": [
-    1123,
+    1112,
     "Hisuian Typhlosion",
     "hisuian-typhlosion",
     "157",
     1
   ],
   "Pichu1": [
-    1124,
+    1113,
     "Spiky-Eared Pichu",
     "spiky-eared-pichu",
     "172",
     1
   ],
   "Ampharos1": [
-    1125,
+    1114,
     "Mega Ampharos",
     "mega-ampharos",
     "181",
     1
   ],
   "Wooper1": [
-    1126,
+    1115,
     "Paldean Wooper",
     "paldean-wooper",
     "194",
     1
   ],
   "Slowking1": [
-    1127,
+    1116,
     "Galarian Slowking",
     "galarian-slowking",
     "199",
     1
   ],
-  "A Form Unown1": [
-    1128,
+  "Unown1": [
+    1117,
     "B Form Unown",
     "b-form-unown",
     "201",
     1
   ],
-  "A Form Unown2": [
-    1129,
+  "Unown2": [
+    1118,
     "C Form Unown",
     "c-form-unown",
     "201",
     2
   ],
-  "A Form Unown3": [
-    1130,
+  "Unown3": [
+    1119,
     "D Form Unown",
     "d-form-unown",
     "201",
     3
   ],
-  "A Form Unown4": [
-    1131,
+  "Unown4": [
+    1120,
     "E Form Unown",
     "e-form-unown",
     "201",
     4
   ],
-  "A Form Unown5": [
-    1132,
+  "Unown5": [
+    1121,
     "F Form Unown",
     "f-form-unown",
     "201",
     5
   ],
-  "A Form Unown6": [
-    1133,
+  "Unown6": [
+    1122,
     "G Form Unown",
     "g-form-unown",
     "201",
     6
   ],
-  "A Form Unown7": [
-    1134,
+  "Unown7": [
+    1123,
     "H Form Unown",
     "h-form-unown",
     "201",
     7
   ],
-  "A Form Unown8": [
-    1135,
+  "Unown8": [
+    1124,
     "I Form Unown",
     "i-form-unown",
     "201",
     8
   ],
-  "A Form Unown9": [
-    1136,
+  "Unown9": [
+    1125,
     "J Form Unown",
     "j-form-unown",
     "201",
     9
   ],
-  "A Form Unown10": [
-    1137,
+  "Unown10": [
+    1126,
     "K Form Unown",
     "k-form-unown",
     "201",
     10
   ],
-  "A Form Unown11": [
-    1138,
+  "Unown11": [
+    1127,
     "L Form Unown",
     "l-form-unown",
     "201",
     11
   ],
-  "A Form Unown12": [
-    1139,
+  "Unown12": [
+    1128,
     "M Form Unown",
     "m-form-unown",
     "201",
     12
   ],
-  "A Form Unown13": [
-    1140,
+  "Unown13": [
+    1129,
     "N Form Unown",
     "n-form-unown",
     "201",
     13
   ],
-  "A Form Unown14": [
-    1141,
+  "Unown14": [
+    1130,
     "O Form Unown",
     "o-form-unown",
     "201",
     14
   ],
-  "A Form Unown15": [
-    1142,
+  "Unown15": [
+    1131,
     "P Form Unown",
     "p-form-unown",
     "201",
     15
   ],
-  "A Form Unown16": [
-    1143,
+  "Unown16": [
+    1132,
     "Q Form Unown",
     "q-form-unown",
     "201",
     16
   ],
-  "A Form Unown17": [
-    1144,
+  "Unown17": [
+    1133,
     "R Form Unown",
     "r-form-unown",
     "201",
     17
   ],
-  "A Form Unown18": [
-    1145,
+  "Unown18": [
+    1134,
     "S Form Unown",
     "s-form-unown",
     "201",
     18
   ],
-  "A Form Unown19": [
-    1146,
+  "Unown19": [
+    1135,
     "T Form Unown",
     "t-form-unown",
     "201",
     19
   ],
-  "A Form Unown20": [
-    1147,
+  "Unown20": [
+    1136,
     "U Form Unown",
     "u-form-unown",
     "201",
     20
   ],
-  "A Form Unown21": [
-    1148,
+  "Unown21": [
+    1137,
     "V Form Unown",
     "v-form-unown",
     "201",
     21
   ],
-  "A Form Unown22": [
-    1149,
+  "Unown22": [
+    1138,
     "W Form Unown",
     "w-form-unown",
     "201",
     22
   ],
-  "A Form Unown23": [
-    1150,
+  "Unown23": [
+    1139,
     "X Form Unown",
     "x-form-unown",
     "201",
     23
   ],
-  "A Form Unown24": [
-    1151,
+  "Unown24": [
+    1140,
     "Y Form Unown",
     "y-form-unown",
     "201",
     24
   ],
-  "A Form Unown25": [
-    1152,
+  "Unown25": [
+    1141,
     "Z Form Unown",
     "z-form-unown",
     "201",
     25
   ],
-  "A Form Unown26": [
-    1153,
+  "Unown26": [
+    1142,
     "! Form Unown",
     "form-unown",
     "201",
     26
   ],
-  "A Form Unown27": [
-    1154,
+  "Unown27": [
+    1143,
     "? Form Unown",
     "form-unown",
     "201",
     27
   ],
   "Steelix1": [
-    1155,
+    1144,
     "Mega Steelix",
     "mega-steelix",
     "208",
     1
   ],
   "Qwilfish1": [
-    1156,
+    1145,
     "Hisuian Qwilfish",
     "hisuian-qwilfish",
     "211",
     1
   ],
   "Scizor1": [
-    1157,
+    1146,
     "Mega Scizor",
     "mega-scizor",
     "212",
     1
   ],
   "Heracross1": [
-    1158,
+    1147,
     "Mega Heracross",
     "mega-heracross",
     "214",
     1
   ],
   "Sneasel1": [
-    1159,
+    1148,
     "Hisuian Sneasel",
     "hisuian-sneasel",
     "215",
     1
   ],
   "Corsola1": [
-    1160,
+    1149,
     "Galarian Corsola",
     "galarian-corsola",
     "222",
     1
   ],
   "Houndoom1": [
-    1161,
+    1150,
     "Mega Houndoom",
     "mega-houndoom",
     "229",
     1
   ],
   "Tyranitar1": [
-    1162,
+    1151,
     "Mega Tyranitar",
     "mega-tyranitar",
     "248",
     1
   ],
   "Lugia1": [
-    1163,
+    1152,
     "Shadow Lugia",
     "shadow-lugia",
     "249",
     1
   ],
   "Sceptile1": [
-    1164,
+    1153,
     "Mega Sceptile",
     "mega-sceptile",
     "254",
     1
   ],
   "Blaziken1": [
-    1165,
+    1154,
     "Mega Blaziken",
     "mega-blaziken",
     "257",
     1
   ],
   "Swampert1": [
-    1166,
+    1155,
     "Mega Swampert",
     "mega-swampert",
     "260",
     1
   ],
   "Zigzagoon1": [
-    1167,
+    1156,
     "Galarian Zigzagoon",
     "galarian-zigzagoon",
     "263",
     1
   ],
   "Linoone1": [
-    1168,
+    1157,
     "Galarian Linoone",
     "galarian-linoone",
     "264",
     1
   ],
   "Gardevoir1": [
-    1169,
+    1158,
     "Mega Gardevoir",
     "mega-gardevoir",
     "282",
     1
   ],
   "Sableye1": [
-    1170,
+    1159,
     "Mega Sableye",
     "mega-sableye",
     "302",
     1
   ],
   "Mawile1": [
-    1171,
+    1160,
     "Mega Mawile",
     "mega-mawile",
     "303",
     1
   ],
   "Aggron1": [
-    1172,
+    1161,
     "Mega Aggron",
     "mega-aggron",
     "306",
     1
   ],
   "Medicham1": [
-    1173,
+    1162,
     "Mega Medicham",
     "mega-medicham",
     "308",
     1
   ],
   "Manectric1": [
-    1174,
+    1163,
     "Mega Manectric",
     "mega-manectric",
     "310",
     1
   ],
   "Sharpedo1": [
-    1175,
+    1164,
     "Mega Sharpedo",
     "mega-sharpedo",
     "319",
     1
   ],
   "Camerupt1": [
-    1176,
+    1165,
     "Mega Camerupt",
     "mega-camerupt",
     "323",
     1
   ],
   "Altaria1": [
-    1177,
+    1166,
     "Mega Altaria",
     "mega-altaria",
     "334",
     1
   ],
-  "Normal Form Castform1": [
-    1178,
+  "Castform1": [
+    1167,
     "Sunny Form Castform",
     "sunny-form-castform",
     "351",
     1
   ],
-  "Normal Form Castform2": [
-    1179,
+  "Castform2": [
+    1168,
     "Rainy Form Castform",
     "rainy-form-castform",
     "351",
     2
   ],
-  "Normal Form Castform3": [
-    1180,
+  "Castform3": [
+    1169,
     "Snowy Form Castform",
     "snowy-form-castform",
     "351",
     3
   ],
   "Banette1": [
-    1181,
+    1170,
     "Mega Banette",
     "mega-banette",
     "354",
     1
   ],
   "Absol1": [
-    1182,
+    1171,
     "Mega Absol",
     "mega-absol",
     "359",
     1
   ],
   "Glalie1": [
-    1183,
+    1172,
     "Mega Glalie",
     "mega-glalie",
     "362",
     1
   ],
   "Salamence1": [
-    1184,
+    1173,
     "Mega Salamence",
     "mega-salamence",
     "373",
     1
   ],
   "Metagross1": [
-    1185,
+    1174,
     "Mega Metagross",
     "mega-metagross",
     "376",
     1
   ],
   "Latias1": [
-    1186,
+    1175,
     "Mega Latias",
     "mega-latias",
     "380",
     1
   ],
   "Latios1": [
-    1187,
+    1176,
     "Mega Latios",
     "mega-latios",
     "381",
     1
   ],
   "Kyogre1": [
-    1188,
+    1177,
     "Primal Kyogre",
     "primal-kyogre",
     "382",
     1
   ],
   "Groudon1": [
-    1189,
+    1178,
     "Primal Groudon",
     "primal-groudon",
     "383",
     1
   ],
   "Groudon2": [
-    1190,
+    1179,
     "Meta Groudon",
     "meta-groudon",
     "383",
     2
   ],
-  "Groudon3": [
-    1191,
-    "Boss Meta Groudon",
-    "boss-meta-groudon",
-    "383",
-    3
-  ],
   "Rayquaza1": [
-    1192,
+    1180,
     "Mega Rayquaza",
     "mega-rayquaza",
     "384",
     1
   ],
   "Rayquaza2": [
-    1193,
+    1181,
     "Illusory Rayquaza",
     "illusory-rayquaza",
     "384",
     2
   ],
-  "Normal Forme Deoxys1": [
-    1194,
+  "Deoxys1": [
+    1182,
     "Attack Forme Deoxys",
     "attack-forme-deoxys",
     "386",
     1
   ],
-  "Normal Forme Deoxys2": [
-    1195,
+  "Deoxys2": [
+    1183,
     "Defense Forme Deoxys",
     "defense-forme-deoxys",
     "386",
     2
   ],
-  "Normal Forme Deoxys3": [
-    1196,
+  "Deoxys3": [
+    1184,
     "Speed Forme Deoxys",
     "speed-forme-deoxys",
     "386",
     3
   ],
-  "Plant Cloak Burmy1": [
-    1197,
+  "Burmy1": [
+    1185,
     "Sandy Cloak Burmy",
     "sandy-cloak-burmy",
     "412",
     1
   ],
-  "Plant Cloak Burmy2": [
-    1198,
+  "Burmy2": [
+    1186,
     "Trash Cloak Burmy",
     "trash-cloak-burmy",
     "412",
     2
   ],
-  "Plant Cloak Wormadam1": [
-    1199,
+  "Wormadam1": [
+    1187,
     "Sandy Cloak Wormadam",
     "sandy-cloak-wormadam",
     "413",
     1
   ],
-  "Plant Cloak Wormadam2": [
-    1200,
+  "Wormadam2": [
+    1188,
     "Trash Cloak Wormadam",
     "trash-cloak-wormadam",
     "413",
     2
   ],
-  "Overcast Form Cherrim1": [
-    1201,
+  "Cherrim1": [
+    1189,
     "Sunshine Form Cherrim",
     "sunshine-form-cherrim",
     "421",
     1
   ],
-  "West Sea Shellos1": [
-    1202,
+  "Shellos1": [
+    1190,
     "East Sea Shellos",
     "east-sea-shellos",
     "422",
     1
   ],
-  "West Sea Gastrodon1": [
-    1203,
+  "Gastrodon1": [
+    1191,
     "East Sea Gastrodon",
     "east-sea-gastrodon",
     "423",
     1
   ],
   "Lopunny1": [
-    1204,
+    1192,
     "Mega Lopunny",
     "mega-lopunny",
     "428",
     1
   ],
   "Garchomp1": [
-    1205,
+    1193,
     "Mega Garchomp",
     "mega-garchomp",
     "445",
     1
   ],
   "Lucario1": [
-    1206,
+    1194,
     "Mega Lucario",
     "mega-lucario",
     "448",
     1
   ],
   "Abomasnow1": [
-    1207,
+    1195,
     "Mega Abomasnow",
     "mega-abomasnow",
     "460",
     1
   ],
   "Gallade1": [
-    1208,
+    1196,
     "Mega Gallade",
     "mega-gallade",
     "475",
     1
   ],
   "Rotom1": [
-    1209,
+    1197,
     "Heat Rotom",
     "heat-rotom",
     "479",
     1
   ],
   "Rotom2": [
-    1210,
+    1198,
     "Wash Rotom",
     "wash-rotom",
     "479",
     2
   ],
   "Rotom3": [
-    1211,
+    1199,
     "Frost Rotom",
     "frost-rotom",
     "479",
     3
   ],
   "Rotom4": [
-    1212,
+    1200,
     "Fan Rotom",
     "fan-rotom",
     "479",
     4
   ],
   "Rotom5": [
-    1213,
+    1201,
     "Mow Rotom",
     "mow-rotom",
     "479",
     5
   ],
   "Dialga1": [
-    1214,
+    1202,
     "Origin Forme Dialga",
     "origin-forme-dialga",
     "483",
     1
   ],
   "Palkia1": [
-    1215,
+    1203,
     "Origin Forme Palkia",
     "origin-forme-palkia",
     "484",
     1
   ],
-  "Altered Forme Giratina1": [
-    1216,
+  "Giratina1": [
+    1204,
     "Origin Forme Giratina",
     "origin-forme-giratina",
     "487",
     1
   ],
-  "Land Forme Shaymin1": [
-    1217,
+  "Giratina2": [
+    1205,
+    "Shadow Altered Forme Giratina",
+    "shadow-altered-forme-giratina",
+    "487",
+    2
+  ],
+  "Giratina3": [
+    1206,
+    "Shadow Origin Forme Giratina",
+    "shadow-origin-forme-giratina",
+    "487",
+    3
+  ],
+  "Shaymin1": [
+    1207,
     "Sky Forme Shaymin",
     "sky-forme-shaymin",
     "492",
     1
   ],
-  "Blank Plate Arceus1": [
-    1218,
+  "Shaymin2": [
+    1208,
+    "Polluted Land Forme Shaymin",
+    "polluted-land-forme-shaymin",
+    "492",
+    2
+  ],
+  "Shaymin3": [
+    1209,
+    "Polluted Sky Forme Shaymin",
+    "polluted-sky-forme-shaymin",
+    "492",
+    3
+  ],
+  "Arceus1": [
+    1210,
     "Fist Plate Arceus",
     "fist-plate-arceus",
     "493",
     1
   ],
-  "Blank Plate Arceus2": [
-    1219,
+  "Arceus2": [
+    1211,
     "Sky Plate Arceus",
     "sky-plate-arceus",
     "493",
     2
   ],
-  "Blank Plate Arceus3": [
-    1220,
+  "Arceus3": [
+    1212,
     "Toxic Plate Arceus",
     "toxic-plate-arceus",
     "493",
     3
   ],
-  "Blank Plate Arceus4": [
-    1221,
+  "Arceus4": [
+    1213,
     "Earth Plate Arceus",
     "earth-plate-arceus",
     "493",
     4
   ],
-  "Blank Plate Arceus5": [
-    1222,
+  "Arceus5": [
+    1214,
     "Stone Plate Arceus",
     "stone-plate-arceus",
     "493",
     5
   ],
-  "Blank Plate Arceus6": [
-    1223,
+  "Arceus6": [
+    1215,
     "Insect Plate Arceus",
     "insect-plate-arceus",
     "493",
     6
   ],
-  "Blank Plate Arceus7": [
-    1224,
+  "Arceus7": [
+    1216,
     "Spooky Plate Arceus",
     "spooky-plate-arceus",
     "493",
     7
   ],
-  "Blank Plate Arceus8": [
-    1225,
+  "Arceus8": [
+    1217,
     "Iron Plate Arceus",
     "iron-plate-arceus",
     "493",
     8
   ],
-  "Blank Plate Arceus9": [
-    1226,
+  "Arceus9": [
+    1218,
     "Flame Plate Arceus",
     "flame-plate-arceus",
     "493",
     9
   ],
-  "Blank Plate Arceus10": [
-    1227,
+  "Arceus10": [
+    1219,
     "Splash Plate Arceus",
     "splash-plate-arceus",
     "493",
     10
   ],
-  "Blank Plate Arceus11": [
-    1228,
+  "Arceus11": [
+    1220,
     "Meadow Plate Arceus",
     "meadow-plate-arceus",
     "493",
     11
   ],
-  "Blank Plate Arceus12": [
-    1229,
+  "Arceus12": [
+    1221,
     "Zap Plate Arceus",
     "zap-plate-arceus",
     "493",
     12
   ],
-  "Blank Plate Arceus13": [
-    1230,
+  "Arceus13": [
+    1222,
     "Mind Plate Arceus",
     "mind-plate-arceus",
     "493",
     13
   ],
-  "Blank Plate Arceus14": [
-    1231,
+  "Arceus14": [
+    1223,
     "Icicle Plate Arceus",
     "icicle-plate-arceus",
     "493",
     14
   ],
-  "Blank Plate Arceus15": [
-    1232,
+  "Arceus15": [
+    1224,
     "Draco Plate Arceus",
     "draco-plate-arceus",
     "493",
     15
   ],
-  "Blank Plate Arceus16": [
-    1233,
+  "Arceus16": [
+    1225,
     "Dread Plate Arceus",
     "dread-plate-arceus",
     "493",
     16
   ],
-  "Blank Plate Arceus17": [
-    1234,
+  "Arceus17": [
+    1226,
     "Pixie Plate Arceus",
     "pixie-plate-arceus",
     "493",
     17
   ],
   "Samurott1": [
-    1235,
+    1227,
     "Hisuian Samurott",
     "hisuian-samurott",
     "503",
     1
   ],
   "Audino1": [
-    1236,
+    1228,
     "Mega Audino",
     "mega-audino",
     "531",
     1
   ],
   "Lilligant1": [
-    1237,
+    1229,
     "Hisuian Lilligant",
     "hisuian-lilligant",
     "549",
     1
   ],
-  "Lilligant2": [
-    1238,
-    "Frenzied Lady of the Ridge Hisuian Lilligant",
-    "frenzied-lady-of-the-ridge-hisuian-lilligant",
-    "549",
-    2
-  ],
-  "Red-Striped Form Basculin1": [
-    1239,
+  "Basculin1": [
+    1230,
     "Blue-Striped Form Basculin",
     "blue-striped-form-basculin",
     "550",
     1
   ],
-  "Red-Striped Form Basculin2": [
-    1240,
+  "Basculin2": [
+    1231,
     "White-Striped Form Basculin",
     "white-striped-form-basculin",
     "550",
     2
   ],
   "Darumaka1": [
-    1241,
+    1232,
     "Galarian Darumaka",
     "galarian-darumaka",
     "554",
     1
   ],
-  "Standard Mode Darmanitan1": [
-    1242,
+  "Darmanitan1": [
+    1233,
     "Zen Mode Darmanitan",
     "zen-mode-darmanitan",
     "555",
     1
   ],
-  "Standard Mode Darmanitan2": [
-    1243,
+  "Darmanitan2": [
+    1234,
     "Galarian Standard Mode Darmanitan",
     "galarian-standard-mode-darmanitan",
     "555",
     2
   ],
-  "Standard Mode Darmanitan3": [
-    1244,
+  "Darmanitan3": [
+    1235,
     "Galarian Zen Mode Darmanitan",
     "galarian-zen-mode-darmanitan",
     "555",
     3
   ],
   "Yamask1": [
-    1245,
+    1236,
     "Galarian Yamask",
     "galarian-yamask",
     "562",
     1
   ],
   "Garbodor1": [
-    1246,
+    1237,
     "Gigantamax Garbodor",
     "gigantamax-garbodor",
     "569",
     1
   ],
   "Zorua1": [
-    1247,
+    1238,
     "Hisuian Zorua",
     "hisuian-zorua",
     "570",
     1
   ],
   "Zoroark1": [
-    1248,
+    1239,
     "Hisuian Zoroark",
     "hisuian-zoroark",
     "571",
     1
   ],
-  "Spring Form Deerling1": [
-    1249,
+  "Deerling1": [
+    1240,
     "Summer Form Deerling",
     "summer-form-deerling",
     "585",
     1
   ],
-  "Spring Form Deerling2": [
-    1250,
+  "Deerling2": [
+    1241,
     "Autumn Form Deerling",
     "autumn-form-deerling",
     "585",
     2
   ],
-  "Spring Form Deerling3": [
-    1251,
+  "Deerling3": [
+    1242,
     "Winter Form Deerling",
     "winter-form-deerling",
     "585",
     3
   ],
-  "Spring Form Sawsbuck1": [
-    1252,
+  "Sawsbuck1": [
+    1243,
     "Summer Form Sawsbuck",
     "summer-form-sawsbuck",
     "586",
     1
   ],
-  "Spring Form Sawsbuck2": [
-    1253,
+  "Sawsbuck2": [
+    1244,
     "Autumn Form Sawsbuck",
     "autumn-form-sawsbuck",
     "586",
     2
   ],
-  "Spring Form Sawsbuck3": [
-    1254,
+  "Sawsbuck3": [
+    1245,
     "Winter Form Sawsbuck",
     "winter-form-sawsbuck",
     "586",
     3
   ],
   "Stunfisk1": [
-    1255,
+    1246,
     "Galarian Stunfisk",
     "galarian-stunfisk",
     "618",
     1
   ],
   "Braviary1": [
-    1256,
+    1247,
     "Hisuian Braviary",
     "hisuian-braviary",
     "628",
     1
   ],
-  "Incarnate Forme Tornadus1": [
-    1257,
+  "Tornadus1": [
+    1248,
     "Therian Forme Tornadus",
     "therian-forme-tornadus",
     "641",
     1
   ],
-  "Incarnate Forme Thundurus1": [
-    1258,
+  "Thundurus1": [
+    1249,
     "Therian Forme Thundurus",
     "therian-forme-thundurus",
     "642",
     1
   ],
-  "Incarnate Forme Landorus1": [
-    1259,
+  "Landorus1": [
+    1250,
     "Therian Forme Landorus",
     "therian-forme-landorus",
     "645",
     1
   ],
   "Kyurem1": [
-    1260,
+    1251,
     "White Kyurem",
     "white-kyurem",
     "646",
     1
   ],
   "Kyurem2": [
-    1261,
+    1252,
     "Black Kyurem",
     "black-kyurem",
     "646",
     2
   ],
-  "Ordinary Form Keldeo1": [
-    1262,
+  "Keldeo1": [
+    1253,
     "Resolute Form Keldeo",
     "resolute-form-keldeo",
     "647",
     1
   ],
-  "Aria Forme Meloetta1": [
-    1263,
+  "Meloetta1": [
+    1254,
     "Pirouette Forme Meloetta",
     "pirouette-forme-meloetta",
     "648",
     1
   ],
   "Genesect1": [
-    1264,
+    1255,
     "Douse Drive Genesect",
     "douse-drive-genesect",
     "649",
     1
   ],
   "Genesect2": [
-    1265,
+    1256,
     "Shock Drive Genesect",
     "shock-drive-genesect",
     "649",
     2
   ],
   "Genesect3": [
-    1266,
-    "Ash-Greninja",
-    "ash-greninja",
+    1257,
+    "Burn Drive Genesect",
+    "burn-drive-genesect",
     "649",
     3
   ],
   "Genesect4": [
-    1267,
+    1258,
     "Chill Drive Genesect",
     "chill-drive-genesect",
     "649",
     4
   ],
   "Greninja1": [
-    1268,
+    1259,
     "Battle Bond Greninja",
     "battle-bond-greninja",
     "658",
     1
   ],
   "Greninja2": [
-    1269,
+    1260,
     "Ash-Greninja",
     "ash-greninja",
     "658",
     2
   ],
-  "Icy Snow Pattern Vivillon1": [
-    1270,
+  "Vivillon1": [
+    1261,
     "Polar Pattern Vivillon",
     "polar-pattern-vivillon",
     "666",
     1
   ],
-  "Icy Snow Pattern Vivillon2": [
-    1271,
+  "Vivillon2": [
+    1262,
     "Tundra Pattern Vivillon",
     "tundra-pattern-vivillon",
     "666",
     2
   ],
-  "Icy Snow Pattern Vivillon3": [
-    1272,
+  "Vivillon3": [
+    1263,
     "Continental Pattern Vivillon",
     "continental-pattern-vivillon",
     "666",
     3
   ],
-  "Icy Snow Pattern Vivillon4": [
-    1273,
+  "Vivillon4": [
+    1264,
     "Garden Pattern Vivillon",
     "garden-pattern-vivillon",
     "666",
     4
   ],
-  "Icy Snow Pattern Vivillon5": [
-    1274,
+  "Vivillon5": [
+    1265,
     "Elegant Pattern Vivillon",
     "elegant-pattern-vivillon",
     "666",
     5
   ],
-  "Icy Snow Pattern Vivillon6": [
-    1275,
-    "Meadow Pattern Vivillon",
-    "meadow-pattern-vivillon",
+  "Vivillon6": [
+    1266,
+    "Ash-Greninja",
+    "ash-greninja",
     "666",
     6
   ],
-  "Icy Snow Pattern Vivillon7": [
-    1276,
+  "Vivillon7": [
+    1267,
     "Modern Pattern Vivillon",
     "modern-pattern-vivillon",
     "666",
     7
   ],
-  "Icy Snow Pattern Vivillon8": [
-    1277,
+  "Vivillon8": [
+    1268,
     "Marine Pattern Vivillon",
     "marine-pattern-vivillon",
     "666",
     8
   ],
-  "Icy Snow Pattern Vivillon9": [
-    1278,
+  "Vivillon9": [
+    1269,
     "Archipelago Pattern Vivillon",
     "archipelago-pattern-vivillon",
     "666",
     9
   ],
-  "Icy Snow Pattern Vivillon10": [
-    1279,
+  "Vivillon10": [
+    1270,
     "High Plains Pattern Vivillon",
     "high-plains-pattern-vivillon",
     "666",
     10
   ],
-  "Icy Snow Pattern Vivillon11": [
-    1280,
+  "Vivillon11": [
+    1271,
     "Sandstorm Pattern Vivillon",
     "sandstorm-pattern-vivillon",
     "666",
     11
   ],
-  "Icy Snow Pattern Vivillon12": [
-    1281,
+  "Vivillon12": [
+    1272,
     "River Pattern Vivillon",
     "river-pattern-vivillon",
     "666",
     12
   ],
-  "Icy Snow Pattern Vivillon13": [
-    1282,
+  "Vivillon13": [
+    1273,
     "Monsoon Pattern Vivillon",
     "monsoon-pattern-vivillon",
     "666",
     13
   ],
-  "Icy Snow Pattern Vivillon14": [
-    1283,
+  "Vivillon14": [
+    1274,
     "Savanna Pattern Vivillon",
     "savanna-pattern-vivillon",
     "666",
     14
   ],
-  "Icy Snow Pattern Vivillon15": [
-    1284,
+  "Vivillon15": [
+    1275,
     "Sun Pattern Vivillon",
     "sun-pattern-vivillon",
     "666",
     15
   ],
-  "Icy Snow Pattern Vivillon16": [
-    1285,
+  "Vivillon16": [
+    1276,
     "Ocean Pattern Vivillon",
     "ocean-pattern-vivillon",
     "666",
     16
   ],
-  "Icy Snow Pattern Vivillon17": [
-    1286,
+  "Vivillon17": [
+    1277,
     "Jungle Pattern Vivillon",
     "jungle-pattern-vivillon",
     "666",
     17
   ],
-  "Icy Snow Pattern Vivillon18": [
-    1287,
+  "Vivillon18": [
+    1278,
     "Fancy Pattern Vivillon",
     "fancy-pattern-vivillon",
     "666",
     18
   ],
-  "Icy Snow Pattern Vivillon19": [
-    1288,
+  "Vivillon19": [
+    1279,
     "Poké Ball Pattern Vivillon",
     "poke-ball-pattern-vivillon",
     "666",
     19
   ],
-  "Red Flower Flabébé1": [
-    1289,
+  "Flabébé1": [
+    1280,
     "Yellow Flower Flabébé",
     "yellow-flower-flabebe",
     "669",
     1
   ],
-  "Red Flower Flabébé2": [
-    1290,
+  "Flabébé2": [
+    1281,
     "Orange Flower Flabébé",
     "orange-flower-flabebe",
     "669",
     2
   ],
-  "Red Flower Flabébé3": [
-    1291,
+  "Flabébé3": [
+    1282,
     "Blue Flower Flabébé",
     "blue-flower-flabebe",
     "669",
     3
   ],
-  "Red Flower Flabébé4": [
-    1292,
+  "Flabébé4": [
+    1283,
     "White Flower Flabébé",
     "white-flower-flabebe",
     "669",
     4
   ],
-  "Red Flower Floette1": [
-    1293,
+  "Floette1": [
+    1284,
     "Yellow Flower Floette",
     "yellow-flower-floette",
     "670",
     1
   ],
-  "Red Flower Floette2": [
-    1294,
+  "Floette2": [
+    1285,
     "Orange Flower Floette",
     "orange-flower-floette",
     "670",
     2
   ],
-  "Red Flower Floette3": [
-    1295,
+  "Floette3": [
+    1286,
     "Blue Flower Floette",
     "blue-flower-floette",
     "670",
     3
   ],
-  "Red Flower Floette4": [
-    1296,
+  "Floette4": [
+    1287,
     "White Flower Floette",
     "white-flower-floette",
     "670",
     4
   ],
-  "Red Flower Floette5": [
-    1297,
+  "Floette5": [
+    1288,
     "Eternal Flower Floette",
     "eternal-flower-floette",
     "670",
     5
   ],
-  "Red Flower Florges1": [
-    1298,
+  "Florges1": [
+    1289,
     "Yellow Flower Florges",
     "yellow-flower-florges",
     "671",
     1
   ],
-  "Red Flower Florges2": [
-    1299,
+  "Florges2": [
+    1290,
     "Orange Flower Florges",
     "orange-flower-florges",
     "671",
     2
   ],
-  "Red Flower Florges3": [
-    1300,
+  "Florges3": [
+    1291,
     "Blue Flower Florges",
     "blue-flower-florges",
     "671",
     3
   ],
-  "Red Flower Florges4": [
-    1301,
+  "Florges4": [
+    1292,
     "White Flower Florges",
     "white-flower-florges",
     "671",
     4
   ],
-  "Natural Form Furfrou1": [
-    1302,
+  "Furfrou1": [
+    1293,
     "Heart Trim Furfrou",
     "heart-trim-furfrou",
     "676",
     1
   ],
-  "Natural Form Furfrou2": [
-    1303,
+  "Furfrou2": [
+    1294,
     "Star Trim Furfrou",
     "star-trim-furfrou",
     "676",
     2
   ],
-  "Natural Form Furfrou3": [
-    1304,
+  "Furfrou3": [
+    1295,
     "Diamond Trim Furfrou",
     "diamond-trim-furfrou",
     "676",
     3
   ],
-  "Natural Form Furfrou4": [
-    1305,
+  "Furfrou4": [
+    1296,
     "Debutante Trim Furfrou",
     "debutante-trim-furfrou",
     "676",
     4
   ],
-  "Natural Form Furfrou5": [
-    1306,
+  "Furfrou5": [
+    1297,
     "Matron Trim Furfrou",
     "matron-trim-furfrou",
     "676",
     5
   ],
-  "Natural Form Furfrou6": [
-    1307,
+  "Furfrou6": [
+    1298,
     "Dandy Trim Furfrou",
     "dandy-trim-furfrou",
     "676",
     6
   ],
-  "Natural Form Furfrou7": [
-    1308,
+  "Furfrou7": [
+    1299,
     "La Reine Trim Furfrou",
     "la-reine-trim-furfrou",
     "676",
     7
   ],
-  "Natural Form Furfrou8": [
-    1309,
-    "Meowstic-F",
-    "meowstic-f",
+  "Furfrou8": [
+    1300,
+    "Kabuki Trim Furfrou",
+    "kabuki-trim-furfrou",
     "676",
     8
   ],
-  "Natural Form Furfrou9": [
-    1310,
+  "Furfrou9": [
+    1301,
     "Pharaoh Trim Furfrou",
     "pharaoh-trim-furfrou",
     "676",
     9
   ],
-  "Male Meowstic1": [
-    1311,
+  "Meowstic1": [
+    678,
     "Female Meowstic",
     "female-meowstic",
     "678",
     1
   ],
-  "Shield Forme Aegislash1": [
-    1312,
+  "Aegislash1": [
+    1303,
     "Blade Forme Aegislash",
     "blade-forme-aegislash",
     "681",
     1
   ],
   "Sliggoo1": [
-    1313,
+    1304,
     "Hisuian Sliggoo",
     "hisuian-sliggoo",
     "705",
     1
   ],
   "Goodra1": [
-    1314,
+    1305,
     "Hisuian Goodra",
     "hisuian-goodra",
     "706",
     1
   ],
-  "Average Size Pumpkaboo1": [
-    1315,
+  "Pumpkaboo1": [
+    1306,
     "Small Size Pumpkaboo",
     "small-size-pumpkaboo",
     "710",
     1
   ],
-  "Average Size Pumpkaboo2": [
-    1316,
+  "Pumpkaboo2": [
+    1307,
     "Large Size Pumpkaboo",
     "large-size-pumpkaboo",
     "710",
     2
   ],
-  "Average Size Pumpkaboo3": [
-    1317,
+  "Pumpkaboo3": [
+    1308,
     "Super Size Pumpkaboo",
     "super-size-pumpkaboo",
     "710",
     3
   ],
-  "Average Size Gourgeist1": [
-    1318,
-    "Small Size Gourgeist",
-    "small-size-gourgeist",
+  "Gourgeist1": [
+    1309,
+    "Meowstic-F",
+    "meowstic-f",
     "711",
     1
   ],
-  "Average Size Gourgeist2": [
-    1319,
+  "Gourgeist2": [
+    1310,
     "Large Size Gourgeist",
     "large-size-gourgeist",
     "711",
     2
   ],
-  "Average Size Gourgeist3": [
-    1320,
+  "Gourgeist3": [
+    1311,
     "Super Size Gourgeist",
     "super-size-gourgeist",
     "711",
     3
   ],
   "Avalugg1": [
-    1321,
+    1312,
     "Hisuian Avalugg",
     "hisuian-avalugg",
     "713",
     1
   ],
-  "Avalugg2": [
-    1322,
-    "Frenzied Lord of the Tundra Hisuian Avalugg",
-    "frenzied-lord-of-the-tundra-hisuian-avalugg",
-    "713",
-    2
-  ],
-  "Neutral Mode Xerneas1": [
-    1323,
+  "Xerneas1": [
+    1313,
     "Active Mode Xerneas",
     "active-mode-xerneas",
     "716",
     1
   ],
-  "Zygarde 50% Forme1": [
-    1324,
-    "Zygarde 10% Forme",
-    "zygarde-10-forme",
+  "Zygarde1": [
+    1314,
+    "10% Forme Zygarde",
+    "10-forme-zygarde",
     "718",
     1
   ],
-  "Zygarde 50% Forme2": [
-    1325,
-    "Zygarde 10% Power Construct Forme",
-    "zygarde-10-power-construct-forme",
+  "Zygarde2": [
+    1315,
+    "Power Construct 10% Forme Zygarde",
+    "power-construct-10-forme-zygarde",
     "718",
     2
   ],
-  "Zygarde 50% Forme3": [
-    1326,
-    "Zygarde 50% Power Construct Forme",
-    "zygarde-50-power-construct-forme",
+  "Zygarde3": [
+    1316,
+    "Power Construct 50% Forme Zygarde",
+    "power-construct-50-forme-zygarde",
     "718",
     3
   ],
-  "Zygarde 50% Forme4": [
-    1327,
-    "Zygarde Complete Forme",
-    "zygarde-complete-forme",
+  "Zygarde4": [
+    1317,
+    "Complete Forme Zygarde",
+    "complete-forme-zygarde",
     "718",
     4
   ],
+  "Zygarde5": [
+    1318,
+    "Core Forme Zygarde",
+    "core-forme-zygarde",
+    "718",
+    5
+  ],
+  "Zygarde6": [
+    1319,
+    "Cell Forme Zygarde",
+    "cell-forme-zygarde",
+    "718",
+    6
+  ],
   "Diancie1": [
-    1328,
+    1320,
     "Mega Diancie",
     "mega-diancie",
     "719",
     1
   ],
-  "Hoopa Confined1": [
-    1329,
-    "Hoopa Unbound",
-    "hoopa-unbound",
+  "Hoopa1": [
+    1321,
+    "Unbound Hoopa",
+    "unbound-hoopa",
     "720",
     1
   ],
   "Decidueye1": [
-    1330,
+    1322,
     "Hisuian Decidueye",
     "hisuian-decidueye",
     "724",
     1
   ],
-  "Gumshoos1": [
-    1331,
-    "Totem Gumshoos",
-    "totem-gumshoos",
-    "735",
-    1
-  ],
-  "Vikavolt1": [
-    1332,
-    "Totem Vikavolt",
-    "totem-vikavolt",
-    "738",
-    1
-  ],
-  "Baile Style Oricorio1": [
-    1333,
+  "Oricorio1": [
+    1323,
     "Pom-Pom Style Oricorio",
     "pom-pom-style-oricorio",
     "741",
     1
   ],
-  "Baile Style Oricorio2": [
-    1334,
+  "Oricorio2": [
+    1324,
     "Pa’u Style Oricorio",
     "pau-style-oricorio",
     "741",
     2
   ],
-  "Baile Style Oricorio3": [
-    1335,
-    "Rockruff Own-Tempo",
-    "rockruff-own-tempo",
+  "Oricorio3": [
+    1325,
+    "Sensu Style Oricorio",
+    "sensu-style-oricorio",
     "741",
     3
   ],
-  "Ribombee1": [
-    1336,
-    "Totem Ribombee",
-    "totem-ribombee",
-    "743",
-    1
-  ],
   "Rockruff1": [
-    1337,
+    1326,
     "Own Tempo Rockruff",
     "own-tempo-rockruff",
     "744",
     1
   ],
-  "Midday Form Lycanroc1": [
-    1338,
+  "Lycanroc1": [
+    1327,
     "Midnight Form Lycanroc",
     "midnight-form-lycanroc",
     "745",
     1
   ],
-  "Midday Form Lycanroc2": [
-    1339,
+  "Lycanroc2": [
+    1328,
     "Dusk Form Lycanroc",
     "dusk-form-lycanroc",
     "745",
     2
   ],
-  "Solo Form Wishiwashi1": [
-    1340,
+  "Wishiwashi1": [
+    1329,
     "School Form Wishiwashi",
     "school-form-wishiwashi",
     "746",
     1
   ],
-  "Solo Form Wishiwashi2": [
-    1341,
-    "Totem Solo Form Wishiwashi",
-    "totem-solo-form-wishiwashi",
-    "746",
-    2
-  ],
-  "Solo Form Wishiwashi3": [
-    1342,
-    "Totem School Form Wishiwashi",
-    "totem-school-form-wishiwashi",
-    "746",
-    3
-  ],
-  "Araquanid1": [
-    1343,
-    "Totem Araquanid",
-    "totem-araquanid",
-    "752",
-    1
-  ],
-  "Lurantis1": [
-    1344,
-    "Totem Lurantis",
-    "totem-lurantis",
-    "754",
-    1
-  ],
-  "Salazzle1": [
-    1345,
-    "Totem Salazzle",
-    "totem-salazzle",
-    "758",
-    1
-  ],
-  "Silvally Type: Normal1": [
-    1346,
-    "Silvally Type: Fighting",
-    "silvally-type-fighting",
+  "Silvally1": [
+    1330,
+    "Type: Fighting Silvally",
+    "type-fighting-silvally",
     "773",
     1
   ],
-  "Silvally Type: Normal2": [
-    1347,
-    "Silvally Type: Flying",
-    "silvally-type-flying",
+  "Silvally2": [
+    1331,
+    "Type: Flying Silvally",
+    "type-flying-silvally",
     "773",
     2
   ],
-  "Silvally Type: Normal3": [
-    1348,
-    "Silvally Type: Poison",
-    "silvally-type-poison",
+  "Silvally3": [
+    1332,
+    "Type: Poison Silvally",
+    "type-poison-silvally",
     "773",
     3
   ],
-  "Silvally Type: Normal4": [
-    1349,
-    "Silvally Type: Ground",
-    "silvally-type-ground",
+  "Silvally4": [
+    1333,
+    "Type: Ground Silvally",
+    "type-ground-silvally",
     "773",
     4
   ],
-  "Silvally Type: Normal5": [
-    1350,
-    "Silvally Type: Rock",
-    "silvally-type-rock",
+  "Silvally5": [
+    1334,
+    "Type: Rock Silvally",
+    "type-rock-silvally",
     "773",
     5
   ],
-  "Silvally Type: Normal6": [
-    1351,
-    "Silvally Type: Bug",
-    "silvally-type-bug",
+  "Silvally6": [
+    1335,
+    "Rockruff Own-Tempo",
+    "rockruff-own-tempo",
     "773",
     6
   ],
-  "Silvally Type: Normal7": [
-    1352,
-    "Silvally Type: Ghost",
-    "silvally-type-ghost",
+  "Silvally7": [
+    1336,
+    "Type: Ghost Silvally",
+    "type-ghost-silvally",
     "773",
     7
   ],
-  "Silvally Type: Normal8": [
-    1353,
-    "Silvally Type: Steel",
-    "silvally-type-steel",
+  "Silvally8": [
+    1337,
+    "Type: Steel Silvally",
+    "type-steel-silvally",
     "773",
     8
   ],
-  "Silvally Type: Normal9": [
-    1354,
-    "Silvally Type: Fire",
-    "silvally-type-fire",
+  "Silvally9": [
+    1338,
+    "Type: Fire Silvally",
+    "type-fire-silvally",
     "773",
     9
   ],
-  "Silvally Type: Normal10": [
-    1355,
-    "Silvally Type: Water",
-    "silvally-type-water",
+  "Silvally10": [
+    1339,
+    "Type: Water Silvally",
+    "type-water-silvally",
     "773",
     10
   ],
-  "Silvally Type: Normal11": [
-    1356,
-    "Silvally Type: Grass",
-    "silvally-type-grass",
+  "Silvally11": [
+    1340,
+    "Type: Grass Silvally",
+    "type-grass-silvally",
     "773",
     11
   ],
-  "Silvally Type: Normal12": [
-    1357,
-    "Silvally Type: Electric",
-    "silvally-type-electric",
+  "Silvally12": [
+    1341,
+    "Type: Electric Silvally",
+    "type-electric-silvally",
     "773",
     12
   ],
-  "Silvally Type: Normal13": [
-    1358,
-    "Silvally Type: Psychic",
-    "silvally-type-psychic",
+  "Silvally13": [
+    1342,
+    "Type: Psychic Silvally",
+    "type-psychic-silvally",
     "773",
     13
   ],
-  "Silvally Type: Normal14": [
-    1359,
-    "Silvally Type: Ice",
-    "silvally-type-ice",
+  "Silvally14": [
+    1343,
+    "Type: Ice Silvally",
+    "type-ice-silvally",
     "773",
     14
   ],
-  "Silvally Type: Normal15": [
-    1360,
-    "Silvally Type: Dragon",
-    "silvally-type-dragon",
+  "Silvally15": [
+    1344,
+    "Type: Dragon Silvally",
+    "type-dragon-silvally",
     "773",
     15
   ],
-  "Silvally Type: Normal16": [
-    1361,
-    "Silvally Type: Dark",
-    "silvally-type-dark",
+  "Silvally16": [
+    1345,
+    "Type: Dark Silvally",
+    "type-dark-silvally",
     "773",
     16
   ],
-  "Silvally Type: Normal17": [
-    1362,
-    "Silvally Type: Fairy",
-    "silvally-type-fairy",
+  "Silvally17": [
+    1346,
+    "Type: Fairy Silvally",
+    "type-fairy-silvally",
     "773",
     17
   ],
-  "Red Meteor Form Minior1": [
-    1363,
+  "Minior1": [
+    1347,
     "Orange Meteor Form Minior",
     "orange-meteor-form-minior",
     "774",
     1
   ],
-  "Red Meteor Form Minior2": [
-    1364,
+  "Minior2": [
+    1348,
     "Yellow Meteor Form Minior",
     "yellow-meteor-form-minior",
     "774",
     2
   ],
-  "Red Meteor Form Minior3": [
-    1365,
+  "Minior3": [
+    1349,
     "Green Meteor Form Minior",
     "green-meteor-form-minior",
     "774",
     3
   ],
-  "Red Meteor Form Minior4": [
-    1366,
+  "Minior4": [
+    1350,
     "Blue Meteor Form Minior",
     "blue-meteor-form-minior",
     "774",
     4
   ],
-  "Red Meteor Form Minior5": [
-    1367,
+  "Minior5": [
+    1351,
     "Indigo Meteor Form Minior",
     "indigo-meteor-form-minior",
     "774",
     5
   ],
-  "Red Meteor Form Minior6": [
-    1368,
+  "Minior6": [
+    1352,
     "Violet Meteor Form Minior",
     "violet-meteor-form-minior",
     "774",
     6
   ],
-  "Red Meteor Form Minior7": [
-    1369,
+  "Minior7": [
+    1353,
     "Red Core Minior",
     "red-core-minior",
     "774",
     7
   ],
-  "Red Meteor Form Minior8": [
-    1370,
+  "Minior8": [
+    1354,
     "Orange Core Minior",
     "orange-core-minior",
     "774",
     8
   ],
-  "Red Meteor Form Minior9": [
-    1371,
+  "Minior9": [
+    1355,
     "Yellow Core Minior",
     "yellow-core-minior",
     "774",
     9
   ],
-  "Red Meteor Form Minior10": [
-    1372,
+  "Minior10": [
+    1356,
     "Green Core Minior",
     "green-core-minior",
     "774",
     10
   ],
-  "Red Meteor Form Minior11": [
-    1373,
+  "Minior11": [
+    1357,
     "Blue Core Minior",
     "blue-core-minior",
     "774",
     11
   ],
-  "Red Meteor Form Minior12": [
-    1374,
+  "Minior12": [
+    1358,
     "Indigo Core Minior",
     "indigo-core-minior",
     "774",
     12
   ],
-  "Red Meteor Form Minior13": [
-    1375,
+  "Minior13": [
+    1359,
     "Violet Core Minior",
     "violet-core-minior",
     "774",
     13
   ],
-  "Togedemaru1": [
-    1376,
-    "Totem Togedemaru",
-    "totem-togedemaru",
-    "777",
-    1
-  ],
-  "Disguised Form Mimikyu1": [
-    1377,
+  "Mimikyu1": [
+    1360,
     "Busted Form Mimikyu",
     "busted-form-mimikyu",
     "778",
     1
   ],
-  "Disguised Form Mimikyu2": [
-    1378,
-    "Totem Disguised Form Mimikyu",
-    "totem-disguised-form-mimikyu",
-    "778",
-    2
-  ],
-  "Disguised Form Mimikyu3": [
-    1379,
-    "Totem Busted Form Mimikyu",
-    "totem-busted-form-mimikyu",
-    "778",
-    3
-  ],
-  "Kommo-o1": [
-    1380,
-    "Totem Kommo-o",
-    "totem-kommo-o",
-    "784",
-    1
-  ],
   "Necrozma1": [
-    1381,
+    1361,
     "Dusk Mane Necrozma",
     "dusk-mane-necrozma",
     "800",
     1
   ],
   "Necrozma2": [
-    1382,
+    1362,
     "Dawn Wings Necrozma",
     "dawn-wings-necrozma",
     "800",
     2
   ],
   "Necrozma3": [
-    1383,
+    1363,
     "Ultra Necrozma",
     "ultra-necrozma",
     "800",
     3
   ],
   "Magearna1": [
-    1384,
+    1364,
     "Original Color Magearna",
     "original-color-magearna",
     "801",
     1
   ],
   "Melmetal1": [
-    1385,
+    1365,
     "Gigantamax Melmetal",
     "gigantamax-melmetal",
     "809",
     1
   ],
   "Rillaboom1": [
-    1386,
+    1366,
     "Gigantamax Rillaboom",
     "gigantamax-rillaboom",
     "812",
     1
   ],
   "Cinderace1": [
-    1387,
+    1367,
     "Gigantamax Cinderace",
     "gigantamax-cinderace",
     "815",
     1
   ],
   "Inteleon1": [
-    1388,
+    1368,
     "Gigantamax Inteleon",
     "gigantamax-inteleon",
     "818",
     1
   ],
   "Corviknight1": [
-    1389,
+    1369,
     "Gigantamax Corviknight",
     "gigantamax-corviknight",
     "823",
     1
   ],
   "Orbeetle1": [
-    1390,
+    1370,
     "Gigantamax Orbeetle",
     "gigantamax-orbeetle",
     "826",
     1
   ],
   "Drednaw1": [
-    1391,
+    1371,
     "Gigantamax Drednaw",
     "gigantamax-drednaw",
     "834",
     1
   ],
   "Coalossal1": [
-    1392,
+    1372,
     "Gigantamax Coalossal",
     "gigantamax-coalossal",
     "839",
     1
   ],
   "Flapple1": [
-    1393,
+    1373,
     "Gigantamax Flapple",
     "gigantamax-flapple",
     "841",
     1
   ],
   "Appletun1": [
-    1394,
+    1374,
     "Gigantamax Appletun",
     "gigantamax-appletun",
     "842",
     1
   ],
   "Sandaconda1": [
-    1395,
+    1375,
     "Gigantamax Sandaconda",
     "gigantamax-sandaconda",
     "844",
     1
   ],
   "Cramorant1": [
-    1396,
+    1376,
     "Gulping Form Cramorant",
     "gulping-form-cramorant",
     "845",
     1
   ],
   "Cramorant2": [
-    1397,
+    1377,
     "Gorging Form Cramorant",
     "gorging-form-cramorant",
     "845",
     2
   ],
-  "Amped Form Toxtricity1": [
-    1398,
+  "Toxtricity1": [
+    1378,
     "Low Key Form Toxtricity",
     "low-key-form-toxtricity",
     "849",
     1
   ],
-  "Amped Form Toxtricity2": [
-    1399,
+  "Toxtricity2": [
+    1379,
     "Gigantamax Amped Form Toxtricity",
     "gigantamax-amped-form-toxtricity",
     "849",
     2
   ],
-  "Amped Form Toxtricity3": [
-    1400,
+  "Toxtricity3": [
+    1380,
     "Gigantamax Low Key Form Toxtricity",
     "gigantamax-low-key-form-toxtricity",
     "849",
     3
   ],
   "Centiskorch1": [
-    1401,
+    1381,
     "Gigantamax Centiskorch",
     "gigantamax-centiskorch",
     "851",
     1
   ],
-  "Phony Form Sinistea1": [
-    1402,
+  "Sinistea1": [
+    1382,
     "Antique Form Sinistea",
     "antique-form-sinistea",
     "854",
     1
   ],
-  "Phony Form Polteageist1": [
-    1403,
+  "Polteageist1": [
+    1383,
     "Antique Form Polteageist",
     "antique-form-polteageist",
     "855",
     1
   ],
   "Hatterene1": [
-    1404,
+    1384,
     "Gigantamax Hatterene",
     "gigantamax-hatterene",
     "858",
     1
   ],
   "Grimmsnarl1": [
-    1405,
+    1385,
     "Gigantamax Grimmsnarl",
     "gigantamax-grimmsnarl",
     "861",
     1
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie1": [
-    1406,
-    "Vanilla Cream Berry Sweet Alcremie",
-    "vanilla-cream-berry-sweet-alcremie",
+  "Alcremie1": [
+    1386,
+    "Ruby Cream Alcremie",
+    "ruby-cream-alcremie",
     "869",
     1
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie2": [
-    1407,
-    "Vanilla Cream Love Sweet Alcremie",
-    "vanilla-cream-love-sweet-alcremie",
+  "Alcremie2": [
+    1387,
+    "Matcha Cream Alcremie",
+    "matcha-cream-alcremie",
     "869",
     2
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie3": [
-    1408,
-    "Vanilla Cream Star Sweet Alcremie",
-    "vanilla-cream-star-sweet-alcremie",
+  "Alcremie3": [
+    1388,
+    "Mint Cream Alcremie",
+    "mint-cream-alcremie",
     "869",
     3
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie4": [
-    1409,
-    "Vanilla Cream Clover Sweet Alcremie",
-    "vanilla-cream-clover-sweet-alcremie",
+  "Alcremie4": [
+    1389,
+    "Lemon Cream Alcremie",
+    "lemon-cream-alcremie",
     "869",
     4
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie5": [
-    1410,
-    "Vanilla Cream Flower Sweet Alcremie",
-    "vanilla-cream-flower-sweet-alcremie",
+  "Alcremie5": [
+    1390,
+    "Salted Cream Alcremie",
+    "salted-cream-alcremie",
     "869",
     5
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie6": [
-    1411,
-    "Vanilla Cream Ribbon Sweet Alcremie",
-    "vanilla-cream-ribbon-sweet-alcremie",
+  "Alcremie6": [
+    1391,
+    "Ruby Swirl Alcremie",
+    "ruby-swirl-alcremie",
     "869",
     6
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie7": [
-    1412,
-    "Ruby Cream Strawberry Sweet Alcremie",
-    "ruby-cream-strawberry-sweet-alcremie",
+  "Alcremie7": [
+    1392,
+    "Caramel Swirl Alcremie",
+    "caramel-swirl-alcremie",
     "869",
     7
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie8": [
-    1413,
-    "Ruby Cream Berry Sweet Alcremie",
-    "ruby-cream-berry-sweet-alcremie",
+  "Alcremie8": [
+    1393,
+    "Rainbow Swirl Alcremie",
+    "rainbow-swirl-alcremie",
     "869",
     8
   ],
-  "Vanilla Cream Strawberry Sweet Alcremie9": [
-    1414,
-    "Ruby Cream Love Sweet Alcremie",
-    "ruby-cream-love-sweet-alcremie",
-    "869",
-    9
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie10": [
-    1415,
-    "Ruby Cream Star Sweet Alcremie",
-    "ruby-cream-star-sweet-alcremie",
-    "869",
-    10
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie11": [
-    1416,
-    "Ruby Cream Clover Sweet Alcremie",
-    "ruby-cream-clover-sweet-alcremie",
-    "869",
-    11
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie12": [
-    1417,
-    "Ruby Cream Flower Sweet Alcremie",
-    "ruby-cream-flower-sweet-alcremie",
-    "869",
-    12
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie13": [
-    1418,
-    "Ruby Cream Ribbon Sweet Alcremie",
-    "ruby-cream-ribbon-sweet-alcremie",
-    "869",
-    13
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie14": [
-    1419,
-    "Matcha Cream Strawberry Sweet Alcremie",
-    "matcha-cream-strawberry-sweet-alcremie",
-    "869",
-    14
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie15": [
-    1420,
-    "Matcha Cream Berry Sweet Alcremie",
-    "matcha-cream-berry-sweet-alcremie",
-    "869",
-    15
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie16": [
-    1421,
-    "Matcha Cream Love Sweet Alcremie",
-    "matcha-cream-love-sweet-alcremie",
-    "869",
-    16
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie17": [
-    1422,
-    "Matcha Cream Star Sweet Alcremie",
-    "matcha-cream-star-sweet-alcremie",
-    "869",
-    17
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie18": [
-    1423,
-    "Matcha Cream Clover Sweet Alcremie",
-    "matcha-cream-clover-sweet-alcremie",
-    "869",
-    18
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie19": [
-    1424,
-    "Matcha Cream Flower Sweet Alcremie",
-    "matcha-cream-flower-sweet-alcremie",
-    "869",
-    19
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie20": [
-    1425,
-    "Matcha Cream Ribbon Sweet Alcremie",
-    "matcha-cream-ribbon-sweet-alcremie",
-    "869",
-    20
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie21": [
-    1426,
-    "Mint Cream Strawberry Sweet Alcremie",
-    "mint-cream-strawberry-sweet-alcremie",
-    "869",
-    21
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie22": [
-    1427,
-    "Mint Cream Berry Sweet Alcremie",
-    "mint-cream-berry-sweet-alcremie",
-    "869",
-    22
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie23": [
-    1428,
-    "Mint Cream Love Sweet Alcremie",
-    "mint-cream-love-sweet-alcremie",
-    "869",
-    23
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie24": [
-    1429,
-    "Mint Cream Star Sweet Alcremie",
-    "mint-cream-star-sweet-alcremie",
-    "869",
-    24
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie25": [
-    1430,
-    "Mint Cream Clover Sweet Alcremie",
-    "mint-cream-clover-sweet-alcremie",
-    "869",
-    25
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie26": [
-    1431,
-    "Mint Cream Flower Sweet Alcremie",
-    "mint-cream-flower-sweet-alcremie",
-    "869",
-    26
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie27": [
-    1432,
-    "Mint Cream Ribbon Sweet Alcremie",
-    "mint-cream-ribbon-sweet-alcremie",
-    "869",
-    27
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie28": [
-    1433,
-    "Lemon Cream Strawberry Sweet Alcremie",
-    "lemon-cream-strawberry-sweet-alcremie",
-    "869",
-    28
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie29": [
-    1434,
-    "Lemon Cream Berry Sweet Alcremie",
-    "lemon-cream-berry-sweet-alcremie",
-    "869",
-    29
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie30": [
-    1435,
-    "Lemon Cream Love Sweet Alcremie",
-    "lemon-cream-love-sweet-alcremie",
-    "869",
-    30
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie31": [
-    1436,
-    "Lemon Cream Star Sweet Alcremie",
-    "lemon-cream-star-sweet-alcremie",
-    "869",
-    31
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie32": [
-    1437,
-    "Lemon Cream Clover Sweet Alcremie",
-    "lemon-cream-clover-sweet-alcremie",
-    "869",
-    32
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie33": [
-    1438,
-    "Lemon Cream Flower Sweet Alcremie",
-    "lemon-cream-flower-sweet-alcremie",
-    "869",
-    33
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie34": [
-    1439,
-    "Lemon Cream Ribbon Sweet Alcremie",
-    "lemon-cream-ribbon-sweet-alcremie",
-    "869",
-    34
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie35": [
-    1440,
-    "Salted Cream Strawberry Sweet Alcremie",
-    "salted-cream-strawberry-sweet-alcremie",
-    "869",
-    35
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie36": [
-    1441,
-    "Salted Cream Berry Sweet Alcremie",
-    "salted-cream-berry-sweet-alcremie",
-    "869",
-    36
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie37": [
-    1442,
-    "Salted Cream Love Sweet Alcremie",
-    "salted-cream-love-sweet-alcremie",
-    "869",
-    37
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie38": [
-    1443,
-    "Salted Cream Star Sweet Alcremie",
-    "salted-cream-star-sweet-alcremie",
-    "869",
-    38
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie39": [
-    1444,
-    "Salted Cream Clover Sweet Alcremie",
-    "salted-cream-clover-sweet-alcremie",
-    "869",
-    39
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie40": [
-    1445,
-    "Salted Cream Flower Sweet Alcremie",
-    "salted-cream-flower-sweet-alcremie",
-    "869",
-    40
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie41": [
-    1446,
-    "Salted Cream Ribbon Sweet Alcremie",
-    "salted-cream-ribbon-sweet-alcremie",
-    "869",
-    41
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie42": [
-    1447,
-    "Ruby Swirl Strawberry Sweet Alcremie",
-    "ruby-swirl-strawberry-sweet-alcremie",
-    "869",
-    42
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie43": [
-    1448,
-    "Ruby Swirl Berry Sweet Alcremie",
-    "ruby-swirl-berry-sweet-alcremie",
-    "869",
-    43
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie44": [
-    1449,
-    "Ruby Swirl Love Sweet Alcremie",
-    "ruby-swirl-love-sweet-alcremie",
-    "869",
-    44
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie45": [
-    1450,
-    "Ruby Swirl Star Sweet Alcremie",
-    "ruby-swirl-star-sweet-alcremie",
-    "869",
-    45
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie46": [
-    1451,
-    "Ruby Swirl Clover Sweet Alcremie",
-    "ruby-swirl-clover-sweet-alcremie",
-    "869",
-    46
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie47": [
-    1452,
-    "Ruby Swirl Flower Sweet Alcremie",
-    "ruby-swirl-flower-sweet-alcremie",
-    "869",
-    47
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie48": [
-    1453,
-    "Ruby Swirl Ribbon Sweet Alcremie",
-    "ruby-swirl-ribbon-sweet-alcremie",
-    "869",
-    48
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie49": [
-    1454,
-    "Caramel Swirl Strawberry Sweet Alcremie",
-    "caramel-swirl-strawberry-sweet-alcremie",
-    "869",
-    49
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie50": [
-    1455,
-    "Caramel Swirl Berry Sweet Alcremie",
-    "caramel-swirl-berry-sweet-alcremie",
-    "869",
-    50
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie51": [
-    1456,
-    "Caramel Swirl Love Sweet Alcremie",
-    "caramel-swirl-love-sweet-alcremie",
-    "869",
-    51
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie52": [
-    1457,
-    "Caramel Swirl Star Sweet Alcremie",
-    "caramel-swirl-star-sweet-alcremie",
-    "869",
-    52
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie53": [
-    1458,
-    "Caramel Swirl Clover Sweet Alcremie",
-    "caramel-swirl-clover-sweet-alcremie",
-    "869",
-    53
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie54": [
-    1459,
-    "Caramel Swirl Flower Sweet Alcremie",
-    "caramel-swirl-flower-sweet-alcremie",
-    "869",
-    54
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie55": [
-    1460,
-    "Caramel Swirl Ribbon Sweet Alcremie",
-    "caramel-swirl-ribbon-sweet-alcremie",
-    "869",
-    55
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie56": [
-    1461,
-    "Rainbow Swirl Strawberry Sweet Alcremie",
-    "rainbow-swirl-strawberry-sweet-alcremie",
-    "869",
-    56
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie57": [
-    1462,
-    "Rainbow Swirl Berry Sweet Alcremie",
-    "rainbow-swirl-berry-sweet-alcremie",
-    "869",
-    57
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie58": [
-    1463,
-    "Rainbow Swirl Love Sweet Alcremie",
-    "rainbow-swirl-love-sweet-alcremie",
-    "869",
-    58
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie59": [
-    1464,
-    "Rainbow Swirl Star Sweet Alcremie",
-    "rainbow-swirl-star-sweet-alcremie",
-    "869",
-    59
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie60": [
-    1465,
-    "Rainbow Swirl Clover Sweet Alcremie",
-    "rainbow-swirl-clover-sweet-alcremie",
-    "869",
-    60
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie61": [
-    1466,
-    "Indeedee-F",
-    "indeedee-f",
-    "869",
-    61
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie62": [
-    1467,
-    "Rainbow Swirl Ribbon Sweet Alcremie",
-    "rainbow-swirl-ribbon-sweet-alcremie",
-    "869",
-    62
-  ],
-  "Vanilla Cream Strawberry Sweet Alcremie63": [
-    1468,
+  "Alcremie9": [
+    1394,
     "Gigantamax Alcremie",
     "gigantamax-alcremie",
     "869",
-    63
+    9
   ],
-  "Ice Face Eiscue1": [
-    1469,
+  "Eiscue1": [
+    1395,
     "Noice Face Eiscue",
     "noice-face-eiscue",
     "875",
     1
   ],
-  "Male Indeedee1": [
-    1470,
+  "Indeedee1": [
+    876,
     "Female Indeedee",
     "female-indeedee",
     "876",
     1
   ],
-  "Full Belly Mode Morpeko1": [
-    1471,
+  "Morpeko1": [
+    1397,
     "Hangry Mode Morpeko",
     "hangry-mode-morpeko",
     "877",
     1
   ],
   "Copperajah1": [
-    1472,
+    1398,
     "Gigantamax Copperajah",
     "gigantamax-copperajah",
     "879",
     1
   ],
   "Duraludon1": [
-    1473,
+    1399,
     "Gigantamax Duraludon",
     "gigantamax-duraludon",
     "884",
     1
   ],
-  "Hero of Many Battles Zacian1": [
-    1474,
+  "Zacian1": [
+    1400,
     "Crowned Sword Zacian",
     "crowned-sword-zacian",
     "888",
     1
   ],
-  "Hero of Many Battles Zamazenta1": [
-    1475,
+  "Zamazenta1": [
+    1401,
     "Crowned Shield Zamazenta",
     "crowned-shield-zamazenta",
     "889",
     1
   ],
   "Eternatus1": [
-    1476,
+    1402,
     "Eternamax Eternatus",
     "eternamax-eternatus",
     "890",
     1
   ],
-  "Single Strike Style Urshifu1": [
-    1477,
+  "Urshifu1": [
+    1403,
     "Rapid Strike Style Urshifu",
     "rapid-strike-style-urshifu",
     "892",
     1
   ],
-  "Single Strike Style Urshifu2": [
-    1478,
+  "Urshifu2": [
+    1404,
     "Gigantamax Single Strike Style Urshifu",
     "gigantamax-single-strike-style-urshifu",
     "892",
     2
   ],
-  "Single Strike Style Urshifu3": [
-    1479,
+  "Urshifu3": [
+    1405,
     "Gigantamax Rapid Strike Style Urshifu",
     "gigantamax-rapid-strike-style-urshifu",
     "892",
     3
   ],
   "Zarude1": [
-    1480,
+    1406,
     "Dada Zarude",
     "dada-zarude",
     "893",
     1
   ],
   "Calyrex1": [
-    1481,
-    "Basculegion-F",
-    "basculegion-f",
+    1407,
+    "Ice Rider Calyrex",
+    "ice-rider-calyrex",
     "898",
     1
   ],
   "Calyrex2": [
-    1482,
+    1408,
     "Shadow Rider Calyrex",
     "shadow-rider-calyrex",
     "898",
     2
   ],
-  "Kleavor1": [
-    1483,
-    "Oinkologne-F",
-    "oinkologne-f",
-    "900",
-    1
-  ],
   "Ursaluna1": [
-    1484,
+    1409,
     "Bloodmoon Beast Ursaluna",
     "bloodmoon-beast-ursaluna",
     "901",
     1
   ],
-  "Male Basculegion1": [
-    1485,
+  "Basculegion1": [
+    1410,
     "Female Basculegion",
     "female-basculegion",
     "902",
     1
   ],
-  "Incarnate Forme Enamorus1": [
-    1486,
+  "Enamorus1": [
+    1411,
     "Therian Forme Enamorus",
     "therian-forme-enamorus",
     "905",
     1
   ],
-  "Male Oinkologne1": [
-    1487,
+  "Oinkologne1": [
+    1412,
     "Female Oinkologne",
     "female-oinkologne",
     "916",
     1
   ],
-  "Family of Four Maushold1": [
-    1488,
+  "Maushold1": [
+    1413,
     "Family of Three Maushold",
     "family-of-three-maushold",
     "925",
     1
   ],
-  "Green Plumage Squawkabilly1": [
-    1489,
+  "Squawkabilly1": [
+    1414,
     "Blue Plumage Squawkabilly",
     "blue-plumage-squawkabilly",
     "931",
     1
   ],
-  "Green Plumage Squawkabilly2": [
-    1490,
+  "Squawkabilly2": [
+    1415,
     "Yellow Plumage Squawkabilly",
     "yellow-plumage-squawkabilly",
     "931",
     2
   ],
-  "Green Plumage Squawkabilly3": [
-    1491,
+  "Squawkabilly3": [
+    1416,
     "White Plumage Squawkabilly",
     "white-plumage-squawkabilly",
     "931",
     3
   ],
-  "Klawf1": [
-    1492,
-    "Stony Cliff Titan Klawf",
-    "stony-cliff-titan-klawf",
-    "950",
-    1
-  ],
-  "Bombirdier1": [
-    1493,
-    "Open Sky Titan Bombirdier",
-    "open-sky-titan-bombirdier",
-    "962",
-    1
-  ],
-  "Zero Form Palafin1": [
-    1494,
+  "Palafin1": [
+    1417,
     "Hero Form Palafin",
     "hero-form-palafin",
     "964",
     1
   ],
-  "Revravroom1": [
-    1495,
-    "Revravroom Segin Starmobile Revavroom",
-    "revravroom-segin-starmobile-revavroom",
+  "Revavroom1": [
+    1418,
+    "Segin Starmobile Revavroom",
+    "segin-starmobile-revavroom",
     "966",
     1
   ],
-  "Revravroom2": [
-    1496,
-    "Revravroom Schedar Starmobile Revavroom",
-    "revravroom-schedar-starmobile-revavroom",
+  "Revavroom2": [
+    1419,
+    "Schedar Starmobile Revavroom",
+    "schedar-starmobile-revavroom",
     "966",
     2
   ],
-  "Revravroom3": [
-    1497,
-    "Revravroom Navi Starmobile Revavroom",
-    "revravroom-navi-starmobile-revavroom",
+  "Revavroom3": [
+    1420,
+    "Navi Starmobile Revavroom",
+    "navi-starmobile-revavroom",
     "966",
     3
   ],
-  "Revravroom4": [
-    1498,
-    "Revravroom Ruchbah Starmobile Revavroom",
-    "revravroom-ruchbah-starmobile-revavroom",
+  "Revavroom4": [
+    1421,
+    "Ruchbah Starmobile Revavroom",
+    "ruchbah-starmobile-revavroom",
     "966",
     4
   ],
-  "Revravroom5": [
-    1499,
-    "Revravroom Caph Starmobile Revavroom",
-    "revravroom-caph-starmobile-revavroom",
+  "Revavroom5": [
+    1422,
+    "Caph Starmobile Revavroom",
+    "caph-starmobile-revavroom",
     "966",
     5
   ],
-  "Orthworm1": [
-    1500,
-    "Lurking Steel Titan Orthworm",
-    "lurking-steel-titan-orthworm",
-    "968",
-    1
-  ],
-  "Dondozo1": [
-    1501,
-    "False Dragon Titan Dondozo",
-    "false-dragon-titan-dondozo",
-    "977",
-    1
-  ],
-  "Curly Form Tatsugiri1": [
-    1502,
+  "Tatsugiri1": [
+    1423,
     "Droopy Form Tatsugiri",
     "droopy-form-tatsugiri",
     "978",
     1
   ],
-  "Curly Form Tatsugiri2": [
-    1503,
+  "Tatsugiri2": [
+    1424,
     "Stretchy Form Tatsugiri",
     "stretchy-form-tatsugiri",
     "978",
     2
   ],
-  "Curly Form Tatsugiri3": [
-    1504,
-    "Curly Form False Dragon Titan Tatsugiri",
-    "curly-form-false-dragon-titan-tatsugiri",
-    "978",
-    3
-  ],
-  "Curly Form Tatsugiri4": [
-    1505,
-    "Droopy Form False Dragon Titan Tatsugiri",
-    "droopy-form-false-dragon-titan-tatsugiri",
-    "978",
-    4
-  ],
-  "Curly Form Tatsugiri5": [
-    1506,
-    "Stretchy Form False Dragon Titan Tatsugiri",
-    "stretchy-form-false-dragon-titan-tatsugiri",
-    "978",
-    5
-  ],
-  "Two-Segment Form Dudunsparce1": [
-    1507,
+  "Dudunsparce1": [
+    1425,
     "Three-Segment Form Dudunsparce",
     "three-segment-form-dudunsparce",
     "982",
     1
   ],
-  "Great Tusk1": [
-    1508,
-    "Quaking Earth Titan Great Tusk",
-    "quaking-earth-titan-great-tusk",
-    "984",
-    1
-  ],
-  "Iron Treads1": [
-    1509,
-    "Quaking Earth Titan Iron Treads",
-    "quaking-earth-titan-iron-treads",
-    "990",
-    1
-  ],
-  "Chest Form Gimmighoul1": [
-    1510,
+  "Gimmighoul1": [
+    1426,
     "Roaming Form Gimmighoul",
     "roaming-form-gimmighoul",
     "999",
     1
   ],
-  "Apex Build Koraidon1": [
-    1511,
+  "Koraidon1": [
+    1427,
     "Limited Build Koraidon",
     "limited-build-koraidon",
     "1007",
     1
   ],
-  "Apex Build Koraidon2": [
-    1512,
-    "Sprinting Build Koraidon",
-    "sprinting-build-koraidon",
-    "1007",
-    2
-  ],
-  "Apex Build Koraidon3": [
-    1513,
-    "Swimming Build Koraidon",
-    "swimming-build-koraidon",
-    "1007",
-    3
-  ],
-  "Apex Build Koraidon4": [
-    1514,
-    "Gliding Build Koraidon",
-    "gliding-build-koraidon",
-    "1007",
-    4
-  ],
-  "Ultimate Mode Miraidon1": [
-    1515,
+  "Miraidon1": [
+    1428,
     "Low-Power Mode Miraidon",
     "low-power-mode-miraidon",
     "1008",
     1
   ],
-  "Ultimate Mode Miraidon2": [
-    1516,
-    "Drive Mode Miraidon",
-    "drive-mode-miraidon",
-    "1008",
-    2
-  ],
-  "Ultimate Mode Miraidon3": [
-    1517,
-    "Aquatic Mode Miraidon",
-    "aquatic-mode-miraidon",
-    "1008",
-    3
-  ],
-  "Ultimate Mode Miraidon4": [
-    1518,
-    "Glide Mode Miraidon",
-    "glide-mode-miraidon",
-    "1008",
-    4
-  ],
-  "Counterfeit Form Poltchageist1": [
-    1519,
+  "Poltchageist1": [
+    1429,
     "Artisan Form Poltchageist",
     "artisan-form-poltchageist",
     "1012",
     1
   ],
-  "Unremarkable Form Sinistcha1": [
-    1520,
+  "Sinistcha1": [
+    1430,
     "Masterpiece Form Sinistcha",
     "masterpiece-form-sinistcha",
     "1013",
     1
   ],
-  "Okidogi1": [
-    1521,
-    "Titanic Okidogi",
-    "titanic-okidogi",
-    "1014",
-    1
-  ],
-  "Munkidori1": [
-    1522,
-    "Titanic Munkidori",
-    "titanic-munkidori",
-    "1015",
-    1
-  ],
-  "Fezandipiti1": [
-    1523,
-    "Titanic Fezandipiti",
-    "titanic-fezandipiti",
-    "1016",
-    1
-  ],
-  "Teal Mask Ogerpon1": [
-    1524,
+  "Ogerpon1": [
+    1431,
     "Wellspring Mask Ogerpon",
     "wellspring-mask-ogerpon",
     "1017",
     1
   ],
-  "Teal Mask Ogerpon2": [
-    1525,
+  "Ogerpon2": [
+    1432,
     "Hearthflame Mask Ogerpon",
     "hearthflame-mask-ogerpon",
     "1017",
     2
   ],
-  "Teal Mask Ogerpon3": [
-    1526,
+  "Ogerpon3": [
+    1433,
     "Cornerstone Mask Ogerpon",
     "cornerstone-mask-ogerpon",
     "1017",
     3
   ],
-  "Teal Mask Ogerpon4": [
-    1527,
+  "Ogerpon4": [
+    1434,
     "Terastal Teal Mask Ogerpon",
     "terastal-teal-mask-ogerpon",
     "1017",
     4
   ],
-  "Teal Mask Ogerpon5": [
-    1528,
+  "Ogerpon5": [
+    1435,
     "Terastal Wellspring Mask Ogerpon",
     "terastal-wellspring-mask-ogerpon",
     "1017",
     5
   ],
-  "Teal Mask Ogerpon6": [
-    1529,
+  "Ogerpon6": [
+    1436,
     "Terastal Hearthflame Mask Ogerpon",
     "terastal-hearthflame-mask-ogerpon",
     "1017",
     6
   ],
-  "Teal Mask Ogerpon7": [
-    1530,
+  "Ogerpon7": [
+    1437,
     "Terastal Cornerstone Mask Ogerpon",
     "terastal-cornerstone-mask-ogerpon",
     "1017",
     7
   ],
-  "Normal Form Terapagos1": [
-    1531,
+  "Terapagos1": [
+    1438,
     "Terastal Form Terapagos",
     "terastal-form-terapagos",
     "1024",
     1
   ],
-  "Normal Form Terapagos2": [
-    1532,
+  "Terapagos2": [
+    1439,
     "Stellar Form Terapagos",
     "stellar-form-terapagos",
     "1024",

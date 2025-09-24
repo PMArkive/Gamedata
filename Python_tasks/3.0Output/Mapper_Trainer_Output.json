@@ -15069,7 +15069,7 @@
         {
           "ability": "Battle Armor",
           "gender": "MALE",
-          "id": 1199,
+          "id": 1187,
           "item": null,
           "level": 33,
           "moves": [
@@ -15095,7 +15095,7 @@
         {
           "ability": "Battle Armor",
           "gender": "MALE",
-          "id": 1200,
+          "id": 1188,
           "item": null,
           "level": 33,
           "moves": [
@@ -19117,7 +19117,7 @@
         {
           "ability": "Battle Armor",
           "gender": "MALE",
-          "id": 1200,
+          "id": 1188,
           "item": null,
           "level": 50,
           "moves": [
